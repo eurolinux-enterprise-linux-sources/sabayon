@@ -1,0 +1,29 @@
+Welcome to Sabayon 2.29.92
+==========================
+
+Why the name?
+=============
+
+DV just wants to be able to say
+
+  "Hello I'm Daniel Veillard and I pronounce Sabayon 'Sa-ba-yon'"
+
+Something about french food too. Something about egg yolks and wine.
+http://www.ibiblio.org/expo/restaurant/chef/sabayon.html
+
+Dependencies
+============
+
+All dependencies are handled in the configure.ac
+
+You'll also need to put
+
+  include "$(HOME)/.gconf.path.mandatory"
+
+in $(sysconfdir)/gconf/2/local-madatory.path and put
+
+  include "$(HOME)/.gconf.path.defaults"
+
+in $(sysconfdir)/gconf/2/local-defaults.path.
+
+On some systems, these are added directly to $(sysconfdir)/gconf/2/path.

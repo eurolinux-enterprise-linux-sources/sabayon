@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "2.29.0">
+<!ENTITY manrevision "1.0">
+<!ENTITY date "November 2009">
+<!ENTITY app "<application>sabayon</application>">
+<!ENTITY appname "<application>Sabayon</application>">
+<!ENTITY ldquo "&#147;">
+<!-- Left Double Quote --><!ENTITY rdquo "&#148;">
+<!-- Right Double Quote -->]>
+<article id="index" lang="uk">
+    <articleinfo>
+        <title>Посібник адміністратора <application>Sabayon</application></title>
+        <abstract role="description">
+            <para><application>Sabayon</application> - редактор профілів для GNOME.</para>
+        </abstract>
+
+        <copyright>
+            <year>2005</year>
+            <year>2009</year>
+            <holder>CRI74</holder>
+            <holder>Скотт Белнавес</holder>
+        </copyright>
+
+        <publisher role="maintainer">
+            <publishername>Скотт Белнавес</publishername>
+        </publisher>
+
+        <!-- License -->
+          <legalnotice id="legalnotice">
+	<para>Дозволяється копіювати, розповсюджувати та/або змінювати цей документ на умовах ліцензії GNU Free Documentation License (GFDL), версії 1.1 або будь-якої старшої версії, що опублікована Free Software Foundation без інваріантних розділів, тексту титульної сторінки, та тексту фінальної сторінки. Копію GFDL можна знайти <ulink type="help" url="ghelp:fdl">за адресою</ulink> або у файлі COPYING-DOCS, що постачається з цією довідкою.</para>
+         <para>Ця довідка є частиною збірки документації з GNOME, що постачається на умовах ліцензії GFDL. Якщо ви бажаєте розповсюджувати цю довідку окремо від збірки, можете це зробити додавши до довідки копію ліцензії, як описано у пункті 66 ліцензії.</para>
+
+	<para>Більшість назв, що використовуються компаніями для розповсюдження їх продуктів та послуг є торговими марками. Якщо такі назви зустрічаються у документації з GNOME та учасникам проекту документування GNOME відомо, що вони є торговими марками, тоді ці назви пишуться великими літерами або починаються з великої літери.</para>
+
+	<para>ДОКУМЕНТ ТА ЗМІНЕНІ ВЕРСІЇ ЦЬОГО ДОКУМЕНТУ ПОСТАЧАЮТЬСЯ НА УМОВАХ ВІЛЬНОЇ ЛІЦЕНЗІЇ ДЛЯ ДОКУМЕНТАЦІЇ GNU З ПОДАЛЬШИМ РОЗУМІННЯМ ЩО: <orderedlist>
+		<listitem>
+		  <para>ДОКУМЕНТ НАДАЄТЬСЯ "ЯК Є", БЕЗ БУДЬ-ЯКИХ ГАРАНТІЇ, ЯВНИХ ЧИ НЕЯВНИХ, ВКЛЮЧАЮЧИ, АЛЕ НЕ ОБМЕЖУЮЧИСЬ, ГАРАНТІЙ ЩО ЦЕЙ ДОКУМЕНТ ЧИ ЗМІНЕНА ВЕРСІЯ ДОКУМЕНТА ВІЛЬНІ ВІД ДЕФЕКТІВ, ПРИДАТНІ ДО ПРОДАЖУ, ВІДПОВІДАЮТЬ ПЕВНІЙ МЕТІ АБО НЕ ПОРУШУЮТЬ ЧИЇСЬ ПРАВА. ВЕСЬ РИЗИК ЗА ЯКІСТЬ, ТОЧНІСТЬ, ТА ЧИННІСТЬ ЦЬОГО ДОКУМЕНТУ АБО ЙОГО ЗМІНЕНИХ ВЕРСІЙ ЛЕЖИТЬ НА ВАС.  ЯКЩО БУДЬ-ЯКИЙ ДОКУМЕНТ ЧИ ЗМІНЕНА ВЕРСІЯ БУДУТЬ ВИЗНАНІ ДЕФЕКТНИМИ У БУДЬ-ЯКОМУ ВІДНОШЕННІ, ВИ (НЕ ПОЧАТКОВИЙ УКЛАДАЧ, АВТОР АБО БУДЬ-ЯКИЙ СПІВАВТОР) БЕРЕТЕ НА СЕБЕ ВИТРАТИ ЗА БУДЬ-ЯКЕ НЕОБХІДНЕ ОБСЛУГОВУВАННЯ, РЕМОНТ ЧИ ВИПРАВЛЕННЯ. ЦЯ ВІДМОВА ВІД ГАРАНТІЙ СКЛАДАЄ ВАЖЛИВУ ЧАСТИНУ ЦІЄЇ ЛІЦЕНЗІЇ. НЕ ДОПУСКАЄТЬСЯ ВИКОРИСТАННЯ ЦЬОГО ДОКУМЕНТУ АБО ЙОГО ЗМІНЕНОЇ ВЕРСІЇ БЕЗ ПРИЙНЯТТЯ ЦІЄЇ ВІДМОВИ; ТА</para>
+		</listitem>
+		<listitem>
+		  <para>НІ ЗА ЯКИХ ОБСТАВИН ТА ЗА БУДЬ-ЯКОГО ЗАКОНОДАВСТВА, ЧИ ТО ГРОМАДЯНСЬКОЇ ВІДПОВІДАЛЬНОСТІ (ВКЛЮЧАЮЧИ ХАЛАТНІСТЬ), ДОГОВОРУ, ЧИ ЧОГОСЬ ІНШОГО, АВТОР, ПОЧАТКОВИЙ УКЛАДАЧ, БУДЬ-ЯКИЙ СПІВАВТОР, АБО ДИСТРИБ'ЮТОР ДОКУМЕНТУ ЧИ ЗМІНЕНОЇ ВЕРСІЇ ДОКУМЕНТУ, АБО БУДЬ-ЯКИЙ ПОСТАЧАЛЬНИК БУДЬ-ЯКОЇ З ЦИХ СТОРІН, НЕ НЕСЕ ВІДПОВІДАЛЬНІСТЬ ПЕРЕД БУДЬ-ЯКОЮ ОСОБОЮ ЗА БУДЬ-ЯКІ ПРЯМІ, ВКЛЮЧАЮЧИ, АЛЕ НЕ ОБМЕЖУЮЧИСЬ, ЗБИТКАМИ ВІД ВТРАТИ ПРЕСТИЖУ, ЗУПИНКИ РОБОТИ, НЕПРЯМІ, ОСОБЛИВІ, ВИПАДКОВІ, АБО ІСТОТНІ ЗБИТКИ БУДЬ-ЯКОГО ХАРАКТЕРУ ЗБОЇВ АБО НЕСПРАВНОСТЕЙ КОМП'ЮТЕРА, АБО БУДЬ-ЯКІ ІНШІ ЗБИТКИ АБО ВТРАТИ ЩО ВИНИКЛИ БЕЗВІДНОСНО АБО ВНАСЛІДОК ВИКОРИСТАННЯ ЦЬОГО ДОКУМЕНТУ ТА ЗМІНЕНИХ ВЕРСІЙ ЦЬОГО ДОКУМЕНТУ, НАВІТЬ ЯКЩО ЦІ СТОРОНИ, МОЖЛИВО, БУЛИ ПРОІНФОРМОВАНІ ПРО МОЖЛИВІСТЬ ТАКИХ ЗБИТКІВ.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+
+        <authorgroup>
+            <author>
+                <firstname>Філіп</firstname>
+                <surname>Tonguet</surname>
+            </author>
+            <author>
+                <firstname>Скотт</firstname>
+                <surname>Белнавес</surname>
+            </author>
+        </authorgroup>
+
+        <revhistory>
+            <revision>
+                <revnumber>Версія 1.0</revnumber>
+                <date>Листопад 2009</date>
+            </revision>
+        </revhistory>
+
+<!--
+        <releaseinfo>
+            This manual describes.
+        </releaseinfo>
+-->
+
+        <legalnotice>
+            <title>Зворотний зв'язок</title>
+            <para>Щоб сповістити про помилку або внести пропозицію відносно програми <application>sabayon</application> або цієї довідки, дотримуйтесь інструкцій на сторінці <ulink url="ghelp:gnome-feedback" type="help">Зворотний зв'язок з GNOME</ulink>.</para>
+        </legalnotice>
+    </articleinfo>
+    <indexterm zone="index">
+        <primary><application>sabayon</application></primary>
+    </indexterm>
+    <indexterm zone="index">
+        <primary>Профілі</primary>
+    </indexterm>
+
+<!-- XXXXXXXXXXXXXXXX Document XXXXXXXXXXXXXXX -->
+
+    <sect1 id="introduction">
+        <title>Введення</title>
+        <sect2>
+            <title>Опис</title>
+            <para><application>Sabayon</application> - інструмент системного адміністратора для керування  параметрами графічного середовища GNOME. <application>Sabayon</application> забезпечує безпосередній шлях для редагування типових та обов'язкових параметрів GConf: таким чином ви редагуєте ваше робоче середовище. <application>Sabayon</application> запускає профілі у вікні <application>Xephyr</application>, що забезпечує X-сеанс у X-сеантсі, подібно до <application>Xnest</application>.</para>
+            <para>Будь-які зміни у вікні <application>Xnest</application> зберігаються у профілі, який потім можна застосувати до облікових рахунків користувачів. Наразі <application>Sabayon</application> обмежений створенням та оновленням параметрів профілю користувача. Він не вирішує складну проблему  застосування цих параметрів до цільової системи. Поки що <application>Sabayon</application> повністю підтримує файли та формат конфігурації для:</para>
+            <itemizedlist>
+                <listitem>
+                    <para>GConf</para>
+                </listitem>
+                <listitem>
+                    <para>Mozilla/Firefox</para>
+                </listitem>
+                <listitem>
+                    <para>OpenOffice.org</para>
+                </listitem>
+            </itemizedlist>
+        </sect2>
+    </sect1>
+    <sect1 id="installation">
+        <title>Встановлення</title>
+        <sect2>
+            <title>Встановлення з архіву</title>
+            <para>Завантажте <application>Sabayon</application> зы сторынки <ulink url="http://ftp.gnome.org/pub/GNOME/sources/sabayon/"/></para>
+            <para>Для розпакування архіву відкрийте термінал на ведіть :</para>
+            <screen>
+$  tar -zxvf ~/sabayon-2.29.0.tar.gz
+$  cd sabayon-2.29.0
+            </screen>
+            <para>Потім налаштуйте та скомпілюйте програму: </para>
+            <screen>
+$  ./configure --prefix=/usr --sysconfdir=/etc --mandir=/usr/share/man
+$  make
+$  sudo make install
+            </screen>
+            <para>Додайте користувача (потрібні права адміністратора) :</para>
+            <screen>
+# /usr/sbin/useradd -c "<application>Sabayon</application> user" -d /var/sabayon -g nogroup -s /sbin/nologin sabayon
+            </screen>
+            <para>Створіть каталог <filename>/var/sabayon</filename> :</para>
+            <screen>
+# mkdir /var/sabayon
+            </screen>
+            <para>Застосуйте наступні права:</para>
+            <screen>
+# chown -R sabayon /var/sabayon
+# chgrp -R nogroup /var/sabayon
+            </screen>
+        </sect2>
+        <sect2 id="distropackage">
+            <title>Встановлення пакетів від дистриб'ютива</title>
+            <para>Ваш дистрибутив можливо містить версію <application>Sabayon</application>, яка підтримується безпосередньо вашим дистрибутивом. Знайдіть пакет 'sabayon' в утиліті встановлення пакетів з вашого дистрибутиву.</para>
+        </sect2>
+        <sect2 id="git">
+            <title>Встановлення з репозиторію git</title>
+            <para>Якщо ви хочете працювати з останньою версією, можете встановити <application>Sabayon</application> з git-репозиторію GNOME.</para>
+            <para>Встановлення з git повторює процедуру встановлення з tar-архіву, за винятком отримання випуску з git, та запуску утиліт автоматичного налаштовування.</para>
+            <screen>
+$ git clone git://git.gnome.org/sabayon
+$ cd sabayon
+$ ./autogen.sh –prefix=/usr
+            </screen>
+            <para>Тепер, просто повторіть інструкції з налаштовування та компіляції програми з tar-архіву.</para>
+        </sect2>
+    </sect1>
+    <sect1 id="profile_create">
+        <title>Створення профілю</title>
+        <para>Першим кроком створення профілю для користувачів буде визначення обсягу функцій, до яких ви надаватимете доступ користувачам. Для бізнесу, ви можете створити ще одну панель GNOME з певним набором кнопок для запуску програм. Викладач може вимкнути пункти меню <guimenuitem>Адміністрування</guimenuitem> та <guimenuitem>Параметри</guimenuitem>. Все це можна зробити завдяки <application>Sabayon</application>.</para>
+        <sect2>
+            <title>Створюється профілю</title>
+            <para>Спочатку запустіть <application>Sabayon</application>. Якщо <application>Sabayon</application> встановлено з пакету вашого дистрибутиву, у меню <guimenu>Administration</guimenu> вже буде відповідний значок. Якщо програму скомпільовано, може знадобитись запустити її вручну. Натисніть <keycombo><keycap>Alt</keycap><keycap>F2</keycap></keycombo> та введіть:</para>
+            <screen>
+gksu sabayon
+            </screen>
+            <para>і натисніть <keycap>Enter</keycap>. Після вводу паролю ви побачите  головне вікно <application>Sabayon</application>:</para>
+            <figure>
+                <title>Головне вікно</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/main-window.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Показує головне вікно програми <application>Sabayon</application></phrase>
+                    </textobject>
+                    <caption>
+                        <para>Головне вікно <application>Sabayon</application> для створення та застосування профілів.</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>Для створення нового профілю, просто натисніть кнопку <guibutton>Додати</guibutton>. Відкриється вікно з назвою <guilabel>Додати профіль</guilabel>, у ньому можна  дати профілю назву та, необов'язково, профіль який буде основою створюваного профілю:</para>
+            <figure>
+                <title>Створити профіль</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/add-profile.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Вікно додавання профілю для <application>Sabayon</application></phrase>
+                    </textobject>
+                    <caption>
+                        <para>Вікно додавання профілю для <application>Sabayon</application>.</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>Тепер, після створення профілю його можна редагувати. Виберіть назву профілю та натисніть кнопку <guibutton>Правка</guibutton>:</para>
+            <figure>
+                <title>Головне вікно - Редагування</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/main-window-edit.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Головне вікно - Редагування</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Головне вікно - Редагування</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>Відкриється "робочий стіл у вікні":</para>
+            <figure>
+                <title>Редагування робочого середовища</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/edit-desktop.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Редагування робочого середовища</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Редагування робочого середовища</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>У цьому вікні можна робити будь-які зміни до профілю. Можете додавати до панелі кнопки запуску та аплети, додавати ярлики до робочого столу, або створювати файли з прикладами у домашньому каталозі.</para>
+            <para>Коли закінчите, можна оглянути зміни у типовому сеансі, які виявить <application>Sabayon</application>. Це робиться клацанням на меню <guimenu>Правка</guimenu> і вибором <guibutton>Зміни</guibutton>. Маєте побачити подібний список:</para>
+            <figure>
+                <title>Вікно змін</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/changes.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Вікно змін</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Відредагуйте збережені <application>Sabayon</application> дії увікні</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>На екрані змін, можна змінити, що буде збережено <application>Sabayon</application> у профілі:</para>
+            <orderedlist>
+                <listitem>
+                    <para>Якщо треба, щоб  <application>Sabayon</application> проігнорував певні змінені параметри, відмітьте поле у стовпчику <guibutton>Ігнорувати</guibutton>.</para>
+                </listitem>
+                <listitem>
+                    <para>Щоб ключ gconf повинен бути «типовим» значенням у сеансі, просто залиште його із значком <emphasis>дерев'яного</emphasis>. </para>
+                </listitem>
+                <listitem>
+                    <para>Щоб ключ gconf був «обов'язковим», клацніть на значку щита, щоб перетворити його на <emphasis>залізний</emphasis>.</para>
+                </listitem>
+            </orderedlist>
+            <para>Потім збережіть профіль обравши <menuchoice><guimenu>Профіль </guimenu><guimenuitem>Зберегти профіль</guimenuitem></menuchoice> у каталозі <filename>/etc/sabayon/profiles</filename>, у вигляді архіву <emphasis>.zip</emphasis> з обраною Вами назвою.</para>
+         </sect2>
+         <sect2>
+             <title>Редактор ізоляції</title>
+             <para>GNOME також включає функції ізоляції  <application>Pessulus</application>, що дозволяє запобігати редагуванню панелей користувачами, відкриванню діалогу <guilabel>Виконати програму</guilabel>.</para>
+             <para>Для використання редактора ізоляції виберіть <menuchoice><guimenu>Правка</guimenu><guimenuitem>Блокувати</guimenuitem></menuchoice> on the <guilabel>Desktop editor</guilabel> window.</para>
+            <figure>
+                <title>Редактор ізоляції</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/lockdown.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Редактор ізоляції</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Зміна параметрів ізоляції GNOME у <application>Sabayon</application>.</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+        </sect2>
+    </sect1>
+    <sect1 id="apply">
+        <title>Застосування профілів</title>
+        <sect2>
+           <title>Застосування профілю</title>
+           <para>Важливо: для перевірки профілю бажано створювати нового користувача.</para>
+           <para>Виберіть бажаний профіль, який треба застосувати та натисніть <guibutton>Користувачі</guibutton> : Потім, виберіть користувачів, до яких застосувати профіль. У цьому прикладі <emphasis>Eleve1 </emphasis> та <emphasis>Eleve 2</emphasis> матимуть профіль <filename>my_profile</filename>.</para>
+            <figure>
+                <title>Застосування профілю до користувача</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/apply-by-user.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Застосування профілю до користувача</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Застосовування профілю лише до певних користувачів</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+        </sect2>
+        <sect2>
+            <title>Застосовування профілю для групи</title>
+            <para>Системні адміністратори надають перевагу застосуванню профілів до груп. Ви також можете це робити у графічній утиліті, або за допомогою сценарію.</para>
+            <sect3>
+                <title>Через графічний інтерфейс</title>
+                <para>Просто скористайтесь сценарієм <command>sabayon-apply</command>, що постачається з <application>Sabayon</application>, але у графічній утиліті виберіть кнопку <guibutton>Групи</guibutton> та позначте групи, до яких застосувати профіль.</para>
+                <figure>
+                    <title>Застосування профілів за групами</title>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="figures/apply-by-group.png" format="PNG"/>
+                        </imageobject>
+                        <textobject>
+                            <phrase>Застосування профілів за групами</phrase>
+                        </textobject>
+                        <caption>
+                            <para>Застосування профілю до користувачів, які входять до групи.</para>
+                        </caption>
+                    </mediaobject>
+                </figure>
+            </sect3>
+        </sect2>
+    </sect1>
+</article>

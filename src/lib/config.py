@@ -1,0 +1,162 @@
+#
+# Copyright (C) 2005 Red Hat, Inc.
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
+#
+# You should have received a copy of the GNU General Public License
+# along with this program; if not, write to the Free Software
+# Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
+#
+import os
+import os.path
+
+PACKAGE    = "sabayon"
+VERSION    = "2.29.92"
+LOCALEDIR  = "/usr/local/share/locale"
+DATADIR    = "/usr/local/share"
+SYSCONFDIR = "/usr/local/etc"
+LIBEXECDIR = "/usr/local/libexec"
+SBINDIR    = "/usr/local/sbin"
+
+BUILDERDIR  = os.path.join (DATADIR,    "sabayon", "ui")
+CONFIGDIR   = os.path.join (SYSCONFDIR, "sabayon")
+PROFILESDIR = os.path.join (CONFIGDIR,  "profiles")
+
+MONITOR_TOOL_ARGV = [ os.path.join (LIBEXECDIR, "sabayon-monitor") ]
+SESSION_TOOL_ARGV = [ os.path.join (LIBEXECDIR, "sabayon-session") ]
+APPLY_TOOL_ARGV   = [ os.path.join (SBINDIR,    "sabayon-apply") ]
+
+# FIXME: this is too big a hammer
+CLOBBER_USER_PROCESSES_ARGV = [ "/usr/bin/pkill", "-u" ]
+
+# No. of seconds to wait for USR1 from Xephyr before giving up
+XEPHYR_USR1_TIMEOUT = 10
+
+#
+# This is the user which we run the prototype sessions
+# as. The account should be created as part of the packages
+# post installation process
+#
+PROTOTYPE_USER = "sabayon"
+
+#
+# default, mandatory, and mandatory-alt gconf key trees in users
+# home directory.
+#
+
+GCONF_DEFAULTS_SOURCE      = ".gconf.xml.defaults"
+GCONF_MANDATORY_SOURCE     = ".gconf.xml.mandatory"
+GCONF_MANDATORY_ALT_SOURCE = ".gconf.xml.mandatory-alt"
+
+GCONF_PATH_DEFAULTS        = ".gconf.path.defaults"
+GCONF_PATH_MANDATORY       = ".gconf.path.mandatory"
+
+# FIXME: should all of these be options passed to the "configure" script?
+DEFAULT_PATH  = "/usr/local/bin:/usr/bin:/bin:/usr/X11R6/bin"
+DEFAULT_SHELL = "/bin/bash"
+NOLOGIN_SHELL = "/sbin/nologin"
+SKEL_HOMEDIR  = "/etc/skel"
+
+XEPHYR_ARGV  = [ "/usr/bin/Xephyr", "-terminate", "-audit", "0", "-nolisten", "tcp", "-name", "sabayon" ]
+SESSION_ARGV = [ "/etc/gdm/Xsession", "gnome-session" ]
+USERMOD_ARGV = [ "/usr/sbin/usermod" ]
+
+PANEL_KEY_BASE = "/apps/panel"
+# PANEL_KEY_BASE = "/apps/panel/profiles/default"
+
+#
+# When starting the prototype session, which environment
+# variables should be passed through umodified
+#
+PASSTHROUGH_ENVIRONMENT = [
+    "SABAYON_DEBUG",
+    "DEBUG_WHILE_IN_SABAYON",
+    "LANG",
+    "LINGUAS",
+    "LC_CTYPE",
+    "LC_COLLATE",
+    "LC_TIME",
+    "LC_NUMERIC",
+    "LC_MONETARY",
+    "LC_MESSAGES",
+    "METACITY_VERBOSE",
+    "METACITY_USE_LOGFILE",
+    "PYTHONPATH"
+]
+
+#
+# Files which we don't want to see change notifications for
+#
+FILES_TO_IGNORE = [
+    GCONF_PATH_DEFAULTS,
+    GCONF_PATH_DEFAULTS + ".new",
+    GCONF_PATH_MANDATORY,
+    GCONF_PATH_MANDATORY + ".new",
+    ".ICEauthority*",
+    ".esd_auth",
+    ".fonts.cache-1*",
+    ".gnome/gnome-vfs/.trash_entry_cache",
+    ".gnome2/share/cursor-fonts/fonts.dir",
+    ".gnome2/share/fonts/fonts.dir",
+    ".gtkrc-1.2-gnome2*",
+    ".pulse-cookie",
+    ".recently-used*",
+    ".xsession-errors",
+    ".imsettings.log"
+]
+
+#
+# Directories which we don't want to add when saving profile
+#
+DIRECTORIES_TO_IGNORE_PROFILE = [
+    ".beagle",
+    ".cache",
+    ".ccache",
+    ".dbus",
+    ".fontconfig",
+    ".gconfd",
+    ".gstreamer-0.8",
+    ".gstreamer-0.10",
+    ".gvfs",
+    ".local/share/tracker",
+    ".metacity/sessions",
+    ".profile_cache",
+    ".pulse",
+    ".thumbnails",
+    ".wapi",
+    ".Trash",
+    ".evolution/cache",
+    ".local/share/gvfs-metadata"
+]
+
+#
+# Directories which we don't want to see change notifications for
+#
+DIRECTORIES_TO_IGNORE = DIRECTORIES_TO_IGNORE_PROFILE + [
+    ".gconf",
+    GCONF_DEFAULTS_SOURCE,
+    GCONF_MANDATORY_SOURCE,
+    GCONF_MANDATORY_ALT_SOURCE
+]
+
+#
+# GConf keys which we don't want to see change notifications for
+#
+GCONF_KEYS_TO_IGNORE = [
+    "/apps/nautilus/preferences_version",
+    "/apps/nautilus/sound_state",
+    "/apps/panel/general/profiles_migrated"
+    "/desktop/gnome/peripherals/keyboard/kbd.sysbackup/*",
+]
+
+LOG_CONFIG_FILENAME = os.path.join (CONFIGDIR, "sabayon-debug-log.conf")
+
+BUG_TRACKING_SYSTEM = "http://bugzilla.gnome.org"

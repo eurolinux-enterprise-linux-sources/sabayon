@@ -1,0 +1,1179 @@
+# translation of sabayon.master.ta.po to Tamil
+# translation of sabayon.HEAD.ta.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Felix <ifelix@redhat.com>, 2006.
+# drtvasudevan <agnihot3@gmail.com>, 2006.
+# Dr.T.vasudevan <agnihot3@gmail.com>, 2009.
+# I. Felix <ifelix@redhat.com>, 2009.
+# Dr,T,Vasudevan <agnihot3@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: sabayon.master.ta\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-18 11:59+0530\n"
+"PO-Revision-Date: 2010-02-18 12:48+0530\n"
+"Last-Translator: Dr,T,Vasudevan <agnihot3@gmail.com>\n"
+"Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
+"\n"
+"\n"
+"\n"
+"X-Generator: Lokalize 0.3\n"
+
+#: ../admin-tool/aboutdialog.py:66
+msgid "Program to establish and edit profiles for users"
+msgstr "பயனர்களுக்கு விவரக்குறிப்புகளை உருவாக்கும் தொகுக்கும் நிரல்"
+
+#: ../admin-tool/aboutdialog.py:69
+msgid "translator-credits"
+msgstr "மொழிபெயர்ப்பாளர் சன்மானம்"
+
+#: ../admin-tool/changeswindow.py:50
+#, python-format
+msgid "Changes in profile %s"
+msgstr "வரிவுருவில் மாற்றம் %s"
+
+#: ../admin-tool/changeswindow.py:113
+msgid "Ignore"
+msgstr "தவிர்"
+
+#: ../admin-tool/changeswindow.py:120
+msgid "Lock"
+msgstr "பூட்டு"
+
+#: ../admin-tool/changeswindow.py:127 ../admin-tool/editorwindow.py:263
+msgid "Description"
+msgstr "விளக்கம்"
+
+#: ../admin-tool/editorwindow.py:100
+#, python-format
+msgid "Profile %s"
+msgstr "விவரக்குறிப்பு %s"
+
+#: ../admin-tool/editorwindow.py:205 ../admin-tool/sessionwindow.py:179
+msgid "_Profile"
+msgstr "வரிவுரு (_P)"
+
+#: ../admin-tool/editorwindow.py:206 ../admin-tool/sessionwindow.py:180
+msgid "_Save"
+msgstr "சேமி (_S)"
+
+#: ../admin-tool/editorwindow.py:206 ../admin-tool/sessionwindow.py:180
+msgid "Save profile"
+msgstr "வரிவுருவினை சேமி"
+
+#: ../admin-tool/editorwindow.py:207
+msgid "_Close"
+msgstr "மூடு (_C)"
+
+#: ../admin-tool/editorwindow.py:207 ../admin-tool/sessionwindow.py:181
+msgid "Close the current window"
+msgstr "நடப்பு சாளரத்தை மூடவும்"
+
+#: ../admin-tool/editorwindow.py:208 ../admin-tool/sessionwindow.py:182
+msgid "_Edit"
+msgstr "தொகு (_E)"
+
+#: ../admin-tool/editorwindow.py:209
+msgid "_Delete"
+msgstr "அழி (_D)"
+
+#: ../admin-tool/editorwindow.py:209
+msgid "Delete item"
+msgstr "உருப்படியை அழி"
+
+#: ../admin-tool/editorwindow.py:210 ../admin-tool/sessionwindow.py:185
+msgid "_Help"
+msgstr "உதவி (_H)"
+
+#: ../admin-tool/editorwindow.py:211 ../admin-tool/sessionwindow.py:186
+msgid "_Contents"
+msgstr "உள்ளடக்கங்கள் (_C)"
+
+#: ../admin-tool/editorwindow.py:211 ../admin-tool/sessionwindow.py:186
+msgid "Help Contents"
+msgstr "உதவி உள்ளடக்கங்கள்"
+
+#: ../admin-tool/editorwindow.py:212 ../admin-tool/sessionwindow.py:187
+msgid "_About"
+msgstr "இதனை பற்றி (_A)"
+
+#: ../admin-tool/editorwindow.py:212 ../admin-tool/sessionwindow.py:187
+msgid "About Sabayon"
+msgstr "Sabayon பற்றி"
+
+#: ../admin-tool/editorwindow.py:267
+msgid "Source"
+msgstr "மூலம்"
+
+#: ../admin-tool/editorwindow.py:300 ../lib/sources/gconfsource.py:124
+msgid "GConf"
+msgstr "ஜிகான்ஃப்"
+
+#: ../admin-tool/editorwindow.py:304 ../lib/sources/filessource.py:86
+msgid "Files"
+msgstr "கோப்புகள்"
+
+#: ../admin-tool/editorwindow.py:304 ../lib/sources/paneldelegate.py:279
+msgid "Panel"
+msgstr "பலகை"
+
+#: ../admin-tool/fileviewer.py:27
+#, python-format
+msgid "Profile file: %s"
+msgstr "விவரக்குறிப்பு கோப்பு: %s"
+
+#: ../admin-tool/gconfviewer.py:57 ../admin-tool/gconfviewer.py:76
+msgid "<no type>"
+msgstr "<வகை இல்லை>"
+
+#: ../admin-tool/gconfviewer.py:58
+msgid "<no value>"
+msgstr "<மதிப்பு இல்லை>"
+
+#: ../admin-tool/gconfviewer.py:62
+msgid "string"
+msgstr "சரம்"
+
+#: ../admin-tool/gconfviewer.py:64
+msgid "integer"
+msgstr "முழு எண்"
+
+#: ../admin-tool/gconfviewer.py:66
+msgid "float"
+msgstr "மிதவை"
+
+#: ../admin-tool/gconfviewer.py:68
+msgid "boolean"
+msgstr "பூலியன்"
+
+#: ../admin-tool/gconfviewer.py:70
+msgid "schema"
+msgstr "அமைப்பு முறை"
+
+#: ../admin-tool/gconfviewer.py:72
+msgid "list"
+msgstr "பட்டியல்"
+
+#: ../admin-tool/gconfviewer.py:74
+msgid "pair"
+msgstr "ஜோடி"
+
+#: ../admin-tool/gconfviewer.py:86
+#, python-format
+msgid "Profile settings: %s"
+msgstr "விவரக்குறிப்பு அமைவுகள்: %s"
+
+#: ../admin-tool/gconfviewer.py:110 ../admin-tool/profilesdialog.py:423
+#: ../admin-tool/usersdialog.py:87
+msgid "Name"
+msgstr "பெயர்"
+
+#: ../admin-tool/gconfviewer.py:115
+msgid "Type"
+msgstr "வகை"
+
+#: ../admin-tool/gconfviewer.py:120
+msgid "Value"
+msgstr "மதிப்பு"
+
+#: ../admin-tool/groupsdialog.py:61, python-format
+msgid "Groups for profile %s"
+msgstr "வரிவுரு %s க்கான குழுக்கள்"
+
+#: ../admin-tool/groupsdialog.py:71
+msgid "Group"
+msgstr "குழு"
+
+#: ../admin-tool/groupsdialog.py:81 ../admin-tool/usersdialog.py:96
+msgid "Use This Profile"
+msgstr "இந்த வரிவுருவினை பயன்படுத்து"
+
+#.
+#. Translators: this string specifies how a profile
+#. name is concatenated with an integer
+#. to form a unique profile name e.g.
+#. "Artist Workstation (5)"
+#.
+#: ../admin-tool/profilesdialog.py:550
+#, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../admin-tool/sabayon:77
+msgid "Your account does not have permissions to run the Desktop User Profiles tool"
+msgstr "உங்கள் கணக்குக்கு மேல்திரை பயனர் வரிவுரு அமைப்பு கருவியை பயன்படுத்தும் அனுமதி இல்லை"
+
+#: ../admin-tool/sabayon:78
+msgid ""
+"Administrator level permissions are needed to run this program because it "
+"can modify system files."
+msgstr ""
+"அமைப்பு கோப்புகளை இது மாற்றக் கூடும் ஆகையால் இந்த நிரலை இயக்க நிர்வாக தகுதி உள்ள "
+"அனுமதி தேவை"
+
+#: ../admin-tool/sabayon:83
+msgid "Desktop User Profiles tool is already running"
+msgstr "மேல்மேடை பயனர் விவரக்குறிப்புகள் கருவி ஏற்கனவே இயக்கத்தில் உள்ளது"
+
+#: ../admin-tool/sabayon:84
+msgid ""
+"You may not use Desktop User Profiles tool from within a profile editing "
+"session"
+msgstr ""
+"மேல்திரை பயனர் வரிவுரு அமைப்பு கருவி ஐ ஒரு வரிவுரு திருத்த அமர்வில் இருக்கும் போது "
+"இயக்க இயலாது"
+
+#: ../admin-tool/sabayon:91
+#, c-format
+msgid "User account '%s' was not found"
+msgstr "பயனர் கணக்கு '%s' ஐ காணவில்லை"
+
+#: ../admin-tool/sabayon:92
+#, c-format
+msgid ""
+"Sabayon requires a special user account '%s' to be present on this computer. "
+"Try again after creating the account (using, for example, the 'adduser' "
+"command)"
+msgstr ""
+"சபாயோனுக்கு இந்த கணிணியில் %s என்ற சிறப்பு கணக்கு தேவை. அதை உருவாக்கி விட்டு "
+"(உதாரணமபக பயனர் சேர் கட்டளை கொடுத்து) பிறகு மீண்டும் முயற்சிக்கவும்"
+
+#: ../admin-tool/sabayon:131
+#, c-format
+msgid ""
+"A fatal error has occurred.  You can help us fix the problem by sending the "
+"log in %s to %s"
+msgstr ""
+"ஒரு பெரும்பிழை நேர்ந்தது. இதை சரி செய்ய நீங்கள் %s இல் உள்ள பதிவை %s க்கு அனுப்பி உதவலாம்"
+
+#: ../admin-tool/sabayon:145
+#, c-format
+msgid ""
+"Sabayon will now exit.  There were some recoverable errors, and you can help "
+"us debug the problem by sending the log in %s to %s"
+msgstr ""
+"சபாயன் இப்போது வெளியேறும். சில மீட்கக்கூடிய  பிழை நேர்ந்தது. இதை சரி செய்ய நீங்கள் %s இல் "
+"உள்ள பதிவை %s க்கு அனுப்பி உதவலாம்"
+
+#: ../admin-tool/sabayon-apply:125
+msgid "Please use -h for usage options"
+msgstr "தயவு செய்து -h ஐ தேர்வுகளுக்கு பயன்படுத்துங்கள்"
+
+#: ../admin-tool/sabayon-apply:137
+#, c-format
+msgid "No profile for user '%s' found\n"
+msgstr "பயனர் '%s' க்கு வரிவுருவினை காணவில்லை\n"
+
+#: ../admin-tool/sabayon-session:67
+#, c-format
+msgid "Usage: %s <profile-name> <profile-path> <display-number>\n"
+msgstr "பயன்பாடு: %s <வரிவுரு-பெயர்> <வரிவுரு-வழி> <எண்-காட்டுக>\n"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:1
+msgid "Establish and Edit Profiles for Users"
+msgstr "பயனர்களுக்கு வரிவுரு அமைத்து திருத்துக"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:2 ../admin-tool/sabayon.ui.h:4
+msgid "User Profile Editor"
+msgstr "பயனர் வரிவுரு தொகுப்பி"
+
+#: ../admin-tool/sabayon.ui.h:1
+msgid "Add Profile"
+msgstr "வரிவுரு சேர்"
+
+#: ../admin-tool/sabayon.ui.h:2
+msgid "Profile _name:"
+msgstr "வரிவுரு பெயர்: (_n)"
+
+#: ../admin-tool/sabayon.ui.h:3
+msgid "Use this profile for _all users"
+msgstr "இந்த வரிவுருவினை அனைத்து பயனர்களுக்கும் பயன்படுத்து (_a) "
+
+#: ../admin-tool/sabayon.ui.h:5
+msgid "_Base on:"
+msgstr "அடிப்படையில்: (_B)"
+
+#: ../admin-tool/sabayon.ui.h:6
+msgid "_Details"
+msgstr "_D விளக்கங்கள்"
+
+#: ../admin-tool/sabayon.ui.h:7
+msgid "_Groups"
+msgstr "_G குழுக்கள்"
+
+#: ../admin-tool/sabayon.ui.h:8
+msgid "_Groups:"
+msgstr "_G குழுக்கள்:"
+
+#: ../admin-tool/sabayon.ui.h:9
+msgid "_Profiles:"
+msgstr "வரிவுருக்கள்: (_P)"
+
+#: ../admin-tool/sabayon.ui.h:10
+msgid "_Users"
+msgstr "பயனர்கள் (_U)"
+
+#: ../admin-tool/sabayon.ui.h:11
+msgid "_Users:"
+msgstr "பயனர்கள்: (_U)"
+
+#: ../admin-tool/saveconfirm.py:34
+msgid "Close _Without Saving"
+msgstr "சேமிக்காமல் மூடவும் (_W)"
+
+#: ../admin-tool/saveconfirm.py:41
+#, python-format
+msgid "Save changes to profile \"%s\" before closing?"
+msgstr "வரிவுரு  \"%s\" க்கான மாற்றங்களை மூடும் முன் சேமிக்கலாமா?"
+
+#: ../admin-tool/saveconfirm.py:44
+msgid "If you don't save, all changes will be permanently lost."
+msgstr "நீங்கள் சேமிக்காவிட்டால் கடைசி மணியில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க நேரும். "
+
+#: ../admin-tool/sessionwindow.py:157
+#, python-format
+msgid "Editing profile %s"
+msgstr "வரிவுரு %s ஐ திருத்து"
+
+#: ../admin-tool/sessionwindow.py:181
+msgid "_Quit"
+msgstr "வெளியேறு (_Q)"
+
+#: ../admin-tool/sessionwindow.py:183
+msgid "_Changes"
+msgstr "மாற்றங்கள் (_C)"
+
+#: ../admin-tool/sessionwindow.py:183
+msgid "Edit changes"
+msgstr "மாற்றங்களை திருத்து"
+
+#: ../admin-tool/sessionwindow.py:184
+msgid "_Lockdown"
+msgstr "பூட்டு (_L)"
+
+#: ../admin-tool/sessionwindow.py:184
+msgid "Edit Lockdown settings"
+msgstr "பூட்டு அமைவுகளை தொகு"
+
+#: ../admin-tool/sessionwindow.py:190
+msgid "Enforce Mandatory"
+msgstr "அவசியத்தை வலியுறுத்து"
+
+#: ../admin-tool/sessionwindow.py:190
+msgid "Enforce mandatory settings in the editing session"
+msgstr "திருத்தல் அமர்வுகளில் அவசிய அமைவுகளை வலியுறுத்து"
+
+#: ../admin-tool/sessionwindow.py:308
+#, python-format
+msgid "Lockdown settings for %s"
+msgstr "%s இன் அமைவுகளை பூட்டு "
+
+#: ../admin-tool/sessionwindow.py:344
+#, python-format
+msgid ""
+"There was a recoverable error while applying the user profile '%s'.  You can "
+"report this error now or try to continue editing the user profile."
+msgstr ""
+"பயனர் வரிவுரு '%s' ஐ பயன்படுத்துகையில் ஒரு மீட்கக்கூடிய பிழை நேர்ந்தது. நீங்கள் இதை "
+"அறிவிக்கலாம் அல்லது பயனர் வரிவுருவை தொடர்ந்து திருத்தலாம். "
+
+#: ../admin-tool/sessionwindow.py:348
+msgid "_Report this error"
+msgstr "_R பிழையை அறிவி"
+
+#: ../admin-tool/sessionwindow.py:349
+msgid "_Continue editing"
+msgstr "_C திருத்தலை தொடர்க"
+
+#: ../admin-tool/usersdialog.py:72
+#, python-format
+msgid "Users for profile %s"
+msgstr "வரிவுரு %sக்கான பயனர்கள்"
+
+#: ../lib/protosession.py:112
+msgid "Unable to find a free X display"
+msgstr "X displayஐ காண இயலவில்லை"
+
+#: ../lib/protosession.py:376
+msgid "Failed to start Xephyr: timed out waiting for USR1 signal"
+msgstr "Xephyrஐ துவக்க முடியவில்லை: நேரம் முடிந்தது USR1 சமிக்ஞைக்காக காத்திருக்கிறது"
+
+#: ../lib/protosession.py:378
+msgid "Failed to start Xephyr: died during startup"
+msgstr "Xephyrஐ துவக்க முடியவில்லை:துவங்கும் போது செயலிழப்பு"
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (RECOVERABLE) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (RECOVERABLE) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:469
+#, python-format
+msgid "There was a recoverable error while applying the user profile from file '%s'."
+msgstr ""
+"பயனர் வரிவுருவை கோப்பு '%s' இலிருந்து பயன்படுத்துகையில் ஒரு மீட்கக்கூடிய பிழை "
+"நேர்ந்தது. "
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (FATAL) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (FATAL) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:478
+#, python-format
+msgid "There was a fatal error while applying the user profile from '%s'."
+msgstr ""
+"பயனர் வரிவுருவை கோப்பு '%s' இலிருந்து பயன்படுத்துகையில் ஒரு பெரும் பிழை நேர்ந்தது. ."
+
+#: ../lib/sources/filessource.py:69
+msgid "Directory"
+msgstr "அடைவு"
+
+#: ../lib/sources/filessource.py:71
+msgid "Link"
+msgstr "தொடுப்பு"
+
+#: ../lib/sources/filessource.py:73
+msgid "File"
+msgstr "கோப்பு"
+
+#: ../lib/sources/filessource.py:75, python-format
+msgid "%s '%s' created"
+msgstr "%s '%s' உருவாக்கப்பட்டது"
+
+#: ../lib/sources/filessource.py:77, python-format
+msgid "%s '%s' deleted"
+msgstr "%s '%s' அழிக்கப்பட்டது"
+
+#: ../lib/sources/filessource.py:79, python-format
+msgid "%s '%s' changed"
+msgstr "%s '%s' மாற்றப்பட்டது"
+
+#: ../lib/sources/filessource.py:105
+msgid "Applications menu"
+msgstr "பயன்பாடு பட்டி"
+
+#: ../lib/sources/filessource.py:107
+msgid "Settings menu"
+msgstr "அமைவுகள் பட்டி"
+
+#: ../lib/sources/filessource.py:109
+msgid "Server Settings menu"
+msgstr "சேவையக அமைவுகள் பட்டி"
+
+#: ../lib/sources/filessource.py:111
+msgid "System Settings menu"
+msgstr "கணினி அமைவுகள் பட்டி"
+
+#: ../lib/sources/filessource.py:113
+msgid "Start Here menu"
+msgstr "பட்டியை இங்கு தொடங்கவும்"
+
+#: ../lib/sources/gconfsource.py:90
+#, python-format
+msgid "GConf key '%s' unset"
+msgstr "ஜிகான்ஃப் விசை '%s' அமைக்கப்படவில்லை"
+
+#: ../lib/sources/gconfsource.py:92
+#, python-format
+msgid "GConf key '%s' set to string '%s'"
+msgstr "ஜிகான்ஃப் விசை '%s' சரம் '%s'ல் அமைக்கிறது"
+
+#: ../lib/sources/gconfsource.py:94
+#, python-format
+msgid "GConf key '%s' set to integer '%s'"
+msgstr "ஜிகான்ஃப் விசை '%s' முழு எண் '%s'ல் அமைக்கிறது"
+
+#: ../lib/sources/gconfsource.py:96
+#, python-format
+msgid "GConf key '%s' set to float '%s'"
+msgstr "ஜிகான்ஃப் விசை '%s' மிதவை '%s'ல் அமைக்கிறது"
+
+#: ../lib/sources/gconfsource.py:98
+#, python-format
+msgid "GConf key '%s' set to boolean '%s'"
+msgstr "ஜிகான்ஃப் விசை '%s' பூலியன் '%s'ல் அமைக்கிறது"
+
+#: ../lib/sources/gconfsource.py:100
+#, python-format
+msgid "GConf key '%s' set to schema '%s'"
+msgstr "ஜிகான்ஃப் விசை '%s' அமைப்பு முறை '%s'ல் அமைக்கிறது"
+
+#: ../lib/sources/gconfsource.py:102
+#, python-format
+msgid "GConf key '%s' set to list '%s'"
+msgstr "ஜிகான்ஃப் விசை '%s' பட்டியல் '%s'ல் அமைக்கிறது"
+
+#: ../lib/sources/gconfsource.py:104
+#, python-format
+msgid "GConf key '%s' set to pair '%s'"
+msgstr "ஜிகான்ஃப் விசை '%s' ஜோடி '%s'ல் அமைக்கிறது"
+
+#: ../lib/sources/gconfsource.py:106
+#, python-format
+msgid "GConf key '%s' set to '%s'"
+msgstr "ஜிகான்ஃப் விசை '%s' '%s'ல் அமைக்கிறது"
+
+#: ../lib/sources/gconfsource.py:138
+msgid "Default GConf settings"
+msgstr "முன்னிருப்பு ஜிகான்ஃப்அமைவுகள்"
+
+#: ../lib/sources/gconfsource.py:140
+msgid "Mandatory GConf settings"
+msgstr "அவசிய ஜிகான்ஃப் அமைவுகள்"
+
+#: ../lib/sources/mozillasource.py:133
+#, python-format
+msgid "Mozilla key '%s' set to '%s'"
+msgstr "மோசில்லா விசை '%s'  '%s'ல் அமைக்கிறது"
+
+#: ../lib/sources/mozillasource.py:135
+#, python-format
+msgid "Mozilla key '%s' unset"
+msgstr "மோசில்லா விசை '%s' அமைக்கப்படவில்லை"
+
+#: ../lib/sources/mozillasource.py:137
+#, python-format
+msgid "Mozilla key '%s' changed to '%s'"
+msgstr "மோசில்லா விசை '%s'  '%s'ஆக மாற்றப்பட்டது"
+
+#: ../lib/sources/mozillasource.py:167 ../lib/sources/mozillasource.py:177
+msgid "Web browser preferences"
+msgstr "இணைய உலாவி முன்னுரிமைகள்"
+
+#: ../lib/sources/mozillasource.py:169 ../lib/sources/mozillasource.py:179
+msgid "Web browser bookmarks"
+msgstr "இணைய உலாவு புத்தகக்குறிகள்"
+
+#: ../lib/sources/mozillasource.py:171
+msgid "Web browser profile list"
+msgstr "இணைய உலாவு விவரக்குறிப்பு பட்டியல்"
+
+#: ../lib/sources/mozillasource.py:521
+#, python-format
+msgid "File Not Found (%s)"
+msgstr "கோப்பை காண இயலவில்லை (%s)"
+
+#: ../lib/sources/mozillasource.py:870
+#, python-format
+msgid "duplicate name(%(name)s) in section %(section)s"
+msgstr "பிரிவில் %(section)s இரட்டை பெயர்(%(name)s)"
+
+#: ../lib/sources/mozillasource.py:879
+#, python-format
+msgid "redundant default in section %s"
+msgstr "பிரிவு%sல் முன்னிருப்பாக இரட்டை உள்ளது"
+
+#: ../lib/sources/mozillasource.py:896
+msgid "no default profile"
+msgstr "முன்னிருப்பு வரிவுரு இல்லை"
+
+#: ../lib/sources/mozillasource.py:951
+#, python-format
+msgid "Mozilla bookmark created '%s' -> '%s'"
+msgstr "மோசில்லா புத்தகக்குறி உருவாக்கப்பட்டது '%s' -> '%s'"
+
+#: ../lib/sources/mozillasource.py:953
+#, python-format
+msgid "Mozilla bookmark folder created '%s'"
+msgstr "மோசில்லா புத்தகக்குறி அடைவு உருவாக்கப்பட்டது '%s'"
+
+#: ../lib/sources/mozillasource.py:956
+#, python-format
+msgid "Mozilla bookmark deleted '%s'"
+msgstr "மோசில்லா புத்தகக்குறி அழிக்கப்பட்டது '%s'"
+
+#: ../lib/sources/mozillasource.py:958
+#, python-format
+msgid "Mozilla bookmark folder deleted '%s'"
+msgstr "மோசில்லா புத்தகக்குறி அடைவு அழிக்கப்பட்டது '%s'"
+
+#: ../lib/sources/mozillasource.py:961
+#, python-format
+msgid "Mozilla bookmark changed '%s' '%s'"
+msgstr "மோசில்லா புத்தகக்குறி மாற்றப்பட்டது '%s' '%s'"
+
+#: ../lib/sources/mozillasource.py:963
+#, python-format
+msgid "Mozilla bookmark folder changed '%s'"
+msgstr "மோசில்லா புத்தகக்குறி அடைவு மாற்றப்பட்டது '%s'"
+
+#: ../lib/sources/paneldelegate.py:65
+#, python-format
+msgid "Panel '%s' added"
+msgstr "பலகை '%s' சேர்க்கப்பட்டது"
+
+#: ../lib/sources/paneldelegate.py:71
+#, python-format
+msgid "Panel '%s' removed"
+msgstr "பலகை '%s' நீக்கப்பட்டது"
+
+#: ../lib/sources/paneldelegate.py:77, python-format
+msgid "Applet '%s' added"
+msgstr "குறு நிரல் '%s' சேர்க்கப்பட்டது"
+
+#: ../lib/sources/paneldelegate.py:100, python-format
+msgid "Applet '%s' removed"
+msgstr "குறு நிரல் '%s' நீக்கப்பட்டது"
+
+#: ../lib/sources/paneldelegate.py:123, python-format
+msgid "Object '%s' added"
+msgstr "பொருள் '%s' சேர்க்கப்பட்டது"
+
+#: ../lib/sources/paneldelegate.py:152, python-format
+msgid "Object '%s' removed"
+msgstr "பொருள் '%s' நீக்கப்பட்டது"
+
+#. Translators: This is a drawer in gnome-panel (where you can put applets)
+#: ../lib/sources/paneldelegate.py:241
+msgid "Drawer"
+msgstr "இழுப்பறை"
+
+#: ../lib/sources/paneldelegate.py:243
+msgid "Main Menu"
+msgstr "முதன்மை பட்டி"
+
+#: ../lib/sources/paneldelegate.py:253
+#, python-format
+msgid "%s launcher"
+msgstr "%s துவக்கி"
+
+#: ../lib/sources/paneldelegate.py:257
+msgid "Lock Screen button"
+msgstr "பூட்டு திரை பொத்தான்"
+
+#: ../lib/sources/paneldelegate.py:259
+msgid "Logout button"
+msgstr "வெளியேறுதல் பொத்தான்"
+
+#: ../lib/sources/paneldelegate.py:261
+msgid "Run Application button"
+msgstr "பயன்பாடு இயக்கு பொத்தான்"
+
+#: ../lib/sources/paneldelegate.py:263
+msgid "Search button"
+msgstr "தேடு பொத்தான்"
+
+#: ../lib/sources/paneldelegate.py:265
+msgid "Force Quit button"
+msgstr "கட்டாய வெளியேற்றுதல் பொத்தான்"
+
+#: ../lib/sources/paneldelegate.py:267
+msgid "Connect to Server button"
+msgstr "சேவையக பொத்தானுடன் இணை"
+
+#: ../lib/sources/paneldelegate.py:269
+msgid "Shutdown button"
+msgstr "பணிநிறுத்தப் பொத்தான்"
+
+#: ../lib/sources/paneldelegate.py:271
+msgid "Screenshot button"
+msgstr "திரைவெட்டு பொத்தான்"
+
+#: ../lib/sources/paneldelegate.py:274
+msgid "Unknown"
+msgstr "தெரியாத"
+
+#: ../lib/sources/paneldelegate.py:276
+msgid "Menu Bar"
+msgstr "மெனு பட்டி"
+
+#: ../lib/sources/paneldelegate.py:513
+msgid "Panel File"
+msgstr "பலகை கோப்பு"
+
+#: ../lib/storage.py:173
+#, python-format
+msgid "Failed to read file '%s': %s"
+msgstr "கோப்பு '%s'ஐ படிக்க முடியவில்லை: %s"
+
+#: ../lib/storage.py:183
+#, python-format
+msgid "Failed to read metadata from '%s': %s"
+msgstr "'%s'லிருந்து மெட்டா தரவினை படிக்க முடியவில்லை: %s"
+
+#: ../lib/storage.py:189
+#, python-format
+msgid "Invalid metadata section in '%s': %s"
+msgstr "'%s'ல் தவறான மெட்டா தரவு பிரிவு: %s"
+
+#. change the raise to a dprint, since some files seem to disappear.
+#. raise ProfileStorageException (_("Cannot add non-existent file '%s'") % src_path)
+#: ../lib/storage.py:383
+#, python-format
+msgid "Cannot add non-existent file '%s'"
+msgstr "ஏற்கனவே இல்லாத கோப்பு '%s'ஐ சேமிக்க இயலாது"
+
+#: ../lib/storage.py:527
+#, python-format
+msgid "Couldn't rmdir '%s'"
+msgstr "rmdir '%s கட்டளையை செயலாக்க முடியவில்லை"
+
+#: ../lib/storage.py:532
+#, python-format
+msgid "Couldn't unlink file '%s'"
+msgstr "%s கோப்பை  தொடுப்பு பிரிக்க இயலவில்லை"
+
+#: ../lib/storage.py:627
+#, python-format
+msgid "Profile is read-only %s"
+msgstr "விவரக்குறிப்பினை வாசிக்க மட்டும் முடியும் %s"
+
+#. Translators: You may move the "%(setting)s" and "%(np)s" items as you wish, but
+#. do not change the way they are written.  The intended string is
+#. something like "invalid type for setting blah in /ldap/path/to/blah"
+#: ../lib/systemdb.py:77
+#, python-format
+msgid "invalid type for setting %(setting)s in %(np)s"
+msgstr "%(np)s ல் %(setting)s ஐ அமைப்பதில் செல்லுபடியாகாத வகை"
+
+#: ../lib/systemdb.py:122
+msgid "No database file provided"
+msgstr "தரவுத்தள கோப்பு தரப்படவில்லை"
+
+#: ../lib/systemdb.py:253, python-format
+msgid "No LDAP search base specified for %s"
+msgstr "%s க்கு LDAP தேடும் அடிப்படை குறிப்படவில்லை "
+
+#: ../lib/systemdb.py:256, python-format
+msgid "No LDAP query filter specified for %s"
+msgstr "%sக்கு LDAP வினா வடிப்பி எதுவும் குறிப்பிடப்படவில்லை"
+
+#: ../lib/systemdb.py:259, python-format
+msgid "No LDAP result attribute specified for %s"
+msgstr "%sக்கு LDAP தீர்வு மதிப்புரு எதுவும் குறிப்பிடப்படவில்லை"
+
+#: ../lib/systemdb.py:268
+msgid "LDAP Scope must be one of: "
+msgstr "LDAP நோக்கம் இவற்றுள் ஒன்றாக இருக்கவேண்டும்:"
+
+#: ../lib/systemdb.py:288
+msgid "multiple_result must be one of: "
+msgstr "_r பல விடைகள் இவற்றுள் ஒன்றாக இருக்க வேண்டும்"
+
+#: ../lib/systemdb.py:381
+#, python-format
+msgid "Could not open %s for writing"
+msgstr "%sஐ எழுதுவதற்கு திறக்க முடியவில்லை"
+
+#: ../lib/systemdb.py:394
+#, python-format
+msgid "Failed to save UserDatabase to %s"
+msgstr "%sக்கு பயனர் தரவுத்தளத்தை சேமிக்க முடியவில்லை"
+
+#: ../lib/systemdb.py:423 ../lib/systemdb.py:457
+#, python-format
+msgid "File %s is not a profile configuration"
+msgstr "கோப்பு %s ஒரு விவரக்குறிப்பு கட்டமைப்பு இல்லை"
+
+#: ../lib/systemdb.py:430
+#, python-format
+msgid "Failed to add default profile %s to configuration"
+msgstr "முன்னிருப்பு விவரக்குறிப்பு %sஐ கட்டமைப்பில் சேர்க்க முடியவில்லை"
+
+#: ../lib/systemdb.py:464
+#, python-format
+msgid "Failed to add user %s to profile configuration"
+msgstr "பயனர் %sஐ விவரக்குறிப்பு கட்டமைப்பில் சேர்க்க முடியவில்லை"
+
+#: ../lib/systemdb.py:536
+msgid "Failed to get the user list"
+msgstr "பயனர் பட்டியலை பெற முடியவில்லை"
+
+#: ../lib/systemdb.py:586
+msgid "Failed to get the group list"
+msgstr "குழு பட்டியலை பெற முடியவில்லை"
+
+#: ../lib/unittests.py:38 ../lib/unittests.py:39
+msgid "Ignore WARNINGs"
+msgstr "எச்சரிக்கைகளை பொருட் படுத்தாதே"
+
+#: ../lib/unittests.py:61
+#, python-format
+msgid "Running %s tests"
+msgstr "%s சோதனைகளை இயக்குகிறது"
+
+#: ../lib/unittests.py:63
+#, python-format
+msgid "Running %s tests (%s)"
+msgstr "%s சோதனைகளை இயக்குகிறது (%s)"
+
+#: ../lib/unittests.py:70
+msgid "Success!"
+msgstr "வெற்றி!"
+
+#: ../lib/util.py:94
+msgid ""
+"Cannot find home directory: not set in /etc/passwd and no value for $HOME in "
+"environment"
+msgstr ""
+"வீட்டு அடைவை காண முடியவில்லை.  /etc/passwd அடைவில் அமையவில்லை. சுற்றுப் புற "
+"சூழலிலும் $HOME க்கு ஒரு மதிப்பும் காணப் பெறவில்லை."
+
+#: ../lib/util.py:110 ../lib/util.py:137
+msgid ""
+"Cannot find username: not set in /etc/passwd and no value for $USER in "
+"environment"
+msgstr ""
+"பயனர் பெயரை காண முடியவில்லை. /etc/passwd அடைவில் அமையவில்லை. சுற்றுப் புற சூழலிலும் "
+"$USER க்கு ஒரு மதிப்பும் காணப் பெறவில்லை."
+
+#~ msgid "Click to make this setting not mandatory"
+#~ msgstr "இந்த அமைவினை சொடுக்கி அவசியம் இல்லை என மாற்றவும்"
+
+#~ msgid "Click to make this setting mandatory"
+#~ msgstr "இந்த அமைவினை சொடுக்கி அவசியம் என மாற்றவும்"
+
+#~ msgid "General"
+#~ msgstr "பொது"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "எபிஃபனி இணைய உலாவி"
+
+#~ msgid "Disable _command line"
+#~ msgstr "கட்டளை வரியை செயல்நீக்கு (_c)"
+
+#~ msgid "Disable _printing"
+#~ msgstr "அச்சிடுதலை செயல்நீக்கு (_p)"
+
+#~ msgid "Disable print _setup"
+#~ msgstr "அச்சிடுதல் அமைவினை செயல்நீக்கு (_s)"
+
+#~ msgid "Disable save to _disk"
+#~ msgstr "வட்டுக்கு சேமித்தலை செயல்நீக்கு (_d)"
+
+#~ msgid "_Lock down the panels"
+#~ msgstr "பலகைகளை பூட்டவும் (_L)"
+
+#~ msgid "Disable force _quit"
+#~ msgstr "வெளியேற்றத்தை செயல்நீக்கு (_q)"
+
+#~ msgid "Disable log _out"
+#~ msgstr "வெளிச்செல்லுதலை செயல்நீக்கு (_o)"
+
+#~ msgid "Disable _quit"
+#~ msgstr "வெளியேறுதலை செயல்நீக்கு (_q)"
+
+#~ msgid "Disable _arbitrary URL"
+#~ msgstr "தன்னிச்சையான யுஆர்எல்ஐ செயல்நீக்கு (_a)"
+
+#~ msgid "Disable _bookmark editing"
+#~ msgstr "புத்தகக்குறி தொகுத்தலை செயல்நீக்கு (_b)"
+
+#~ msgid "Disable _history"
+#~ msgstr "வரலாற்றை செயல்நீக்கு (_h)"
+
+#~ msgid "Disable _javascript chrome"
+#~ msgstr "ஜாவா காட்சி மொழி க்ரோம்ஐ செயல்நீக்கு (_j)"
+
+#~ msgid "Disable _toolbar editing"
+#~ msgstr "கருவிப்பட்டை தொகுத்தலை செயல்நீக்கு (_t)"
+
+#, fuzzy
+#~ msgid "Force _fullscreen mode"
+#~ msgstr "முழுத்திரை (_F)"
+
+#~ msgid "Hide _menubar"
+#~ msgstr "பட்டிப்பட்டையை மறை (_m)"
+
+#~ msgid "Disable lock _screen"
+#~ msgstr "திரை பூட்டினை செயல்நீக்கு (_s)"
+
+#, fuzzy
+#~ msgid "_Lock on activation"
+#~ msgstr "பலகைகளை பூட்டவும் (_L)"
+
+#, fuzzy
+#~ msgid "Allow log _out"
+#~ msgstr "வெளிச்செல்லுதலை செயல்நீக்கு (_o)"
+
+#~ msgid "Disable _unsafe protocols"
+#~ msgstr "பாதுகாப்பற்ற நெறிமுறைகளை செயல்நீக்கு (_u)"
+
+#, fuzzy
+#~ msgid "Disabled Applets"
+#~ msgstr "<b>குறுநிரல்களை செயல்நீக்கு</b>"
+
+#~ msgid "Lockdown Editor"
+#~ msgstr "திருத்தியை பூட்டு"
+
+#, fuzzy
+#~ msgid "Safe Protocols"
+#~ msgstr "<b>பாதுகாப்பான நெறிமுறைகள்</b>"
+
+#~ msgid "Remove personal information from documents when saving them"
+#~ msgstr "ஆவணங்களை சேமிக்கையில் அந்தரங்க தகவல்களை அவற்றிலிருந்து நீக்கு"
+
+#~ msgid "Warn if macro tries to create a PDF"
+#~ msgstr "மேக்ரோ ஏதும் பிடிஎஃப் ஐ உருவாாக்க முயன்றால் எச்சரி"
+
+#~ msgid "Warn if macro tries to print a document"
+#~ msgstr "மேக்ரோ ஏதும்  ஆவணத்தை அச்சடிக்க முயன்றால் எச்சரி"
+
+#~ msgid "Warn if macro tries to save a document"
+#~ msgstr "மேக்ரோ ஏதும்  ஆவணத்தை சேமிக்க முயன்றால் எச்சரி"
+
+#~ msgid "Warn if macro tries to sign a document"
+#~ msgstr "மேக்ரோ ஏதும்  ஆவணத்தை கையொப்பமிட முயன்றால் எச்சரி"
+
+#~ msgid "Recommend password when saving a document"
+#~ msgstr "ஆவணத்தை சேமிக்கும் போது கடவுச்சொல் பரிந்துரை செய்க"
+
+#~ msgid "Enable auto-save"
+#~ msgstr "தானியங்கி சேமித்தலை செயல்படுத்து "
+
+#~ msgid "Printing should mark the document as modified"
+#~ msgstr "ஆவணம் அச்சிடப்பட்டால் அதை மாற்றப்பட்டதாக குறிக்க வேண்டும்"
+
+#~ msgid "Use system's file dialog"
+#~ msgstr "கணினியின் கோப்பு உரையாடல் ஐ பயன்படுத்துக"
+
+#~ msgid "Create backup copy on save"
+#~ msgstr "சேமிக்கையில் பாதிகாப்பு நகல்  உருவாக்குக "
+
+#~ msgid "Warn when saving non-OpenOffice.org formats"
+#~ msgstr "ஓபன் ஆபீஸ்.ஆர்க் அல்லாத பாங்குகளை சேமிக்கும்போது எச்சரி"
+
+#~ msgid "Use OpenGL"
+#~ msgstr "ஓபன் ஜிஎல் ஐ பயன்படுத்துக"
+
+#~ msgid "Use system font"
+#~ msgstr "கணினி அமைப்பு எழுத்துருவை பயன்படித்துக"
+
+#~ msgid "Use anti-aliasing"
+#~ msgstr "ஆன்டி அலையசிங்"
+
+#~ msgid "Disable UI customization"
+#~ msgstr "யூஐ ஐ தனிப்பயன் அமைத்தலை செயல்நீக்கு "
+
+#~ msgid "Show insensitive menu items"
+#~ msgstr "பாதிக்காத பட்டியல் உருப்படிகளை காட்டு "
+
+#~ msgid "Show font preview"
+#~ msgstr "எழுத்துரு முன் பார்வையை காட்டு"
+
+#~ msgid "Show font history"
+#~ msgstr "எழுத்துரு வரலாறை  காட்டு"
+
+#~ msgid "Show icons in menus"
+#~ msgstr "பட்டியல்களில் சின்னங்களை காட்டு"
+
+#~ msgid ""
+#~ "\n"
+#~ "5\n"
+#~ "10\n"
+#~ "25\n"
+#~ "50"
+#~ msgstr ""
+#~ "\n"
+#~ "5\n"
+#~ "10\n"
+#~ "25\n"
+#~ "50"
+
+#~ msgid ""
+#~ "\n"
+#~ "Automatic\n"
+#~ "Large\n"
+#~ "Small"
+#~ msgstr ""
+#~ "\n"
+#~ "தானியங்கி\n"
+#~ "பெரியது\n"
+#~ "சிறியது"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.odp)\n"
+#~ "PowerPoint 97+ (.ppt)\n"
+#~ "OpenOffice.org 1.1 (.sxi)"
+#~ msgstr ""
+#~ "\n"
+#~ "திறந்த ஆவணம் (.odp)\n"
+#~ "பவர்பாய்ண்ட் 97+ (.ppt))\n"
+#~ "ஓபன்ஆபீஸ்.ஆர்க் 1.1 (.sxi))"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.ods)\n"
+#~ "Excel 97+ (.xls)\n"
+#~ "OpenOffice.org 1.1 (.sxc)"
+#~ msgstr ""
+#~ "\n"
+#~ "திறந்த ஆவணம் (.ods)\n"
+#~ "எக்செல் 97+ (.xls)\n"
+#~ "ஓபன்ஆபீஸ்.ஆர்க் 1.1 (.sxc)"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.odt)\n"
+#~ "Word 97+ (.doc)\n"
+#~ "OpenOffice.org 1.1 (.sxw)"
+#~ msgstr ""
+#~ "\n"
+#~ "திறந்த ஆவணம் (.odt)\n"
+#~ "வோர்ட் 97+ (.doc)\n"
+#~ "ஓபன் ஆபீஸ்.ஆர்க் 1.1 (.sxw)"
+
+#~ msgid ""
+#~ "\n"
+#~ "Very High\n"
+#~ "High\n"
+#~ "Medium\n"
+#~ "Low"
+#~ msgstr ""
+#~ "\n"
+#~ "மிக அதிகமான\n"
+#~ "அதிகமான\n"
+#~ "நடுத்தர\n"
+#~ "குறைவான"
+
+#~ msgid "Default format for presentations:"
+#~ msgstr "முன்வைப்புகளுக்கு முன்னிருப்பு அமைவுகள்:"
+
+#~ msgid "Default format for spreadsheet:"
+#~ msgstr "விரிதாளுக்கு முன்னிருப்பு அமைவுகள்:"
+
+#~ msgid "Default format for word processor:"
+#~ msgstr "சொல் செயலிகளுக்கு முன்னிருப்பு அமைவுகள்:"
+
+#~ msgid "Default icon size"
+#~ msgstr "முன்னிருப்பு சின்ன அளவு"
+
+#~ msgid "Load / Save"
+#~ msgstr "ஏற்று / சேமி"
+
+#~ msgid "Macro Security Level:"
+#~ msgstr "மேக்ரோ பாதுகாப்பு நிலை:"
+
+#~ msgid "Number of undo steps:"
+#~ msgstr "செயல் தவிர் படிகளின் எண் :"
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "ஓபன்ஆபீஸ்.ஆர்க்"
+
+#~ msgid "Security"
+#~ msgstr "பாதுகாப்பு"
+
+#~ msgid "User Interface"
+#~ msgstr "பயனர் இடைமுகம்"
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %ld second will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %ld seconds will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி %ld  நொடியில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க நேரும்."
+#~ msgstr[1] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி %ld  நொடிகளில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க நேரும்."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last minute will be permanently lost."
+#~ msgstr ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி நிமிடத்தில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க நேரும்."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last minute and %ld second will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last minute and %ld seconds will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி நிமிடம் %ld  நொடியில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க "
+#~ "நேரும். "
+#~ msgstr[1] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி நிமிடம் %ld  நொடிகளில் செய்த மாற்றங்களை நிரந்தரமாக "
+#~ "இழக்க நேரும். "
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %ld minute will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %ld minutes will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி %ld நிமிடத்தில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க "
+#~ "நேரும். "
+#~ msgstr[1] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி %ld நிமிடங்களில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க "
+#~ "நேரும். "
+
+#~ msgid ""
+#~ "If you don't save, changes from the last hour and %d minute will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last hour and %d minutes will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி மணி %d நிமிடத்தில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க "
+#~ "நேரும். "
+#~ msgstr[1] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி மணி %d நிமிடங்களில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க "
+#~ "நேரும். "
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %d hour will be permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %d hours will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி %d  மணியில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க நேரும். "
+#~ msgstr[1] ""
+#~ "நீங்கள் சேமிக்காவிட்டால் கடைசி %d மணிகளில் செய்த மாற்றங்களை நிரந்தரமாக இழக்க நேரும். "
+
+#~ msgid "Preferences menu"
+#~ msgstr "முன்னுரிமை பட்டி"
+
+#~ msgid "Applet %s added to top panel"
+#~ msgstr "மேல் பலகத்துக்கு குறு நிரல் %s  சேர்க்கப்பட்டது"
+
+#~ msgid "Applet %s added to bottom panel"
+#~ msgstr "கீழ் பலகத்துக்கு குறு நிரல் %s  சேர்க்கப்பட்டது"
+
+#~ msgid "Applet %s added to left panel"
+#~ msgstr "இடது  பலகத்துக்கு குறு நிரல் %s  சேர்க்கப்பட்டது"
+
+#~ msgid "Applet %s added to right panel"
+#~ msgstr "வலது பலகத்துக்கு குறு நிரல் %s  சேர்க்கப்பட்டது"
+
+#~ msgid "Applet %s removed from top panel"
+#~ msgstr "மேல் பலகத்தில் இருந்து குறு நிரல் %s  நீக்கப்பட்டது"
+
+#~ msgid "Applet %s removed from bottom panel"
+#~ msgstr "கீழ்  பலகத்தில் இருந்து குறு நிரல் %s  நீக்கப்பட்டது"
+
+#~ msgid "Applet %s removed from left panel"
+#~ msgstr "இடது பலகத்தில் இருந்து குறு நிரல் %s  நீக்கப்பட்டது"
+
+#~ msgid "Applet %s removed from right panel"
+#~ msgstr "வலது  பலகத்தில் இருந்து குறு நிரல் %s  நீக்கப்பட்டது"
+
+#~ msgid "%s added to top panel"
+#~ msgstr "மேல் பலகத்துக்கு %s  சேர்க்கப்பட்டது"
+
+#~ msgid "%s added to bottom panel"
+#~ msgstr "கீழ் பலகத்துக்கு %s  சேர்க்கப்பட்டது"
+
+#~ msgid "%s added to left panel"
+#~ msgstr "இடது பலகத்துக்கு %s  சேர்க்கப்பட்டது"
+
+#~ msgid "%s added to right panel"
+#~ msgstr "வலது பலகத்துக்கு %s  சேர்க்கப்பட்டது"
+
+#~ msgid "%s removed from top panel"
+#~ msgstr "மேல்  பலகத்துக்கு %s  நீக்கப்பட்டது"
+
+#~ msgid "%s removed from bottom panel"
+#~ msgstr "கீழ் பலகத்தில் இருந்து %s  நீக்கப்பட்டது"
+
+#~ msgid "%s removed from left panel"
+#~ msgstr "இடது பலகத்தில் இருந்து %s  நீக்கப்பட்டது"
+
+#~ msgid "%s removed from right panel"
+#~ msgstr "வலது பலகத்தில் இருந்து %s  நீக்கப்பட்டது"

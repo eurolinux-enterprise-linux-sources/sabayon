@@ -1,0 +1,834 @@
+# translation of eu.po to Basque
+# translation of sabayon.HEAD.po to
+# This file is distributed under the same license as the PACKAGE package.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER.
+#
+# Iñaki Larrañaga <dooteo@euskalgnu.org>, 2006.
+# Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>, 2007, 2009, 2010.
+# Iñaki Larrañaga Murgoitio <dooteo@zundan.com>, 2007.
+msgid ""
+msgstr ""
+"Project-Id-Version: eu\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-16 19:13+0100\n"
+"PO-Revision-Date: 2010-02-16 19:14+0100\n"
+"Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
+"Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: KBabel 1.11.4\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: ../admin-tool/aboutdialog.py:66
+msgid "Program to establish and edit profiles for users"
+msgstr "Erabiltzaileen profilak ezartzeko eta editatzeko aplikazioa"
+
+#: ../admin-tool/aboutdialog.py:69
+msgid "translator-credits"
+msgstr "Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>"
+
+#: ../admin-tool/changeswindow.py:50
+#, python-format
+msgid "Changes in profile %s"
+msgstr "Aldaketak %s profilan"
+
+#: ../admin-tool/changeswindow.py:113
+msgid "Ignore"
+msgstr "Ez ikusi egin"
+
+#: ../admin-tool/changeswindow.py:120
+msgid "Lock"
+msgstr "Blokeatu"
+
+#: ../admin-tool/changeswindow.py:127 ../admin-tool/editorwindow.py:263
+msgid "Description"
+msgstr "Azalpena"
+
+#: ../admin-tool/editorwindow.py:100
+#, python-format
+msgid "Profile %s"
+msgstr "%s profila"
+
+#: ../admin-tool/editorwindow.py:205 ../admin-tool/sessionwindow.py:179
+msgid "_Profile"
+msgstr "_Profila"
+
+#: ../admin-tool/editorwindow.py:206 ../admin-tool/sessionwindow.py:180
+msgid "_Save"
+msgstr "_Gorde"
+
+#: ../admin-tool/editorwindow.py:206 ../admin-tool/sessionwindow.py:180
+msgid "Save profile"
+msgstr "Gorde profila"
+
+#: ../admin-tool/editorwindow.py:207
+msgid "_Close"
+msgstr "It_xi"
+
+#: ../admin-tool/editorwindow.py:207 ../admin-tool/sessionwindow.py:181
+msgid "Close the current window"
+msgstr "Itxi uneko leihoa"
+
+#: ../admin-tool/editorwindow.py:208 ../admin-tool/sessionwindow.py:182
+msgid "_Edit"
+msgstr "_Editatu"
+
+#: ../admin-tool/editorwindow.py:209
+msgid "_Delete"
+msgstr "E_zabatu"
+
+#: ../admin-tool/editorwindow.py:209
+msgid "Delete item"
+msgstr "Ezabatu elementua"
+
+#: ../admin-tool/editorwindow.py:210 ../admin-tool/sessionwindow.py:185
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: ../admin-tool/editorwindow.py:211 ../admin-tool/sessionwindow.py:186
+msgid "_Contents"
+msgstr "_Edukia"
+
+#: ../admin-tool/editorwindow.py:211 ../admin-tool/sessionwindow.py:186
+msgid "Help Contents"
+msgstr "Laguntzaren edukia"
+
+#: ../admin-tool/editorwindow.py:212 ../admin-tool/sessionwindow.py:187
+msgid "_About"
+msgstr "Honi _buruz"
+
+#: ../admin-tool/editorwindow.py:212 ../admin-tool/sessionwindow.py:187
+msgid "About Sabayon"
+msgstr "Sabayon-i buruz"
+
+#: ../admin-tool/editorwindow.py:267
+msgid "Source"
+msgstr "Iturburua"
+
+#: ../admin-tool/editorwindow.py:300 ../lib/sources/gconfsource.py:124
+msgid "GConf"
+msgstr "GConf"
+
+#: ../admin-tool/editorwindow.py:304 ../lib/sources/filessource.py:86
+msgid "Files"
+msgstr "Fitxategiak"
+
+#: ../admin-tool/editorwindow.py:304 ../lib/sources/paneldelegate.py:279
+msgid "Panel"
+msgstr "Panela"
+
+#: ../admin-tool/fileviewer.py:27
+#, python-format
+msgid "Profile file: %s"
+msgstr "Profil-fitxategia: %s"
+
+#: ../admin-tool/gconfviewer.py:57 ../admin-tool/gconfviewer.py:76
+msgid "<no type>"
+msgstr "<motarik ez>"
+
+#: ../admin-tool/gconfviewer.py:58
+msgid "<no value>"
+msgstr "<baliorik ez>"
+
+#: ../admin-tool/gconfviewer.py:62
+msgid "string"
+msgstr "katea"
+
+#: ../admin-tool/gconfviewer.py:64
+msgid "integer"
+msgstr "osokoa"
+
+#: ../admin-tool/gconfviewer.py:66
+msgid "float"
+msgstr "mugikorra"
+
+#: ../admin-tool/gconfviewer.py:68
+msgid "boolean"
+msgstr "boolearra"
+
+#: ../admin-tool/gconfviewer.py:70
+msgid "schema"
+msgstr "eskema"
+
+#: ../admin-tool/gconfviewer.py:72
+msgid "list"
+msgstr "zerrenda"
+
+#: ../admin-tool/gconfviewer.py:74
+msgid "pair"
+msgstr "bikotea"
+
+#: ../admin-tool/gconfviewer.py:86
+#, python-format
+msgid "Profile settings: %s"
+msgstr "Profilaren ezarpenak: %s"
+
+#: ../admin-tool/gconfviewer.py:110 ../admin-tool/profilesdialog.py:423
+#: ../admin-tool/usersdialog.py:87
+msgid "Name"
+msgstr "Izena"
+
+#: ../admin-tool/gconfviewer.py:115
+msgid "Type"
+msgstr "Mota"
+
+#: ../admin-tool/gconfviewer.py:120
+msgid "Value"
+msgstr "Balioa"
+
+#: ../admin-tool/groupsdialog.py:61
+#, python-format
+msgid "Groups for profile %s"
+msgstr "%s profilaren taldeak"
+
+#: ../admin-tool/groupsdialog.py:71
+msgid "Group"
+msgstr "Taldea"
+
+#: ../admin-tool/groupsdialog.py:81 ../admin-tool/usersdialog.py:96
+msgid "Use This Profile"
+msgstr "Erabili profil hau"
+
+#.
+#. Translators: this string specifies how a profile
+#. name is concatenated with an integer
+#. to form a unique profile name e.g.
+#. "Artist Workstation (5)"
+#.
+#: ../admin-tool/profilesdialog.py:550
+#, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../admin-tool/sabayon:77
+msgid "Your account does not have permissions to run the Desktop User Profiles tool"
+msgstr ""
+"Zure kontuak ez ditu nahikoa baimen 'Mahaigaineko erabiltzaileen profilak' "
+"tresna exekutatzeko"
+
+#: ../admin-tool/sabayon:78
+msgid ""
+"Administrator level permissions are needed to run this program because it "
+"can modify system files."
+msgstr ""
+"Administratzaile mailako baimenak behar dira programa hau exekutatzeko, "
+"sistemako fitxategiak alda baititzake."
+
+#: ../admin-tool/sabayon:83
+msgid "Desktop User Profiles tool is already running"
+msgstr "'Mahaigaineko erabiltzaileen profilak' tresna jadanik exekutatzen dago"
+
+#: ../admin-tool/sabayon:84
+msgid ""
+"You may not use Desktop User Profiles tool from within a profile editing "
+"session"
+msgstr ""
+"Profilak editatzeko saiotik ez zenuke erabili behar 'Mahaigaineko "
+"erabiltzaileen profilak' tresna"
+
+#: ../admin-tool/sabayon:91
+#, c-format
+msgid "User account '%s' was not found"
+msgstr "'%s' erabiltzaile-kontua ez da aurkitu"
+
+#: ../admin-tool/sabayon:92
+#, c-format
+msgid ""
+"Sabayon requires a special user account '%s' to be present on this computer. "
+"Try again after creating the account (using, for example, the 'adduser' "
+"command)"
+msgstr ""
+"Sabayon tresnak '%s' erabiltzaile-kontu berezia ordenagailuan egotea "
+"eskatzen du. Saiatu berriro kontua sortu ondoren (erabili 'adduser' bezalako "
+"komando bat)"
+
+#: ../admin-tool/sabayon:131
+#, c-format
+msgid ""
+"A fatal error has occurred.  You can help us fix the problem by sending the "
+"log in %s to %s"
+msgstr ""
+"Errore larria gertatu da. Arazoa konpontzen lagun gaitzakezu %s(r)"
+"enegunkaria hona bidaliz: %s"
+
+#: ../admin-tool/sabayon:145
+#, c-format
+msgid ""
+"Sabayon will now exit.  There were some recoverable errors, and you can help "
+"us debug the problem by sending the log in %s to %s"
+msgstr ""
+"Sabayon irten egingo da. Zenbait errore berreskuragarri daude, eta arazoa "
+"arazten lagun gaitzakezu %s(r)en egunkaria hona bidaliz: %s"
+
+#: ../admin-tool/sabayon-apply:125
+msgid "Please use -h for usage options"
+msgstr "Erabili '-h' aukera erabilgarriak ikusteko"
+
+#: ../admin-tool/sabayon-apply:137
+#, c-format
+msgid "No profile for user '%s' found\n"
+msgstr "Ez da '%s' erabiltzailearen profilik aurkitu\n"
+
+#: ../admin-tool/sabayon-session:67
+#, c-format
+msgid "Usage: %s <profile-name> <profile-path> <display-number>\n"
+msgstr "Erabilera: %s <profil-izena> <profil-bidea> <pantaila-zenbakia>\n"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:1
+msgid "Establish and Edit Profiles for Users"
+msgstr "Ezarri eta editatu erabiltzaileen profilak"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:2 ../admin-tool/sabayon.ui.h:4
+msgid "User Profile Editor"
+msgstr "Erabiltzaile-profilen editorea"
+
+#: ../admin-tool/sabayon.ui.h:1
+msgid "Add Profile"
+msgstr "Gehitu profila"
+
+#: ../admin-tool/sabayon.ui.h:2
+msgid "Profile _name:"
+msgstr "Profil-i_zena:"
+
+#: ../admin-tool/sabayon.ui.h:3
+msgid "Use this profile for _all users"
+msgstr "Erabili profil hau erabiltzaile g_uztietan"
+
+#: ../admin-tool/sabayon.ui.h:5
+msgid "_Base on:"
+msgstr "_Oinarria:"
+
+#: ../admin-tool/sabayon.ui.h:6
+msgid "_Details"
+msgstr "_Xehetasunak"
+
+#: ../admin-tool/sabayon.ui.h:7
+msgid "_Groups"
+msgstr "_Taldeak"
+
+#: ../admin-tool/sabayon.ui.h:8
+msgid "_Groups:"
+msgstr "_Taldeak:"
+
+#: ../admin-tool/sabayon.ui.h:9
+msgid "_Profiles:"
+msgstr "_Profilak:"
+
+#: ../admin-tool/sabayon.ui.h:10
+msgid "_Users"
+msgstr "_Erabiltzaileak"
+
+#: ../admin-tool/sabayon.ui.h:11
+msgid "_Users:"
+msgstr "_Erabiltzaileak:"
+
+#: ../admin-tool/saveconfirm.py:34
+msgid "Close _Without Saving"
+msgstr "Itxi gorde g_abe"
+
+#: ../admin-tool/saveconfirm.py:41
+#, python-format
+msgid "Save changes to profile \"%s\" before closing?"
+msgstr "Gorde aldaketak \"%s\" profilan itxi aurretik?"
+
+#: ../admin-tool/saveconfirm.py:44
+msgid "If you don't save, all changes will be permanently lost."
+msgstr "Ez baduzu gordetzen, aldaketak guztiak betirako galduko dira."
+
+#: ../admin-tool/sessionwindow.py:157
+#, python-format
+msgid "Editing profile %s"
+msgstr "%s profila editatzen"
+
+#: ../admin-tool/sessionwindow.py:181
+msgid "_Quit"
+msgstr "I_rten"
+
+#: ../admin-tool/sessionwindow.py:183
+msgid "_Changes"
+msgstr "_Aldaketak"
+
+#: ../admin-tool/sessionwindow.py:183
+msgid "Edit changes"
+msgstr "Editatu aldaketak"
+
+#: ../admin-tool/sessionwindow.py:184
+msgid "_Lockdown"
+msgstr "_Blokeatu"
+
+#: ../admin-tool/sessionwindow.py:184
+msgid "Edit Lockdown settings"
+msgstr "Editatu blokeatutako ezarpenak"
+
+#: ../admin-tool/sessionwindow.py:190
+msgid "Enforce Mandatory"
+msgstr "Derrigortu beharrezkoak"
+
+#: ../admin-tool/sessionwindow.py:190
+msgid "Enforce mandatory settings in the editing session"
+msgstr "Derrigortu beharrezko ezarpenak edizioko saioan"
+
+#: ../admin-tool/sessionwindow.py:308
+#, python-format
+msgid "Lockdown settings for %s"
+msgstr "Blokeatu %s(r)en ezarpenak"
+
+#: ../admin-tool/sessionwindow.py:344
+#, python-format
+msgid ""
+"There was a recoverable error while applying the user profile '%s'.  You can "
+"report this error now or try to continue editing the user profile."
+msgstr ""
+"Errore berreskuragarria gertatu da '%s' erabiltzailearen profila "
+"aplikatzean. Errore honi buruz berri eman dezakezu orain, edo "
+"erabiltzailearen profila editatzen jarrai dezakezu."
+
+#: ../admin-tool/sessionwindow.py:348
+msgid "_Report this error"
+msgstr "_Eman errorearen berri"
+
+#: ../admin-tool/sessionwindow.py:349
+msgid "_Continue editing"
+msgstr "_Jarraitu editatzen"
+
+#: ../admin-tool/usersdialog.py:72
+#, python-format
+msgid "Users for profile %s"
+msgstr "%s profilaren erabiltzaileak"
+
+#: ../lib/protosession.py:112
+msgid "Unable to find a free X display"
+msgstr "Ezin da X pantaila librerik aurkitu"
+
+#: ../lib/protosession.py:376
+msgid "Failed to start Xephyr: timed out waiting for USR1 signal"
+msgstr "Huts egin du Xephyr abiaraztean: denbora gainditu du USR1 seinalearen zai"
+
+#: ../lib/protosession.py:378
+msgid "Failed to start Xephyr: died during startup"
+msgstr "Huts egin du Xephyr abiaraztean: abioan hil egin da"
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (RECOVERABLE) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (RECOVERABLE) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:469
+#, python-format
+msgid "There was a recoverable error while applying the user profile from file '%s'."
+msgstr ""
+"Errore berreskuragarria gertatu da erabiltzailearen profila '%s' "
+"fitxategitik aplikatzean."
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (FATAL) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (FATAL) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:478
+#, python-format
+msgid "There was a fatal error while applying the user profile from '%s'."
+msgstr "Errore larria gertatu da erabiltzailearen profila '%s'(e)ndik aplikatzean."
+
+#: ../lib/sources/filessource.py:69
+msgid "Directory"
+msgstr "Direktorioa"
+
+#: ../lib/sources/filessource.py:71
+msgid "Link"
+msgstr "Esteka"
+
+#: ../lib/sources/filessource.py:73
+msgid "File"
+msgstr "Fitxategia"
+
+#: ../lib/sources/filessource.py:75
+#, python-format
+msgid "%s '%s' created"
+msgstr "%s '%s' sortu da"
+
+#: ../lib/sources/filessource.py:77
+#, python-format
+msgid "%s '%s' deleted"
+msgstr "%s '%s' ezabatu da"
+
+#: ../lib/sources/filessource.py:79
+#, python-format
+msgid "%s '%s' changed"
+msgstr "%s '%s' aldatu da"
+
+#: ../lib/sources/filessource.py:105
+msgid "Applications menu"
+msgstr "Aplikazioen menua"
+
+#: ../lib/sources/filessource.py:107
+msgid "Settings menu"
+msgstr "Ezarpenen menua"
+
+#: ../lib/sources/filessource.py:109
+msgid "Server Settings menu"
+msgstr "Zerbitzariaren ezarpenen menua"
+
+#: ../lib/sources/filessource.py:111
+msgid "System Settings menu"
+msgstr "Sistemako ezarpenen menua"
+
+#: ../lib/sources/filessource.py:113
+msgid "Start Here menu"
+msgstr "'Hasi hemen' menua"
+
+#: ../lib/sources/gconfsource.py:90
+#, python-format
+msgid "GConf key '%s' unset"
+msgstr "GConf-eko '%s' gakoa ezarri gabe"
+
+#: ../lib/sources/gconfsource.py:92
+#, python-format
+msgid "GConf key '%s' set to string '%s'"
+msgstr "GConf-eko '%s' gakoa '%s' katearekin ezarrita"
+
+#: ../lib/sources/gconfsource.py:94
+#, python-format
+msgid "GConf key '%s' set to integer '%s'"
+msgstr "GConf-eko '%s' gakoa '%s' osokoarekin ezarrita"
+
+#: ../lib/sources/gconfsource.py:96
+#, python-format
+msgid "GConf key '%s' set to float '%s'"
+msgstr "GConf-eko '%s' gakoa '%s' mugikorrarekin ezarrita"
+
+#: ../lib/sources/gconfsource.py:98
+#, python-format
+msgid "GConf key '%s' set to boolean '%s'"
+msgstr "GConf-eko '%s' gakoa '%s' boolearrarekin ezarrita"
+
+#: ../lib/sources/gconfsource.py:100
+#, python-format
+msgid "GConf key '%s' set to schema '%s'"
+msgstr "GConf-eko '%s' gakoa '%s' eskemarekin ezarrita"
+
+#: ../lib/sources/gconfsource.py:102
+#, python-format
+msgid "GConf key '%s' set to list '%s'"
+msgstr "GConf-eko '%s' gakoa '%s' zerrendarekin ezarrita"
+
+#: ../lib/sources/gconfsource.py:104
+#, python-format
+msgid "GConf key '%s' set to pair '%s'"
+msgstr "GConf-eko '%s' gakoa '%s' bikotearekin ezarrita"
+
+#: ../lib/sources/gconfsource.py:106
+#, python-format
+msgid "GConf key '%s' set to '%s'"
+msgstr "GConf-eko '%s' gakoa '%s'(r)ekin ezarrita"
+
+#: ../lib/sources/gconfsource.py:138
+msgid "Default GConf settings"
+msgstr "GConf-eko ezarpen lehenetsiak"
+
+#: ../lib/sources/gconfsource.py:140
+msgid "Mandatory GConf settings"
+msgstr "Beharrezko GConf-eko ezarpenak"
+
+#: ../lib/sources/mozillasource.py:133
+#, python-format
+msgid "Mozilla key '%s' set to '%s'"
+msgstr "Mozilla-ren '%s' gakoa '%s'(r)ekin ezarrita"
+
+#: ../lib/sources/mozillasource.py:135
+#, python-format
+msgid "Mozilla key '%s' unset"
+msgstr "Mozilla-ren '%s' gakoa ezarri gabe"
+
+#: ../lib/sources/mozillasource.py:137
+#, python-format
+msgid "Mozilla key '%s' changed to '%s'"
+msgstr "Mozilla-ren '%s' gakoa '%s'(r)ekin aldatua"
+
+#: ../lib/sources/mozillasource.py:167 ../lib/sources/mozillasource.py:177
+msgid "Web browser preferences"
+msgstr "Web arakatzailearen hobespenak"
+
+#: ../lib/sources/mozillasource.py:169 ../lib/sources/mozillasource.py:179
+msgid "Web browser bookmarks"
+msgstr "Web arakatzailearen laster-markak"
+
+#: ../lib/sources/mozillasource.py:171
+msgid "Web browser profile list"
+msgstr "Web arakatzailearen profil-zerrenda"
+
+#: ../lib/sources/mozillasource.py:521
+#, python-format
+msgid "File Not Found (%s)"
+msgstr "Ez da fitxategia aurkitu (%s)"
+
+#: ../lib/sources/mozillasource.py:870
+#, python-format
+msgid "duplicate name(%(name)s) in section %(section)s"
+msgstr "bikoiztutako izena (%(name)s) %(section)s atalean"
+
+#: ../lib/sources/mozillasource.py:879
+#, python-format
+msgid "redundant default in section %s"
+msgstr "lehenespen erredundantea %s atalean"
+
+#: ../lib/sources/mozillasource.py:896
+msgid "no default profile"
+msgstr "ez dago profil lehenetsirik"
+
+#: ../lib/sources/mozillasource.py:951
+#, python-format
+msgid "Mozilla bookmark created '%s' -> '%s'"
+msgstr "Mozilla-ren laster-marka sortu da: '%s' -> '%s'"
+
+#: ../lib/sources/mozillasource.py:953
+#, python-format
+msgid "Mozilla bookmark folder created '%s'"
+msgstr "Mozilla-ren laster-marken karpeta sortu da: '%s'"
+
+#: ../lib/sources/mozillasource.py:956
+#, python-format
+msgid "Mozilla bookmark deleted '%s'"
+msgstr "Mozilla-ren laster-marka ezabatu da: '%s'"
+
+#: ../lib/sources/mozillasource.py:958
+#, python-format
+msgid "Mozilla bookmark folder deleted '%s'"
+msgstr "Mozilla-ren laster-marken karpeta ezabatu da: '%s'"
+
+#: ../lib/sources/mozillasource.py:961
+#, python-format
+msgid "Mozilla bookmark changed '%s' '%s'"
+msgstr "Mozilla-ren '%s' laster-marka aldatu da: '%s'"
+
+#: ../lib/sources/mozillasource.py:963
+#, python-format
+msgid "Mozilla bookmark folder changed '%s'"
+msgstr "Mozilla-ren laster-marken karpeta aldatu da: '%s'"
+
+#: ../lib/sources/paneldelegate.py:65
+#, python-format
+msgid "Panel '%s' added"
+msgstr "'%s' panela gehitu da"
+
+#: ../lib/sources/paneldelegate.py:71
+#, python-format
+msgid "Panel '%s' removed"
+msgstr "'%s' panela kendu da"
+
+#: ../lib/sources/paneldelegate.py:77
+#, python-format
+msgid "Applet '%s' added"
+msgstr "'%s' miniaplikazioa gehitu da"
+
+#: ../lib/sources/paneldelegate.py:100
+#, python-format
+msgid "Applet '%s' removed"
+msgstr "'%s' miniaplikazioa kendu da"
+
+#: ../lib/sources/paneldelegate.py:123
+#, python-format
+msgid "Object '%s' added"
+msgstr "'%s' objektua gehitu da"
+
+#: ../lib/sources/paneldelegate.py:152
+#, python-format
+msgid "Object '%s' removed"
+msgstr "'%s' objektua kendu da"
+
+#. Translators: This is a drawer in gnome-panel (where you can put applets)
+#: ../lib/sources/paneldelegate.py:241
+msgid "Drawer"
+msgstr "Marrazkigilea"
+
+#: ../lib/sources/paneldelegate.py:243
+msgid "Main Menu"
+msgstr "Menu nagusia"
+
+#: ../lib/sources/paneldelegate.py:253
+#, python-format
+msgid "%s launcher"
+msgstr "%s abiarazlea"
+
+#: ../lib/sources/paneldelegate.py:257
+msgid "Lock Screen button"
+msgstr "'Blokeatu pantaila' botoia"
+
+#: ../lib/sources/paneldelegate.py:259
+msgid "Logout button"
+msgstr "'Saio-amaiera' botoia"
+
+#: ../lib/sources/paneldelegate.py:261
+msgid "Run Application button"
+msgstr "'Exekutatu aplikazioa' botoia"
+
+#: ../lib/sources/paneldelegate.py:263
+msgid "Search button"
+msgstr "'Bilatu' botoia"
+
+#: ../lib/sources/paneldelegate.py:265
+msgid "Force Quit button"
+msgstr "'Derrigortu irtetzea' botoia"
+
+#: ../lib/sources/paneldelegate.py:267
+msgid "Connect to Server button"
+msgstr "'Konektatu zerbitzariarekin' botoia"
+
+#: ../lib/sources/paneldelegate.py:269
+msgid "Shutdown button"
+msgstr "'Itzali' botoia"
+
+#: ../lib/sources/paneldelegate.py:271
+msgid "Screenshot button"
+msgstr "'Pantaila-argazkia' botoia"
+
+#: ../lib/sources/paneldelegate.py:274
+msgid "Unknown"
+msgstr "Ezezaguna"
+
+#: ../lib/sources/paneldelegate.py:276
+msgid "Menu Bar"
+msgstr "Menu-barra"
+
+#: ../lib/sources/paneldelegate.py:513
+msgid "Panel File"
+msgstr "Panelaren fitxategia"
+
+#: ../lib/storage.py:173
+#, python-format
+msgid "Failed to read file '%s': %s"
+msgstr "Huts egin du '%s' fitxategia irakurtzean: %s"
+
+#: ../lib/storage.py:183
+#, python-format
+msgid "Failed to read metadata from '%s': %s"
+msgstr "Huts egin du '%s'(e)ko meta-datuak irakurtzean: %s"
+
+#: ../lib/storage.py:189
+#, python-format
+msgid "Invalid metadata section in '%s': %s"
+msgstr "'%s'(e)n metadatuen baliogabeko atala: %s"
+
+#. change the raise to a dprint, since some files seem to disappear.
+#. raise ProfileStorageException (_("Cannot add non-existent file '%s'") % src_path)
+#: ../lib/storage.py:383
+#, python-format
+msgid "Cannot add non-existent file '%s'"
+msgstr "Ezin da existitzen ez den '%s' fitxategia gehitu"
+
+#: ../lib/storage.py:527
+#, python-format
+msgid "Couldn't rmdir '%s'"
+msgstr "Ezin izan da '%s' ezabatu (rmdir)"
+
+#: ../lib/storage.py:532
+#, python-format
+msgid "Couldn't unlink file '%s'"
+msgstr "Ezin izan da '%s' fitxategia desestekatu"
+
+#: ../lib/storage.py:622
+#, python-format
+msgid "Profile is read-only %s"
+msgstr "'%s' profilea irakurtzeko soilik da"
+
+#. Translators: You may move the "%(setting)s" and "%(np)s" items as you wish, but
+#. do not change the way they are written.  The intended string is
+#. something like "invalid type for setting blah in /ldap/path/to/blah"
+#: ../lib/systemdb.py:77
+#, python-format
+msgid "invalid type for setting %(setting)s in %(np)s"
+msgstr "%(setting)s ezarpenaren mota baliogabea %(np)s"
+
+#: ../lib/systemdb.py:122
+msgid "No database file provided"
+msgstr "Ez da datu-basearen fitxategirik eman"
+
+#: ../lib/systemdb.py:253
+#, python-format
+msgid "No LDAP search base specified for %s"
+msgstr "Ez da %s(r)en LDAPen bilaketa-oinarririk zehaztu"
+
+#: ../lib/systemdb.py:256
+#, python-format
+msgid "No LDAP query filter specified for %s"
+msgstr "Ez da %s(r)en LDAPen kontsulta-iragazkirik zehaztu"
+
+#: ../lib/systemdb.py:259
+#, python-format
+msgid "No LDAP result attribute specified for %s"
+msgstr "Ez da '%s'(r)en LDAPen emaitz-atributurik zehaztu"
+
+#: ../lib/systemdb.py:268
+msgid "LDAP Scope must be one of: "
+msgstr "LDAPen esparruak hauetariko bat izan behar du: "
+
+#: ../lib/systemdb.py:288
+msgid "multiple_result must be one of: "
+msgstr "multiple_result hauetariko bat izan behar du: "
+
+#: ../lib/systemdb.py:381
+#, python-format
+msgid "Could not open %s for writing"
+msgstr "Ezin izan da %s idazteko ireki"
+
+#: ../lib/systemdb.py:394
+#, python-format
+msgid "Failed to save UserDatabase to %s"
+msgstr "Huts eign du UserDatabase %s(e)n gordetzean"
+
+#: ../lib/systemdb.py:423 ../lib/systemdb.py:457
+#, python-format
+msgid "File %s is not a profile configuration"
+msgstr "%s fitxategia ez da profil-konfiguraziokoa"
+
+#: ../lib/systemdb.py:430
+#, python-format
+msgid "Failed to add default profile %s to configuration"
+msgstr "Huts egin du %s profil lehenetsia konfigurazioari gehitzean"
+
+#: ../lib/systemdb.py:464
+#, python-format
+msgid "Failed to add user %s to profile configuration"
+msgstr "Huts egin du %s erabiltzailea profilaren konfigurazioari gehitzean"
+
+#: ../lib/systemdb.py:536
+msgid "Failed to get the user list"
+msgstr "Huts egin du erabiltzaileen zerrenda lortzean"
+
+#: ../lib/systemdb.py:586
+msgid "Failed to get the group list"
+msgstr "Huts egin du taldeen zerrenda lortzean"
+
+#: ../lib/unittests.py:38 ../lib/unittests.py:39
+msgid "Ignore WARNINGs"
+msgstr "Ez ikusi egin ABISUEI"
+
+#: ../lib/unittests.py:61
+#, python-format
+msgid "Running %s tests"
+msgstr "%s probak exekutatzen"
+
+#: ../lib/unittests.py:63
+#, python-format
+msgid "Running %s tests (%s)"
+msgstr "%s probak exekutatzen (%s)"
+
+#: ../lib/unittests.py:70
+msgid "Success!"
+msgstr "Ondo egin da!"
+
+#: ../lib/util.py:94
+msgid ""
+"Cannot find home directory: not set in /etc/passwd and no value for $HOME in "
+"environment"
+msgstr ""
+"Ezin izan da etxeko direktorioa aurkitu: ez dago /etc/passwd fitxategian "
+"ezarrita, ezta ere inguruneko $HOME aldagaian"
+
+#: ../lib/util.py:110 ../lib/util.py:137
+msgid ""
+"Cannot find username: not set in /etc/passwd and no value for $USER in "
+"environment"
+msgstr ""
+"Ezin da erabiltzaile-izena aurkitu: ez dago /etc/passwd fitxategian ezarrita "
+"eta ez dago baliorik inguruneko $USER aldagaian"
+

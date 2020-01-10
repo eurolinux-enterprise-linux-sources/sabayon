@@ -1,0 +1,1270 @@
+# Catalan translations for sabayon package
+# Traduccions al català del paquet «sabayon».
+# Copyright © 2005, 2006, 2007 The Free Software Foundation, Inc.
+# This file is distributed under the same license as the sabayon package.
+# Josep Puigdemont <josep.puigdemont@gmail.com>, 2005, 2006, 2007.
+# Gil Forcada <gilforcada@guifi.net>, 2009.
+#
+# Carles Ferrando Garcia <carles.ferrando@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: sabayon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-21 21:44-0600\n"
+"PO-Revision-Date: 2009-10-04 09:23+0200\n"
+"Last-Translator: Carles Ferrando Garcia <carles.ferrando@gmail.com>\n"
+"Language-Team: Catalan (Valencià) <tradgnome@softcatala.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+
+#: ../admin-tool/aboutdialog.py:66
+msgid "Program to establish and edit profiles for users"
+msgstr "Un programa per a establir i editar perfils per a usuaris"
+
+#: ../admin-tool/aboutdialog.py:69
+msgid "translator-credits"
+msgstr "Josep Puigdemont <josep.puigdemont@gmail.com>"
+
+#: ../admin-tool/changeswindow.py:50
+#, python-format
+msgid "Changes in profile %s"
+msgstr "Canvis al perfil %s"
+
+#: ../admin-tool/changeswindow.py:113
+msgid "Ignore"
+msgstr "Ignora"
+
+#: ../admin-tool/changeswindow.py:120
+msgid "Lock"
+msgstr "Bloca"
+
+#: ../admin-tool/changeswindow.py:127 ../admin-tool/editorwindow.py:238
+msgid "Description"
+msgstr "Descripció"
+
+#: ../admin-tool/editorwindow.py:97
+#, python-format
+msgid "Profile %s"
+msgstr "Perfil %s"
+
+#: ../admin-tool/editorwindow.py:202 ../admin-tool/sessionwindow.py:177
+msgid "_Profile"
+msgstr "_Perfil"
+
+#: ../admin-tool/editorwindow.py:203 ../admin-tool/sessionwindow.py:178
+msgid "_Save"
+msgstr "Al_ça"
+
+#: ../admin-tool/editorwindow.py:203 ../admin-tool/sessionwindow.py:178
+msgid "Save profile"
+msgstr "Alça el perfil"
+
+#: ../admin-tool/editorwindow.py:204
+msgid "_Close"
+msgstr "Tan_ca"
+
+#: ../admin-tool/editorwindow.py:204 ../admin-tool/sessionwindow.py:179
+msgid "Close the current window"
+msgstr "Tanca la finestra actual"
+
+#: ../admin-tool/editorwindow.py:205 ../admin-tool/sessionwindow.py:180
+msgid "_Edit"
+msgstr "_Edita"
+
+#: ../admin-tool/editorwindow.py:206
+msgid "_Delete"
+msgstr "_Suprimeix"
+
+#: ../admin-tool/editorwindow.py:206
+msgid "Delete item"
+msgstr "Suprimeix l'element"
+
+#: ../admin-tool/editorwindow.py:207 ../admin-tool/sessionwindow.py:183
+msgid "_Help"
+msgstr "A_juda"
+
+#: ../admin-tool/editorwindow.py:208 ../admin-tool/sessionwindow.py:184
+msgid "_Contents"
+msgstr ""
+
+#: ../admin-tool/editorwindow.py:208 ../admin-tool/sessionwindow.py:184
+msgid "Help Contents"
+msgstr ""
+
+#: ../admin-tool/editorwindow.py:209 ../admin-tool/sessionwindow.py:185
+msgid "_About"
+msgstr "_Quant a"
+
+#: ../admin-tool/editorwindow.py:209 ../admin-tool/sessionwindow.py:185
+msgid "About Sabayon"
+msgstr "Quant al Sabayon"
+
+#: ../admin-tool/editorwindow.py:270 ../lib/sources/gconfsource.py:124
+msgid "GConf"
+msgstr "GConf"
+
+#: ../admin-tool/editorwindow.py:274 ../lib/sources/filessource.py:79
+msgid "Files"
+msgstr "Fitxers"
+
+#: ../admin-tool/editorwindow.py:274 ../lib/sources/paneldelegate.py:278
+msgid "Panel"
+msgstr "Quadre"
+
+#: ../admin-tool/fileviewer.py:27
+#, python-format
+msgid "Profile file: %s"
+msgstr "Fitxer del perfil: %s"
+
+#: ../admin-tool/gconfviewer.py:57 ../admin-tool/gconfviewer.py:76
+msgid "<no type>"
+msgstr "<sense tipus>"
+
+#: ../admin-tool/gconfviewer.py:58
+msgid "<no value>"
+msgstr "<sense valor>"
+
+#: ../admin-tool/gconfviewer.py:62
+msgid "string"
+msgstr "cadena"
+
+#: ../admin-tool/gconfviewer.py:64
+msgid "integer"
+msgstr "enter"
+
+#: ../admin-tool/gconfviewer.py:66
+msgid "float"
+msgstr "coma flotant"
+
+#: ../admin-tool/gconfviewer.py:68
+msgid "boolean"
+msgstr "booleà"
+
+#: ../admin-tool/gconfviewer.py:70
+msgid "schema"
+msgstr "esquema"
+
+#: ../admin-tool/gconfviewer.py:72
+msgid "list"
+msgstr "llista"
+
+#: ../admin-tool/gconfviewer.py:74
+msgid "pair"
+msgstr "parella"
+
+#: ../admin-tool/gconfviewer.py:86
+#, python-format
+msgid "Profile settings: %s"
+msgstr "Paràmetres del perfil: %s"
+
+#: ../admin-tool/gconfviewer.py:110 ../admin-tool/profilesdialog.py:404
+#: ../admin-tool/usersdialog.py:87
+msgid "Name"
+msgstr "Nom"
+
+#: ../admin-tool/gconfviewer.py:115
+msgid "Type"
+msgstr "Tipus"
+
+#: ../admin-tool/gconfviewer.py:120
+msgid "Value"
+msgstr "Valor"
+
+#: ../admin-tool/groupsdialog.py:61
+#, fuzzy, python-format
+msgid "Groups for profile %s"
+msgstr "Usuaris del perfil %s"
+
+#: ../admin-tool/groupsdialog.py:71
+msgid "Group"
+msgstr ""
+
+#: ../admin-tool/groupsdialog.py:81 ../admin-tool/usersdialog.py:96
+msgid "Use This Profile"
+msgstr "Utilitza este perfil"
+
+#.
+#. Translators: this string specifies how a profile
+#. name is concatenated with an integer
+#. to form a unique profile name e.g.
+#. "Artist Workstation (5)"
+#.
+#: ../admin-tool/profilesdialog.py:520
+#, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../admin-tool/sabayon:77
+msgid ""
+"Your account does not have permissions to run the Desktop User Profiles tool"
+msgstr ""
+"El vostre compte no té permís per executar l'eina de perfils d'usuari "
+"d'escriptori"
+
+#: ../admin-tool/sabayon:78
+msgid ""
+"Administrator level permissions are needed to run this program because it "
+"can modify system files."
+msgstr ""
+"Es requereix permís d'administrador per a poder executar este programa, ja "
+"que modifica fitxers del sistema."
+
+#: ../admin-tool/sabayon:83
+msgid "Desktop User Profiles tool is already running"
+msgstr "Ja s'està executant l'eina de perfils d'usuari d'escriptori"
+
+#: ../admin-tool/sabayon:84
+msgid ""
+"You may not use Desktop User Profiles tool from within a profile editing "
+"session"
+msgstr ""
+"No podeu fer servir l'eina de perfils d'usuari d'escriptori dins d'una "
+"sessió on s'editen els perfils"
+
+#: ../admin-tool/sabayon:91
+#, c-format
+msgid "User account '%s' was not found"
+msgstr "No s'ha trobat el compte d'usuari «%s»"
+
+#: ../admin-tool/sabayon:92
+#, c-format
+msgid ""
+"Sabayon requires a special user account '%s' to be present on this computer. "
+"Try again after creating the account (using, for example, the 'adduser' "
+"command)"
+msgstr ""
+"El Sabayon requereix que hi haja un compte especial «%s» en este ordinador. "
+"Torneu-ho a intentar quan hàgeu creat el compte (utilitzant, per exemple, "
+"l'orde «adduser»)"
+
+#: ../admin-tool/sabayon:131
+#, c-format
+msgid ""
+"A fatal error has occurred.  You can help us fix the problem by sending the "
+"log in %s to %s"
+msgstr ""
+"S'ha produït un error fatal. Podeu ajudar-nos a resoldre este problema si "
+"envieu el registre %s a %s"
+
+#: ../admin-tool/sabayon:145
+#, c-format
+msgid ""
+"Sabayon will now exit.  There were some recoverable errors, and you can help "
+"us debug the problem by sending the log in %s to %s"
+msgstr ""
+"El Sabayon ara eixirà. S'han produït alguns errors recuperables, podeu "
+"ajudar-nos a depurar el problema tot enviant el registre %s a %s"
+
+#: ../admin-tool/sabayon-apply:111
+msgid "Please use -h for usage options"
+msgstr "Feu servir -h per a les opcions d'ús"
+
+#: ../admin-tool/sabayon-apply:123
+#, c-format
+msgid "No profile for user '%s' found\n"
+msgstr "No s'ha trobat el perfil de l'usuari «%s»\n"
+
+#: ../admin-tool/sabayon-session:67
+#, c-format
+msgid "Usage: %s <profile-name> <profile-path> <display-number>\n"
+msgstr ""
+"Forma d'ús: %s <nom-del-perfil> <camí-del-perfil> <número-de-pantalla>\n"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:1
+msgid "Establish and Edit Profiles for Users"
+msgstr "Estableix i edita perfils per a usuaris"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:2 ../admin-tool/sabayon.ui.h:4
+msgid "User Profile Editor"
+msgstr "Editor de perfils d'usuari"
+
+#: ../admin-tool/sabayon.ui.h:1
+msgid "Add Profile"
+msgstr "Afig un perfil"
+
+#: ../admin-tool/sabayon.ui.h:2
+msgid "Profile _name:"
+msgstr "_Nom del perfil:"
+
+#: ../admin-tool/sabayon.ui.h:3
+msgid "Use this profile for _all users"
+msgstr "Utilitza este perfil per a tots els usu_aris"
+
+#: ../admin-tool/sabayon.ui.h:5
+msgid "_Base on:"
+msgstr "_Basat en:"
+
+#: ../admin-tool/sabayon.ui.h:6
+msgid "_Details"
+msgstr "_Detalls"
+
+#: ../admin-tool/sabayon.ui.h:7
+msgid "_Groups"
+msgstr ""
+
+#: ../admin-tool/sabayon.ui.h:8
+msgid "_Groups:"
+msgstr ""
+
+#: ../admin-tool/sabayon.ui.h:9
+msgid "_Profiles:"
+msgstr "_Perfils:"
+
+#: ../admin-tool/sabayon.ui.h:10
+msgid "_Users"
+msgstr "_Usuaris"
+
+#: ../admin-tool/sabayon.ui.h:11
+msgid "_Users:"
+msgstr "_Usuaris:"
+
+#: ../admin-tool/saveconfirm.py:34
+msgid "Close _Without Saving"
+msgstr "_Tanca sense alçar"
+
+#: ../admin-tool/saveconfirm.py:41
+#, python-format
+msgid "Save changes to profile \"%s\" before closing?"
+msgstr "Voleu alçar els canvis del perfil «%s» abans de tancar?"
+
+#: ../admin-tool/saveconfirm.py:44
+#, fuzzy
+msgid "If you don't save, all changes will be permanently lost."
+msgstr "Si no alceu, els canvis fets la darrera hora es perdran per sempre."
+
+#: ../admin-tool/sessionwindow.py:155
+#, python-format
+msgid "Editing profile %s"
+msgstr "S'està editat el perfil %s"
+
+#: ../admin-tool/sessionwindow.py:179
+msgid "_Quit"
+msgstr "I_x"
+
+#: ../admin-tool/sessionwindow.py:181
+msgid "_Changes"
+msgstr "_Canvis"
+
+#: ../admin-tool/sessionwindow.py:181
+msgid "Edit changes"
+msgstr "Edita els canvis"
+
+#: ../admin-tool/sessionwindow.py:182
+msgid "_Lockdown"
+msgstr "_Restringeix"
+
+#: ../admin-tool/sessionwindow.py:182
+msgid "Edit Lockdown settings"
+msgstr "Edita els paràmetres de les restriccions"
+
+#: ../admin-tool/sessionwindow.py:188
+msgid "Enforce Mandatory"
+msgstr "Fes complir allò obligatori"
+
+#: ../admin-tool/sessionwindow.py:188
+msgid "Enforce mandatory settings in the editing session"
+msgstr "Fes complir els paràmetres obligatoris en la sessió d'edició"
+
+#: ../admin-tool/sessionwindow.py:306
+#, python-format
+msgid "Lockdown settings for %s"
+msgstr "Paràmetres de restriccions per a %s"
+
+#: ../admin-tool/sessionwindow.py:342
+#, python-format
+msgid ""
+"There was a recoverable error while applying the user profile '%s'.  You can "
+"report this error now or try to continue editing the user profile."
+msgstr ""
+"S'ha produït un error recuperable en aplicar el perfil d'usuari «%s». Podeu "
+"informar d'este error ara, o bé continuar amb l'edició del perfil."
+
+#: ../admin-tool/sessionwindow.py:346
+msgid "_Report this error"
+msgstr "_Informa d'este error"
+
+#: ../admin-tool/sessionwindow.py:347
+msgid "_Continue editing"
+msgstr "_Continua l'edició"
+
+#: ../admin-tool/usersdialog.py:72
+#, python-format
+msgid "Users for profile %s"
+msgstr "Usuaris del perfil %s"
+
+#: ../lib/protosession.py:112
+msgid "Unable to find a free X display"
+msgstr "No s'ha pogut trobar cap pantalla X lliure"
+
+#: ../lib/protosession.py:376
+msgid "Failed to start Xephyr: timed out waiting for USR1 signal"
+msgstr ""
+"No s'ha pogut iniciar el Xephyr: ha expirat el temps d'espera del senyal USR1"
+
+#: ../lib/protosession.py:378
+msgid "Failed to start Xephyr: died during startup"
+msgstr "No s'ha pogut iniciar el Xephyr: ha mort durant la inicialització"
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (RECOVERABLE) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (RECOVERABLE) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:469
+#, python-format
+msgid ""
+"There was a recoverable error while applying the user profile from file '%s'."
+msgstr ""
+"S'ha produït un error recuperable en aplicar el perfil d'usuari del fitxer «%"
+"s»."
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (FATAL) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (FATAL) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:478
+#, python-format
+msgid "There was a fatal error while applying the user profile from '%s'."
+msgstr "S'ha produït un error fatal en aplicar el perfil d'usuari de «%s»."
+
+#: ../lib/sources/filessource.py:69
+#, python-format
+msgid "File '%s' created"
+msgstr "S'ha creat el fitxer «%s»"
+
+#: ../lib/sources/filessource.py:71
+#, python-format
+msgid "File '%s' deleted"
+msgstr "S'ha suprimit el fitxer «%s»"
+
+#: ../lib/sources/filessource.py:73
+#, python-format
+msgid "File '%s' changed"
+msgstr "S'ha canviat el fitxer «%s»"
+
+#: ../lib/sources/filessource.py:97
+msgid "Applications menu"
+msgstr "Menú d'aplicacions"
+
+#: ../lib/sources/filessource.py:99
+#, fuzzy
+msgid "Settings menu"
+msgstr "Menú de paràmetres del servidor"
+
+#: ../lib/sources/filessource.py:101
+msgid "Server Settings menu"
+msgstr "Menú de paràmetres del servidor"
+
+#: ../lib/sources/filessource.py:103
+msgid "System Settings menu"
+msgstr "Menú de paràmetres del sistema"
+
+#: ../lib/sources/filessource.py:105
+msgid "Start Here menu"
+msgstr "Menú d'inici"
+
+#: ../lib/sources/gconfsource.py:90
+#, python-format
+msgid "GConf key '%s' unset"
+msgstr "La clau «%s» del GConf no està establerta"
+
+#: ../lib/sources/gconfsource.py:92
+#, python-format
+msgid "GConf key '%s' set to string '%s'"
+msgstr "La clau «%s» del GConf està establerta a la cadena «%s»"
+
+#: ../lib/sources/gconfsource.py:94
+#, python-format
+msgid "GConf key '%s' set to integer '%s'"
+msgstr "La clau «%s» del GConf està establerta al nombre enter «%s»"
+
+#: ../lib/sources/gconfsource.py:96
+#, python-format
+msgid "GConf key '%s' set to float '%s'"
+msgstr "La clau «%s» del GConf està establerta al nombre en coma flotant «%s»"
+
+#: ../lib/sources/gconfsource.py:98
+#, python-format
+msgid "GConf key '%s' set to boolean '%s'"
+msgstr "La clau «%s» del GConf està establerta al booleà «%s»"
+
+#: ../lib/sources/gconfsource.py:100
+#, python-format
+msgid "GConf key '%s' set to schema '%s'"
+msgstr "La clau «%s» del GConf està establerta a l'esquema «%s»"
+
+#: ../lib/sources/gconfsource.py:102
+#, python-format
+msgid "GConf key '%s' set to list '%s'"
+msgstr "La clau «%s» del GConf està establerta a la llista «%s»"
+
+#: ../lib/sources/gconfsource.py:104
+#, python-format
+msgid "GConf key '%s' set to pair '%s'"
+msgstr "La clau «%s» del GConf està establerta a la parella «%s»"
+
+#: ../lib/sources/gconfsource.py:106
+#, python-format
+msgid "GConf key '%s' set to '%s'"
+msgstr "La clau «%s» del GConf està establerta a «%s»"
+
+#: ../lib/sources/gconfsource.py:137
+msgid "Default GConf settings"
+msgstr "Paràmetres per defecte del GConf"
+
+#: ../lib/sources/gconfsource.py:139
+msgid "Mandatory GConf settings"
+msgstr "Paràmetres obligatoris del GConf"
+
+#: ../lib/sources/mozillasource.py:133
+#, python-format
+msgid "Mozilla key '%s' set to '%s'"
+msgstr "S'ha establit la clau «%s» del Mozilla a «%s»"
+
+#: ../lib/sources/mozillasource.py:135
+#, python-format
+msgid "Mozilla key '%s' unset"
+msgstr "S'ha esborrat la clau «%s» del Mozilla"
+
+#: ../lib/sources/mozillasource.py:137
+#, python-format
+msgid "Mozilla key '%s' changed to '%s'"
+msgstr "S'ha canviat la clau «%s» del Mozilla a «%s»"
+
+#: ../lib/sources/mozillasource.py:166 ../lib/sources/mozillasource.py:176
+msgid "Web browser preferences"
+msgstr "Preferències del navegador web"
+
+#: ../lib/sources/mozillasource.py:168 ../lib/sources/mozillasource.py:178
+msgid "Web browser bookmarks"
+msgstr "Adreces d'interés del navegador"
+
+#: ../lib/sources/mozillasource.py:170
+msgid "Web browser profile list"
+msgstr "Llista de perfils del navegador web"
+
+#: ../lib/sources/mozillasource.py:520
+#, python-format
+msgid "File Not Found (%s)"
+msgstr "No s'ha trobat el fitxer (%s)"
+
+#: ../lib/sources/mozillasource.py:869
+#, python-format
+msgid "duplicate name(%(name)s) in section %(section)s"
+msgstr "el nom (%(name)s) està duplicat a la secció %(section)s"
+
+#: ../lib/sources/mozillasource.py:878
+#, python-format
+msgid "redundant default in section %s"
+msgstr "el valor per defecte és redundant a la secció %s"
+
+#: ../lib/sources/mozillasource.py:895
+msgid "no default profile"
+msgstr "no hi ha cap perfil per defecte"
+
+#: ../lib/sources/mozillasource.py:950
+#, python-format
+msgid "Mozilla bookmark created '%s' -> '%s'"
+msgstr "S'ha creat una adreça d'interés del Mozilla «%s» -> «%s»"
+
+#: ../lib/sources/mozillasource.py:952
+#, python-format
+msgid "Mozilla bookmark folder created '%s'"
+msgstr "S'ha creat una carpeta d'adreces d'interés del Mozilla «%s»"
+
+#: ../lib/sources/mozillasource.py:955
+#, python-format
+msgid "Mozilla bookmark deleted '%s'"
+msgstr "S'ha suprimit una adreça d'interés del Mozilla «%s»"
+
+#: ../lib/sources/mozillasource.py:957
+#, python-format
+msgid "Mozilla bookmark folder deleted '%s'"
+msgstr "S'ha suprimit una carpeta d'adreces d'interés del Mozilla «%s»"
+
+#: ../lib/sources/mozillasource.py:960
+#, python-format
+msgid "Mozilla bookmark changed '%s' '%s'"
+msgstr "S'ha canviat una adreça d'interés del Mozilla «%s» «%s»"
+
+#: ../lib/sources/mozillasource.py:962
+#, python-format
+msgid "Mozilla bookmark folder changed '%s'"
+msgstr "S'ha canviat una carpeta d'adreces d'interés del Mozilla «%s»"
+
+#: ../lib/sources/paneldelegate.py:65
+#, python-format
+msgid "Panel '%s' added"
+msgstr "S'ha afegit el quadre «%s»"
+
+#: ../lib/sources/paneldelegate.py:71
+#, python-format
+msgid "Panel '%s' removed"
+msgstr "S'ha suprimit el quadre «%s»"
+
+#: ../lib/sources/paneldelegate.py:77
+#, fuzzy, python-format
+msgid "Applet '%s' added"
+msgstr "S'ha afegit la miniaplicació «%s» al quadre"
+
+#: ../lib/sources/paneldelegate.py:100
+#, fuzzy, python-format
+msgid "Applet '%s' removed"
+msgstr "S'ha suprimit la miniaplicació «%s» del quadre"
+
+#: ../lib/sources/paneldelegate.py:123
+#, fuzzy, python-format
+msgid "Object '%s' added"
+msgstr "S'ha afegit l'objecte «%s» al quadre"
+
+#: ../lib/sources/paneldelegate.py:152
+#, fuzzy, python-format
+msgid "Object '%s' removed"
+msgstr "S'ha suprimit l'objecte «%s» del quadre"
+
+#. Translators: This is a drawer in gnome-panel (where you can put applets)
+#: ../lib/sources/paneldelegate.py:240
+msgid "Drawer"
+msgstr "Calaix"
+
+#: ../lib/sources/paneldelegate.py:242
+msgid "Main Menu"
+msgstr "Menú principal"
+
+#: ../lib/sources/paneldelegate.py:252
+#, python-format
+msgid "%s launcher"
+msgstr "Llançadora de %s"
+
+#: ../lib/sources/paneldelegate.py:256
+msgid "Lock Screen button"
+msgstr "Botó de blocar la pantalla"
+
+#: ../lib/sources/paneldelegate.py:258
+msgid "Logout button"
+msgstr "Botó d'eixida"
+
+#: ../lib/sources/paneldelegate.py:260
+msgid "Run Application button"
+msgstr "Botó d'executar una aplicació"
+
+#: ../lib/sources/paneldelegate.py:262
+msgid "Search button"
+msgstr "Botó de cerca"
+
+#: ../lib/sources/paneldelegate.py:264
+msgid "Force Quit button"
+msgstr "Botó de forçar la eixida"
+
+#: ../lib/sources/paneldelegate.py:266
+msgid "Connect to Server button"
+msgstr "Botó de connectar al servidor"
+
+#: ../lib/sources/paneldelegate.py:268
+msgid "Shutdown button"
+msgstr "Botó d'aturar l'ordinador"
+
+#: ../lib/sources/paneldelegate.py:270
+msgid "Screenshot button"
+msgstr "Botó de captura de pantalla"
+
+#: ../lib/sources/paneldelegate.py:273
+msgid "Unknown"
+msgstr "Desconegut"
+
+#: ../lib/sources/paneldelegate.py:275
+msgid "Menu Bar"
+msgstr "Barra de menú"
+
+#: ../lib/sources/paneldelegate.py:512
+msgid "Panel File"
+msgstr "Fitxer del quadre"
+
+#: ../lib/storage.py:172
+#, python-format
+msgid "Failed to read file '%s': %s"
+msgstr "No s'ha pogut llegir el fitxer «%s»: %s"
+
+#: ../lib/storage.py:182
+#, python-format
+msgid "Failed to read metadata from '%s': %s"
+msgstr "No s'ha pogut llegir les metadades de «%s»: %s"
+
+#: ../lib/storage.py:188
+#, python-format
+msgid "Invalid metadata section in '%s': %s"
+msgstr "La secció de metadades de «%s» no és vàlida: %s"
+
+#: ../lib/storage.py:362
+#, python-format
+msgid "Cannot add non-existent file '%s'"
+msgstr "No es pot afegir el fitxer «%s» perquè no existeix"
+
+#: ../lib/storage.py:487
+#, python-format
+msgid "Couldn't unlink file '%s'"
+msgstr ""
+
+#: ../lib/storage.py:570
+#, python-format
+msgid "Profile is read-only %s"
+msgstr "El perfil és de només lectura %s"
+
+#. Translators: You may move the "%(setting)s" and "%(np)s" items as you wish, but
+#. do not change the way they are written.  The intended string is
+#. something like "invalid type for setting blah in /ldap/path/to/blah"
+#: ../lib/systemdb.py:67
+#, python-format
+msgid "invalid type for setting %(setting)s in %(np)s"
+msgstr "el tipus no és vàlid per al paràmetre %(setting)s a %(np)s"
+
+#: ../lib/systemdb.py:112
+msgid "No database file provided"
+msgstr ""
+
+#: ../lib/systemdb.py:232
+#, fuzzy, python-format
+msgid "No LDAP search base specified for %s"
+msgstr "No s'ha especificat cap base de cerca per a %s"
+
+#: ../lib/systemdb.py:235
+#, fuzzy, python-format
+msgid "No LDAP query filter specified for %s"
+msgstr "No s'ha especificat cap filtre de consulta per a %s"
+
+#: ../lib/systemdb.py:238
+#, fuzzy, python-format
+msgid "No LDAP result attribute specified for %s"
+msgstr "No s'ha especificat l'atribut resultant per a %s"
+
+#: ../lib/systemdb.py:247
+#, fuzzy
+msgid "LDAP Scope must be one of: "
+msgstr "L'abast ha de ser «sub» (subàrbre), «base» (base) o «one» (un nivell)"
+
+#: ../lib/systemdb.py:268
+#, fuzzy
+msgid "multiple_result must be one of: "
+msgstr "multiple_result ha de ser «first» (primer) o «random» (aleatori)"
+
+#: ../lib/systemdb.py:361
+#, python-format
+msgid "Could not open %s for writing"
+msgstr "No s'ha pogut obrir %s per a l'escriptura"
+
+#: ../lib/systemdb.py:374
+#, python-format
+msgid "Failed to save UserDatabase to %s"
+msgstr "No s'ha pogut alçar la UserDatabase a %s"
+
+#: ../lib/systemdb.py:397 ../lib/systemdb.py:431
+#, python-format
+msgid "File %s is not a profile configuration"
+msgstr "El fitxer %s no és una configuració de perfil"
+
+#: ../lib/systemdb.py:404
+#, python-format
+msgid "Failed to add default profile %s to configuration"
+msgstr "No s'ha pogut afegir el perfil per defecte %s a la configuració"
+
+#: ../lib/systemdb.py:438
+#, python-format
+msgid "Failed to add user %s to profile configuration"
+msgstr "No s'ha pogut afegir l'usuari %s a la configuració del perfil"
+
+#: ../lib/systemdb.py:510
+msgid "Failed to get the user list"
+msgstr "No s'ha pogut obtindre la llista d'usuaris"
+
+#: ../lib/systemdb.py:560
+#, fuzzy
+msgid "Failed to get the group list"
+msgstr "No s'ha pogut obtindre la llista d'usuaris"
+
+#: ../lib/unittests.py:38 ../lib/unittests.py:39
+msgid "Ignore WARNINGs"
+msgstr "Ignora els avisos"
+
+#: ../lib/unittests.py:61
+#, python-format
+msgid "Running %s tests"
+msgstr "S'estan executant %s tests"
+
+#: ../lib/unittests.py:63
+#, python-format
+msgid "Running %s tests (%s)"
+msgstr "S'estan executant %s tests (%s)"
+
+#: ../lib/unittests.py:70
+msgid "Success!"
+msgstr "Ha funcionat."
+
+#: ../lib/util.py:94
+msgid ""
+"Cannot find home directory: not set in /etc/passwd and no value for $HOME in "
+"environment"
+msgstr ""
+"No s'ha pogut trobar el directori de l'usuari: no està especificat a /etc/"
+"passwd, i la variable d'entorn $HOME no conté cap valor"
+
+#: ../lib/util.py:110 ../lib/util.py:137
+msgid ""
+"Cannot find username: not set in /etc/passwd and no value for $USER in "
+"environment"
+msgstr ""
+"No s'ha pogut trobar el nom d'usuari: no està especificat a /etc/passwd, i "
+"la variable d'entorn $USER no conté cap valor"
+
+#~ msgid "Click to make this setting not mandatory"
+#~ msgstr "Feu clic perquè este paràmetre no siga obligatori"
+
+#~ msgid "Click to make this setting mandatory"
+#~ msgstr "Feu clic perquè este paràmetre siga obligatori"
+
+#~ msgid "General"
+#~ msgstr "General"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Navegador web Epiphany"
+
+#~ msgid "Disable _command line"
+#~ msgstr "Inhabilita la línia d'_ordes"
+
+#~ msgid "Disable _printing"
+#~ msgstr "Inhabilita la im_pressió"
+
+#~ msgid "Disable print _setup"
+#~ msgstr "Inhabilita la _configuració de la impressió"
+
+#~ msgid "Disable save to _disk"
+#~ msgstr "Inhabilita alçar al _disc"
+
+# FIXME
+#~ msgid "_Lock down the panels"
+#~ msgstr "_Fixa els quadres"
+
+#~ msgid "Disable force _quit"
+#~ msgstr "Inhabilita f_orçar la eixida"
+
+#~ msgid "Disable log _out"
+#~ msgstr "Inhabilita poder ei_xir"
+
+#~ msgid "Disable _quit"
+#~ msgstr "Inhabilita poder ei_xir dels programes"
+
+#~ msgid "Disable _arbitrary URL"
+#~ msgstr "Inhabilita URL _arbitraris"
+
+#~ msgid "Disable _bookmark editing"
+#~ msgstr "Inhabilita l'edició d'adreces d'_interés"
+
+#~ msgid "Disable _history"
+#~ msgstr "Inhabilita l'_historial"
+
+#~ msgid "Disable _javascript chrome"
+#~ msgstr "Inhabilita el _javascript del chrome"
+
+#~ msgid "Disable _toolbar editing"
+#~ msgstr "Inhabili_ta l'edició de la barra d'eines"
+
+#, fuzzy
+#~ msgid "Force _fullscreen mode"
+#~ msgstr "_Pantalla completa"
+
+#~ msgid "Hide _menubar"
+#~ msgstr "Oculta la barra de _menú"
+
+#~ msgid "Disable lock _screen"
+#~ msgstr "Inhabilita _blocar la pantalla"
+
+# FIXME
+#, fuzzy
+#~ msgid "_Lock on activation"
+#~ msgstr "_Fixa els quadres"
+
+#, fuzzy
+#~ msgid "Allow log _out"
+#~ msgstr "Inhabilita poder ei_xir"
+
+#~ msgid "Disable _unsafe protocols"
+#~ msgstr "Inhabilita els protocols inseg_urs"
+
+#, fuzzy
+#~ msgid "Disabled Applets"
+#~ msgstr "<b>Miniaplicacions inhabilitades</b>"
+
+#~ msgid "Lockdown Editor"
+#~ msgstr "Editor de restriccions"
+
+#, fuzzy
+#~ msgid "Safe Protocols"
+#~ msgstr "<b>Protocols segurs</b>"
+
+#~ msgid "Remove personal information from documents when saving them"
+#~ msgstr "Suprimeix la informació personal dels documents en alçar-los"
+
+#~ msgid "Warn if macro tries to create a PDF"
+#~ msgstr "Avisa si la macroinstrucció intenta crear un PDF"
+
+#~ msgid "Warn if macro tries to print a document"
+#~ msgstr "Avisa si la macroinstrucció intenta imprimir un document"
+
+#~ msgid "Warn if macro tries to save a document"
+#~ msgstr "Avisa si la macroinstrucció intenta alçar un document"
+
+#~ msgid "Warn if macro tries to sign a document"
+#~ msgstr "Avisa si la macroinstrucció intenta signar un document"
+
+#~ msgid "Recommend password when saving a document"
+#~ msgstr "Recomana una contrasenya en alçar un document"
+
+#~ msgid "Enable auto-save"
+#~ msgstr "Habilita l'alçat automàtic"
+
+#~ msgid "Printing should mark the document as modified"
+#~ msgstr "Si s'imprimeix s'hauria de marcar el document com a modificat"
+
+#~ msgid "Use system's file dialog"
+#~ msgstr "Empra el selector de fitxers del sistema"
+
+#~ msgid "Create backup copy on save"
+#~ msgstr "Crea una còpia de seguretat en alçar"
+
+#~ msgid "Warn when saving non-OpenOffice.org formats"
+#~ msgstr "Avisa quan no s'alcen fitxers en formats de l'OpenOffice.org"
+
+#~ msgid "Use OpenGL"
+#~ msgstr "Empra l'OpenGL"
+
+#~ msgid "Use system font"
+#~ msgstr "Empra el tipus de lletra del sistema"
+
+#~ msgid "Use anti-aliasing"
+#~ msgstr "Empra l'antialiàsing"
+
+#~ msgid "Disable UI customization"
+#~ msgstr "Inhabilita la personalització de la interfície d'usuari"
+
+# FIXME: ?
+#~ msgid "Show insensitive menu items"
+#~ msgstr "Mostra les entrades del menú inhabilitades"
+
+#~ msgid "Show font preview"
+#~ msgstr "Mostra una visualització prèvia del tipus de lletra"
+
+#~ msgid "Show font history"
+#~ msgstr "Mostra l'historial del tipus de lletra"
+
+#~ msgid "Show icons in menus"
+#~ msgstr "Mostra les icones en els menús"
+
+#~ msgid ""
+#~ "\n"
+#~ "5\n"
+#~ "10\n"
+#~ "25\n"
+#~ "50"
+#~ msgstr ""
+#~ "\n"
+#~ "5\n"
+#~ "10\n"
+#~ "25\n"
+#~ "50"
+
+#~ msgid ""
+#~ "\n"
+#~ "Automatic\n"
+#~ "Large\n"
+#~ "Small"
+#~ msgstr ""
+#~ "\n"
+#~ "Automàtic\n"
+#~ "Gran\n"
+#~ "Petita"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.odp)\n"
+#~ "PowerPoint 97+ (.ppt)\n"
+#~ "OpenOffice.org 1.1 (.sxi)"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenDocument (.odp)\n"
+#~ "PowerPoint 97+ (.ppt)\n"
+#~ "OpenOffice.org 1.1 (.sxi)"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.ods)\n"
+#~ "Excel 97+ (.xls)\n"
+#~ "OpenOffice.org 1.1 (.sxc)"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenDocument (.ods)\n"
+#~ "Excel 97+ (.xls)\n"
+#~ "OpenOffice.org 1.1 (.sxc)"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.odt)\n"
+#~ "Word 97+ (.doc)\n"
+#~ "OpenOffice.org 1.1 (.sxw)"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenDocument (.odt)\n"
+#~ "Word 97+ (.doc)\n"
+#~ "OpenOffice.org 1.1 (.sxw)"
+
+#~ msgid ""
+#~ "\n"
+#~ "Very High\n"
+#~ "High\n"
+#~ "Medium\n"
+#~ "Low"
+#~ msgstr ""
+#~ "\n"
+#~ "Molt alt\n"
+#~ "Alt\n"
+#~ "Mitjà\n"
+#~ "Baix"
+
+#~ msgid "Default format for presentations:"
+#~ msgstr "Format per defecte de les presentacions:"
+
+#~ msgid "Default format for spreadsheet:"
+#~ msgstr "Format per defecte dels fulls de càlcul:"
+
+#~ msgid "Default format for word processor:"
+#~ msgstr "Format per defecte del processador de textos:"
+
+#~ msgid "Default icon size"
+#~ msgstr "Mida per defecte de les icones"
+
+#~ msgid "Load / Save"
+#~ msgstr "Carrega / Alça"
+
+#~ msgid "Macro Security Level:"
+#~ msgstr "Nivell de seguretat de les macroinstruccions:"
+
+#~ msgid "Number of undo steps:"
+#~ msgstr "Nombre de desfés:"
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Security"
+#~ msgstr "Seguretat"
+
+#~ msgid "User Interface"
+#~ msgstr "Interfície d'usuari"
+
+# La forma singular fa mal als ulls, esperem que ningú faci canvis en un
+# segon i decideixi desar (seria una persona molt ràpida) [josep]
+#~ msgid ""
+#~ "If you don't save, changes from the last %ld second will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %ld seconds will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Si no alceu, els canvis que hàgeu fet el darrer %ld segon es perdran."
+#~ msgstr[1] ""
+#~ "Si no alceu, els canvis que hàgeu fet els darrers %ld segons es perdran."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last minute will be permanently lost."
+#~ msgstr "So no alceu, els canvis que hàgeu fet el darrer minut es perdran."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last minute and %ld second will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last minute and %ld seconds will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Si no alceu, els canvis que hàgeu fet el darrer minut i %ld segon es "
+#~ "perdran."
+#~ msgstr[1] ""
+#~ "Si no alceu, els canvis que hàgeu fet el darrer minut i %ld segons es "
+#~ "perdran."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %ld minute will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %ld minutes will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Si no alceu, els canvis que hàgeu fet el darrer %ld minut es perdran."
+#~ msgstr[1] ""
+#~ "Si no alceu, els canvis que hàgeu fet els darrers %ld minuts es perdran."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last hour and %d minute will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last hour and %d minutes will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Si no alceu, els canvis que hàgeu fet la darrera hora i %d minut es "
+#~ "perdran."
+#~ msgstr[1] ""
+#~ "Si no alceu, els canvis que hàgeu fet la darrera hora %d minuts es "
+#~ "perdran."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %d hour will be permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %d hours will be permanently "
+#~ "lost."
+#~ msgstr[0] "Si no alceu, els canvis fets la %d hora es perdran per sempre."
+#~ msgstr[1] ""
+#~ "Si no alceu, els canvis fets les darreres %d hores es perdran per sempre."
+
+#~ msgid "Preferences menu"
+#~ msgstr "Menú de preferències"
+
+#~ msgid "Applet %s added to top panel"
+#~ msgstr "S'ha afegit la miniaplicació %s al quadre superior"
+
+#~ msgid "Applet %s added to bottom panel"
+#~ msgstr "S'ha afegit la miniaplicació %s al quadre inferior"
+
+#~ msgid "Applet %s added to left panel"
+#~ msgstr "S'ha afegit la miniaplicació %s al quadre de l'esquerra"
+
+#~ msgid "Applet %s added to right panel"
+#~ msgstr "S'ha afegit la miniaplicació %s al quadre de la dreta"
+
+#~ msgid "Applet %s removed from top panel"
+#~ msgstr "S'ha suprimit la miniaplicació %s del quadre superior"
+
+#~ msgid "Applet %s removed from bottom panel"
+#~ msgstr "S'ha suprimit la miniaplicació %s del quadre inferior"
+
+#~ msgid "Applet %s removed from left panel"
+#~ msgstr "S'ha suprimit la miniaplicació %s del quadre de l'esquerra"
+
+#~ msgid "Applet %s removed from right panel"
+#~ msgstr "S'ha suprimit la miniaplicació %s del quadre de la dreta"
+
+#~ msgid "%s added to top panel"
+#~ msgstr "S'ha afegit %s al quadre superior"
+
+#~ msgid "%s added to bottom panel"
+#~ msgstr "S'ha afegit %s al quadre inferior"
+
+#~ msgid "%s added to left panel"
+#~ msgstr "S'ha afegit %s al quadre de l'esquerra"
+
+#~ msgid "%s added to right panel"
+#~ msgstr "S'ha afegit %s al quadre de la dreta"
+
+#~ msgid "%s removed from top panel"
+#~ msgstr "S'ha suprimit %s del quadre superior"
+
+#~ msgid "%s removed from bottom panel"
+#~ msgstr "S'ha suprimit %s del quadre inferior"
+
+#~ msgid "%s removed from left panel"
+#~ msgstr "S'ha suprimit %s del quadre de l'esquerra"
+
+#~ msgid "%s removed from right panel"
+#~ msgstr "S'ha suprimit %s del quadre de la dreta"
+
+#~ msgid "Warn if macro prints"
+#~ msgstr "Avisa si la macroinstrucció imprimeix"
+
+#~ msgid "Printing modifies document"
+#~ msgstr "Imprimir un document fa que es modifiqui"
+
+#~ msgid "Warn for external formats"
+#~ msgstr "Avisa quant als formats externs"
+
+#~ msgid "Calc default format:"
+#~ msgstr "Format per defecte del Calc:"
+
+#~ msgid "Impress default format:"
+#~ msgstr "Format per defecte de l'Impress:"
+
+#~ msgid "Undo Steps:"
+#~ msgstr "Nivells de desfés:"
+
+#~ msgid "Writer default format:"
+#~ msgstr "Format per defecte del Writer:"
+
+# FIXME: traceback? (josep)
+#~ msgid ""
+#~ "Could not create the 'sabayon-apply' process: %s\n"
+#~ "The command line used is '%s'\n"
+#~ "Child traceback:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "No s'ha pogut crear el procés «sabayon-apply»: %s\n"
+#~ "S'ha emprat la línia d'ordres «%s»\n"
+#~ "Traça del procés fill:\n"
+#~ "%s"
+
+#~ msgid "Usage: %s [<profile-name>]\n"
+#~ msgstr "Forma d'ús: %s [<nom-del-perfil>]\n"
+
+#~ msgid "Failed to add monitor for %s"
+#~ msgstr "No s'ha pogut afegir el monitor per a %s"
+
+#~ msgid "Expected event: %s %s"
+#~ msgstr "Esdeveniment que s'esperava: %s %s"
+
+#~ msgid "All Your Settings Are Belong To Us"
+#~ msgstr "Tots els vostres paràmetres ens pertanyen"
+
+#~ msgid "Clear revision history"
+#~ msgstr "Neteja l'historial de revisions"
+
+#~ msgid "_Version:"
+#~ msgstr "_Versió:"
+
+#~ msgid "Version"
+#~ msgstr "Versió"
+
+#~ msgid "Desktop User Profiles"
+#~ msgstr "Perfils d'usuari d'escriptori"
+
+#~ msgid "dialog1"
+#~ msgstr "diàleg1"
+
+#~ msgid "'xauth list' returned error"
+#~ msgstr "«xauth list» ha retornat un error"
+
+#~ msgid "'xauth list' returned no records or records in unknown format"
+#~ msgstr ""
+#~ "«xauth list» no ha retornat cap registre, o no estaven en un format conegut"
+
+#~ msgid "No current revision"
+#~ msgstr "No hi ha cap revisió actual"
+
+#~ msgid "'%(path)s' does not exist in profile revision '%(profile_revision)s'"
+#~ msgstr ""
+#~ "El '%(path)s' no existeix en la revisió actual del perfil '%"
+#~ "(profile_revision)s'"
+
+#~ msgid "Not a valid profile revision"
+#~ msgstr "No és una revisió de perfil vàlida"
+
+#~ msgid "Usage: %s <profile-name>\n"
+#~ msgstr "Forma d'ús: %s <nom-del-perfil>\n"
+
+#~ msgid "Your account does not have permissions to run sabayon-session."
+#~ msgstr "El vostre compte no té permisos per executar sabayon-session."
+
+#~ msgid "C_reate"
+#~ msgstr "C_rea"
+
+#~ msgid "None"
+#~ msgstr "Cap"
+
+#~ msgid "User '%s' does not exist"
+#~ msgstr "L'usuari «%s» no existeix"
+
+#~ msgid "Firefox"
+#~ msgstr "Firefox"

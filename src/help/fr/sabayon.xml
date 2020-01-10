@@ -1,0 +1,315 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//OASIS//DTD DocBook XML V4.1.2//EN" "http://www.oasis-open.org/docbook/xml/4.1.2/docbookx.dtd" [
+<!ENTITY legal SYSTEM "legal.xml">
+<!ENTITY appversion "2.29.0">
+<!ENTITY manrevision "1.0">
+<!ENTITY date "November 2009">
+<!ENTITY app "<application>sabayon</application>">
+<!ENTITY appname "<application>Sabayon</application>">
+<!ENTITY ldquo "&#147;">
+<!-- Left Double Quote --><!ENTITY rdquo "&#148;">
+<!-- Right Double Quote -->]>
+<article id="index" lang="fr">
+    <articleinfo>
+        <title>Référence de l'administrateur de <application>Sabayon</application></title>
+        <abstract role="description">
+            <para><application>Sabayon</application> est un éditeur de profils pour GNOME.</para>
+        </abstract>
+
+        <copyright>
+            <year>2005</year>
+            <year>2009</year>
+            <holder>CRI74</holder>
+            <holder>Scott Balneaves</holder>
+        </copyright><copyright><year>2009</year><holder>Laurent Coudeur (laurentc@iol.ie)</holder></copyright><copyright><year>2010</year><holder>Bruno Brouard (annoa.b@gmail.com)</holder></copyright>
+
+        <publisher role="maintainer">
+            <publishername>Scott Balneaves</publishername>
+        </publisher>
+
+        <!-- License -->
+          <legalnotice id="legalnotice">
+	<para>Permission vous est donnée de copier, distribuer et/ou modifier ce document selon les termes de la Licence GNU Free Documentation Licence, Version 1.1 ou ultérieure publiée par la Free Software Foundation sans section inaltérable, sans texte de première page de couverture ni texte de dernière page de couverture. Vous trouverez un exemplaire de cette licence en suivant ce <ulink type="help" url="ghelp:fdl">lien</ulink> ou dans le fichier COPYING-DOCS fourni avec le présent manuel.</para>
+         <para>Ce manuel fait partie de la collection de manuels GNOME distribués selon les termes de la licence de documentation libre GNU. Si vous souhaitez distribuer ce manuel indépendamment de la collection, vous devez joindre un exemplaire de la licence au document, comme indiqué dans la section 6 de celle-ci.</para>
+
+	<para>La plupart des noms utilisés par les entreprises pour distinguer leurs produits et services sont des marques déposées. Lorsque ces noms apparaissent dans la documentation GNOME et que les membres du projet de Documentation GNOME sont informés de l'existence de ces marques déposées, soit ces noms entiers, soit leur première lettre est en majuscule.</para>
+
+	<para>LE PRÉSENT DOCUMENT ET SES VERSIONS MODIFIÉES SONT FOURNIS SELON LES TERMES DE LA LICENCE DE DOCUMENTATION LIBRE GNU SACHANT QUE : <orderedlist>
+		<listitem>
+		  <para>LE PRÉSENT DOCUMENT EST FOURNI « TEL QUEL », SANS AUCUNE GARANTIE, EXPRESSE OU IMPLICITE, Y COMPRIS, ET SANS LIMITATION, LES GARANTIES DE BONNE QUALITÉ MARCHANDE OU D'APTITUDE À UN EMPLOI PARTICULIER OU AUTORISÉ DU DOCUMENT OU DE SA VERSION MODIFIÉE. L'UTILISATEUR ASSUME TOUT RISQUE RELATIF À LA QUALITÉ, À LA PERTINENCE ET À LA PERFORMANCE DU DOCUMENT OU DE SA VERSION DE MISE À JOUR. SI LE DOCUMENT OU SA VERSION MODIFIÉE S'AVÉRAIT DÉFECTUEUSE, L'UTILISATEUR (ET NON LE RÉDACTEUR INITIAL, L'AUTEUR, NI TOUT AUTRE PARTICIPANT) ENDOSSERA LES COÛTS DE TOUTE INTERVENTION, RÉPARATION OU CORRECTION NÉCESSAIRE. CETTE DÉNÉGATION DE RESPONSABILITÉ CONSTITUE UNE PARTIE ESSENTIELLE DE CETTE LICENCE. AUCUNE UTILISATION DE CE DOCUMENT OU DE SA VERSION MODIFIÉE N'EST AUTORISÉE AUX TERMES DU PRÉSENT ACCORD, EXCEPTÉ SOUS CETTE DÉNÉGATION DE RESPONSABILITÉ ; </para>
+		</listitem>
+		<listitem>
+		  <para>EN AUCUNE CIRCONSTANCE ET SOUS AUCUNE INTERPRÉTATION DE LA LOI, QU'IL S'AGISSE DE RESPONSABILITÉ CIVILE (Y COMPRIS LA NÉGLIGENCE), CONTRACTUELLE OU AUTRE, L'AUTEUR, LE RÉDACTEUR INITIAL, TOUT PARTICIPANT ET TOUT DISTRIBUTEUR DE CE DOCUMENT OU DE SA VERSION DE MISE À JOUR AINSI QUE TOUT FOURNISSEUR DE QUELQUE PARTIE QUE CE SOIT NE POURRONT ÊTRE TENUS RESPONSABLES À L'ÉGARD DE QUICONQUE POUR TOUT DOMMAGE DIRECT, INDIRECT, PARTICULIER OU ACCIDENTEL DE TOUT TYPE Y COMPRIS, SANS LIMITATION, LES DOMMAGES LIÉS À LA PERTE DE CLIENTÈLE, AUX ARRÊTS DE TRAVAIL, AUX DÉFAILLANCES ET AUX DYSFONCTIONNEMENTS INFORMATIQUES OU TOUT AUTRE DOMMAGE OU PERTE LIÉE À L'UTILISATION DU PRÉSENT DOCUMENT ET DE SES VERSIONS DE MISE À JOUR, ET CE MÊME SI CES PARTIES ONT ÉTÉ INFORMÉES DE LA POSSIBILITÉ DE TELS DOMMAGES.</para>
+		</listitem>
+	  </orderedlist></para>
+  </legalnotice>
+
+
+
+        <authorgroup>
+            <author>
+                <firstname>Phillipe</firstname>
+                <surname>Tonguet</surname>
+            </author>
+            <author>
+                <firstname>Scott</firstname>
+                <surname>Balneaves</surname>
+            </author>
+        </authorgroup>
+
+        <revhistory>
+            <revision>
+                <revnumber>V1.0</revnumber>
+                <date>Novembre 2009 </date>
+            </revision>
+        </revhistory>
+
+<!--
+        <releaseinfo>
+            This manual describes.
+        </releaseinfo>
+-->
+
+        <legalnotice>
+            <title>Votre avis</title>
+            <para>Pour rapporter un bogue ou émettre une suggestion concernant l'application <application>sabayon</application> ou ce manuel, procédez comme indiqué sur la <ulink url="ghelp:gnome-feedback" type="help">Page de réactions sur GNOME</ulink>.</para>
+        </legalnotice>
+    </articleinfo>
+    <indexterm zone="index">
+        <primary><application>sabayon</application></primary>
+    </indexterm>
+    <indexterm zone="index">
+        <primary>Profils</primary>
+    </indexterm>
+
+<!-- XXXXXXXXXXXXXXXX Document XXXXXXXXXXXXXXX -->
+
+    <sect1 id="introduction">
+        <title>Introduction</title>
+        <sect2>
+            <title>Description</title>
+            <para><application>Sabayon</application> est un outil d'administration système pour gérer les paramètres du bureau GNOME. <application>Sabayon</application> fournit une façon saine de modifier les paramètres par défaut de GConf et les clés obligatoires de GConf de la même façon dont vous modifiez votre bureau. <application>Sabayon</application> exécute les profils dans une fenêtre <application>Xephyr</application> qui fournit une session X dans une session X, comme <application>Xnest</application>.</para>
+            <para>Tous les changements que vous effectuez dans la fenêtre <application>Xnest</application> sont enregistrés dans le fichier profil, qui peut être appliqué ensuite aux comptes des utilisateurs. Pour le moment <application>Sabayon</application> se limite à la création et la mise à jour de profils de préférences d'utilisateurs. Il ne traite pas du gros problème de fournir effectivement ces préférences à un système cible. Pour le moment <application>Sabayon<application> prend en charge complètement les fichiers et le format de configuration pour :</application></application></para>
+            <itemizedlist>
+                <listitem>
+                    <para>GConf</para>
+                </listitem>
+                <listitem>
+                    <para>Mozilla/Firefox</para>
+                </listitem>
+                <listitem>
+                    <para>OpenOffice.org</para>
+                </listitem>
+            </itemizedlist>
+        </sect2>
+    </sect1>
+    <sect1 id="installation">
+        <title>Installation</title>
+        <sect2>
+            <title>Installation à partir d'un tarball</title>
+            <para>Téléchargez <application>Sabayon</application> sur <ulink url="http://ftp.gnome.org/pub/GNOME/sources/sabayon/"/></para>
+            <para>Pour décompresser la source, ouvrez un terminal et saisissez :</para>
+            <screen>
+$  tar -zxvf ~/sabayon-2.29.0.tar.gz
+$  cd sabayon-2.29.0
+            </screen>
+            <para>Vous pouvez alors configurer et compiler le programme :</para>
+            <screen>
+$  ./configure --prefix=/usr --sysconfdir=/etc --mandir=/usr/share/man
+$  make
+$  sudo make install
+            </screen>
+            <para>Ajoutez un utilisateur (vous devez disposer des droits root) :</para>
+            <screen>
+# /usr/sbin/useradd -c "<application>Sabayon</application> user" -d /var/sabayon -g nogroup -s /sbin/nologin sabayon
+            </screen>
+            <para>Créez le dossier <filename>/var/sabayon</filename> :</para>
+            <screen>
+# mkdir /var/sabayon
+            </screen>
+            <para>Appliquez les permissions suivantes :</para>
+            <screen>
+# chown -R sabayon /var/sabayon
+# chgrp -R nogroup /var/sabayon
+            </screen>
+        </sect2>
+        <sect2 id="distropackage">
+            <title>Installation du paquet de votre distribution</title>
+            <para>Votre distribution contient probablement une version déjà prête à l'emploi de <application>Sabayon</application> qui est directement prise en charge. Recherchez le paquet « Sabayon » avec le gestionnaire de paquets de votre distribution.</para>
+        </sect2>
+        <sect2 id="git">
+            <title>Installation depuis le dépôt git</title>
+            <para>Pour ceux qui souhaiteraient être à la pointe, vous pouvez installer <application>Sabayon</application> depuis le dépôt git de GNOME.</para>
+            <para>L'installation à partir d'un dépôt git est exactement la même que celle à partir d'un tarball, à l'exception de la récupération de la version depuis le dépôt git et le lancement des outils d'autoconfiguration.</para>
+            <screen>
+$ git clone git://git.gnome.org/sabayon
+$ cd sabayon
+$ ./autogen.sh –prefix=/usr
+            </screen>
+            <para>Ensuite, suivez simplement les mêmes instructions pour configurer et compiler le programme que celles utilisées pour installer un tarball.</para>
+        </sect2>
+    </sect1>
+    <sect1 id="profile_create">
+        <title>Création d'un profil</title>
+        <para>La première étape dans la création de profils pour vos utilisateurs est de définir de quelles fonctions doivent disposer vos utilisateurs. Si vous êtes une société, vous pouvez souhaiter fournir un panneau supérieur GNOME avec un ensemble de lanceurs prédéfinis. Un professeur peut vouloir désactiver les menus <guimenuitem>Préférences</guimenuitem> et <guimenuitem>Administration</guimenuitem>. Vous pouvez faire toutes ces choses avec <application>Sabayon</application>.</para>
+        <sect2>
+            <title>Création d'un profil</title>
+            <para>La première étape consiste à lancer <application>Sabayon</application>. Si vous avez installé <application>Sabayon</application> à l'aide du gestionnaire de paquets de votre distribution, il est possible qu'une icône soit présente dans le menu <guimenu>Administration</guimenu>. Si vous l'avez installé à partir des sources, vous allez sans doute devoir le lancer manuellement. Appuyez sur <keycombo><keycap>Alt</keycap><keycap>F2</keycap></keycombo> et saisissez :</para>
+            <screen>
+gksu sabayon
+            </screen>
+            <para>et appuyez sur <keycap>Entrée</keycap>. Après votre authentification, vous devez voir la fenêtre principale de <application>Sabayon</application> :</para>
+            <figure>
+                <title>Fenêtre principale</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/main-window.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Fenêtre principale de <application>Sabayon</application></phrase>
+                    </textobject>
+                    <caption>
+                        <para>Fenêtre principale de <application>Sabayon</application> pour créer et appliquer des profils.</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>Pour créer un nouveau profil, cliquez sur le bouton <guibutton>Ajouter</guibutton>. Une fenêtre <guilabel>Ajouter un profil</guilabel> apparaît dans laquelle vous pouvez donner un nom au profil et, en option, sélectionner un profil existant qui servira de base ou de point de départ pour le nouveau profil :</para>
+            <figure>
+                <title>Ajouter un profil</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/add-profile.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Fenêtre principale de <application>Sabayon</application></phrase>
+                    </textobject>
+                    <caption>
+                        <para>Fenêtre Ajouter un profil de <application>Sabayon</application>.</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>Maintenant que vous avez créé le profil, vous allez vouloir le modifier. Sélectionnez le nom du profil et cliquez sur le bouton <guibutton>Modifier</guibutton> :</para>
+            <figure>
+                <title>Fenêtre principale - Éditeur</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/main-window-edit.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Fenêtre principale - Éditeur</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Fenêtre principale - Éditeur</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>Un « bureau à l'intérieur d'une fenêtre » est affiché :</para>
+            <figure>
+                <title>Éditeur de bureau</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/edit-desktop.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Éditeur de bureau</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Éditeur de bureau</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>Dans cette fenêtre, vous pouvez faire toutes les modifications que vous souhaitez au profil. Vous pouvez ajouter des lanceurs ou des applets aux panneaux, ajouter des lanceurs sur le bureau ou créer des fichiers d'exemple dans le dossier personnel.</para>
+            <para>Quand vous avez fini, vous pouvez afficher les modifications de la session par défaut que <application>Sabayon</application> a détectées. Pour cela, cliquez sur le menu <guimenu>Édition</guimenu> et sélectionnez <guibutton>Liste des modifications</guibutton>. Une fenêtre qui ressemble à la suivante apparaît :</para>
+            <figure>
+                <title>Fenêtre Liste des modifications</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/changes.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Fenêtre Liste des modifications</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Modification des actions enregistrées par <application>Sabayon</application> dans la fenêtre Liste des modifications du menu Édition du bureau</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+            <para>Vous pouvez modifier ce que <application>Sabayon</application> va enregistrer dans le profil dans la fenêtre Modifications :</para>
+            <orderedlist>
+                <listitem>
+                    <para>Si vous voulez que <application>Sabayon</application> ignore un réglage qui a été fait, cochez la case <guibutton>ignorer</guibutton> pour cet élément.</para>
+                </listitem>
+                <listitem>
+                    <para>Pour qu'une clé gconf soit définie comme paramètre « par défaut », laissez l'icône de la clé tel quelle, un bouclier de <emphasis> bois</emphasis> qui est de couleur argentée.</para>
+                </listitem>
+                <listitem>
+                    <para>Pour qu'une clé gconf soit définie comme paramètre « obligatoire », cliquez une fois sur l'icône pour la changer en bouclier de <emphasis>fer</emphasis>.</para>
+                </listitem>
+            </orderedlist>
+            <para>Ensuite enregistrez le profil en sélectionnant <menuchoice><guimenu>Profil</guimenu><guimenuitem>Enregistrer</guimenuitem></menuchoice>. Le profil est enregistré dans <filename>/etc/sabayon/profiles</filename>, sous la forme d'un fichier <emphasis>.zip</emphasis> portant le même nom que celui que vous avez choisi pour le profil.</para>
+         </sect2>
+         <sect2>
+             <title>Éditeur de verrouillage</title>
+             <para>GNOME possède aussi les fonctionnalités de verrouillage de <application>Pessulus</application> qui vous permettent d'empêcher que les utilisateurs modifient leurs panneaux, ouvrent une boîte de dialogue <guilabel>Lancer une application</guilabel>, etc.</para>
+             <para>Vous pouvez utiliser l'éditeur de verrouillage en sélectionnant <menuchoice><guimenu>Édition</guimenu><guimenuitem>Verrouillage</guimenuitem></menuchoice> dans la fenêtre <guilabel>Éditeur de bureau</guilabel>.</para>
+            <figure>
+                <title>Éditeur de verrouillage</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/lockdown.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Éditeur de verrouillage</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Modification des paramètres de verrouillage de GNOME à partir de <application>Sabayon</application>.</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+        </sect2>
+    </sect1>
+    <sect1 id="apply">
+        <title>Application des profils</title>
+        <sect2>
+           <title>Application d'un profil</title>
+           <para>Important : il est conseillé de créer un nouvel utilisateur pour tester le profil.</para>
+           <para>Sélectionnez le profil que vous voulez appliquer et cliquez sur <guibutton>Utilisateurs</guibutton>, puis sélectionnez les utilisateurs pour lesquels le profil s'applique. Dans cet exemple, <emphasis>Eleve1</emphasis> et <emphasis>Eleve2</emphasis> utilisent le profil <filename>mon_profil</filename>.</para>
+            <figure>
+                <title>Application d'un profil par utilisateur</title>
+                <mediaobject>
+                    <imageobject>
+                        <imagedata fileref="figures/apply-by-user.png" format="PNG"/>
+                    </imageobject>
+                    <textobject>
+                        <phrase>Application d'un profil par utilisateur</phrase>
+                    </textobject>
+                    <caption>
+                        <para>Application d'un profil uniquement à certains utilisateurs</para>
+                    </caption>
+                </mediaobject>
+            </figure>
+        </sect2>
+        <sect2>
+            <title>Application des profils par groupe</title>
+            <para>Un souhait commun des administrateurs systèmes est de pouvoir appliquer les profils par groupe. Vous pouvez faire cela dans l'interface graphique de l'outil, ou manuellement à l'aide d'un script.</para>
+            <sect3>
+                <title>À l'aide de l'interface graphique</title>
+                <para>Utilisez tout simplement le script <command>sabayon-apply</command> qui est fourni par défaut avec <application>Sabayon</application>. Dans l'interface graphique, cliquez sur le bouton <guibutton>Groupes</guibutton> et cochez les groupes pour lesquels le profil s'applique.</para>
+                <figure>
+                    <title>Application d'un profil par groupe</title>
+                    <mediaobject>
+                        <imageobject>
+                            <imagedata fileref="figures/apply-by-group.png" format="PNG"/>
+                        </imageobject>
+                        <textobject>
+                            <phrase>Application d'un profil par groupe</phrase>
+                        </textobject>
+                        <caption>
+                            <para>Appliquer un profil aux utilisateurs qui sont membres d'un groupe.</para>
+                        </caption>
+                    </mediaobject>
+                </figure>
+            </sect3>
+        </sect2>
+    </sect1>
+</article>

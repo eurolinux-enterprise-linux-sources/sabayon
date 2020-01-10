@@ -1,0 +1,1222 @@
+# Danish translation of sabayon
+# Copyright (C) 2006, 2010 Free Software Foundation, Inc.
+# This file is distributed under the same license as the sabayon package.
+#
+# Kenneth Nielsen <k.nielsen81@gmail.com>, 2006 - 2009.
+# Ask Hjorth Larsen <asklarsen@gmail.com>, 2010.
+msgid ""
+msgstr ""
+"Project-Id-Version: sabayon\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-02-23 22:29+0100\n"
+"PO-Revision-Date: 2010-02-21 16:16+0100\n"
+"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
+"Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+# Jeg overvejede her først:
+# "Program til at lave og redigere i brugerprofiler",
+# men efter at have undersøgt det viser det sig at det
+# der henvises til som "profil" her er en mængde
+# indstillinger, UD OVER det vi normalt betragter som
+# en brugerprofil, så for ikke at brugerne skal kløjs
+# i begreberne besluttede jeg mig for at beholde
+# den nuværende formulering
+#: ../admin-tool/aboutdialog.py:66
+msgid "Program to establish and edit profiles for users"
+msgstr "Program til at oprette og redigere i profiler for brugere"
+
+#: ../admin-tool/aboutdialog.py:69
+msgid "translator-credits"
+msgstr ""
+"Kenneth Nielsen\n"
+"Ask Hjorth Larsen\n"
+"\n"
+"Dansk-gruppen <dansk@dansk-gruppen.dk>\n"
+"Mere info: http://www.dansk-gruppen.dk"
+
+#: ../admin-tool/changeswindow.py:50
+#, python-format
+msgid "Changes in profile %s"
+msgstr "Ændringer i profil %s"
+
+#: ../admin-tool/changeswindow.py:113
+msgid "Ignore"
+msgstr "Ignorér"
+
+#: ../admin-tool/changeswindow.py:120
+msgid "Lock"
+msgstr "Lås"
+
+#: ../admin-tool/changeswindow.py:127 ../admin-tool/editorwindow.py:263
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: ../admin-tool/editorwindow.py:100
+#, python-format
+msgid "Profile %s"
+msgstr "Profil %s"
+
+#: ../admin-tool/editorwindow.py:205 ../admin-tool/sessionwindow.py:179
+msgid "_Profile"
+msgstr "_Profil"
+
+#: ../admin-tool/editorwindow.py:206 ../admin-tool/sessionwindow.py:180
+msgid "_Save"
+msgstr "_Gem"
+
+#: ../admin-tool/editorwindow.py:206 ../admin-tool/sessionwindow.py:180
+msgid "Save profile"
+msgstr "Gem profil"
+
+#: ../admin-tool/editorwindow.py:207
+msgid "_Close"
+msgstr "_Luk"
+
+#: ../admin-tool/editorwindow.py:207 ../admin-tool/sessionwindow.py:181
+msgid "Close the current window"
+msgstr "Luk det aktive vindue"
+
+#: ../admin-tool/editorwindow.py:208 ../admin-tool/sessionwindow.py:182
+msgid "_Edit"
+msgstr "_Redigér"
+
+#: ../admin-tool/editorwindow.py:209
+msgid "_Delete"
+msgstr "_Slet"
+
+#: ../admin-tool/editorwindow.py:209
+msgid "Delete item"
+msgstr "Slet element"
+
+#: ../admin-tool/editorwindow.py:210 ../admin-tool/sessionwindow.py:185
+msgid "_Help"
+msgstr "_Hjælp"
+
+#: ../admin-tool/editorwindow.py:211 ../admin-tool/sessionwindow.py:186
+msgid "_Contents"
+msgstr "_Indhold"
+
+#: ../admin-tool/editorwindow.py:211 ../admin-tool/sessionwindow.py:186
+msgid "Help Contents"
+msgstr "Indhold af hjælp"
+
+#: ../admin-tool/editorwindow.py:212 ../admin-tool/sessionwindow.py:187
+msgid "_About"
+msgstr "_Om"
+
+#: ../admin-tool/editorwindow.py:212 ../admin-tool/sessionwindow.py:187
+msgid "About Sabayon"
+msgstr "Om Sabayon"
+
+#: ../admin-tool/editorwindow.py:267
+msgid "Source"
+msgstr "Kilde"
+
+#: ../admin-tool/editorwindow.py:300 ../lib/sources/gconfsource.py:124
+msgid "GConf"
+msgstr "GConf"
+
+#: ../admin-tool/editorwindow.py:304 ../lib/sources/filessource.py:86
+msgid "Files"
+msgstr "Filer"
+
+#: ../admin-tool/editorwindow.py:304 ../lib/sources/paneldelegate.py:279
+msgid "Panel"
+msgstr "Panel"
+
+#: ../admin-tool/fileviewer.py:27
+#, python-format
+msgid "Profile file: %s"
+msgstr "Profil-fil: %s"
+
+# På grund af klammerne var jeg i tvivl om hvorvidt de skulle oversættes. Jeg tjekkede i den norske version og her er det oversat så jeg har gjort ligeså
+#: ../admin-tool/gconfviewer.py:57 ../admin-tool/gconfviewer.py:76
+msgid "<no type>"
+msgstr "<ingen type>"
+
+#: ../admin-tool/gconfviewer.py:58
+msgid "<no value>"
+msgstr "<ingen værdi>"
+
+#: ../admin-tool/gconfviewer.py:62
+msgid "string"
+msgstr "streng"
+
+#: ../admin-tool/gconfviewer.py:64
+msgid "integer"
+msgstr "heltal"
+
+#: ../admin-tool/gconfviewer.py:66
+msgid "float"
+msgstr "kommatal"
+
+#: ../admin-tool/gconfviewer.py:68
+msgid "boolean"
+msgstr "sandhedsværdi"
+
+#: ../admin-tool/gconfviewer.py:70
+msgid "schema"
+msgstr "skema"
+
+#: ../admin-tool/gconfviewer.py:72
+msgid "list"
+msgstr "liste"
+
+#: ../admin-tool/gconfviewer.py:74
+msgid "pair"
+msgstr "par"
+
+#: ../admin-tool/gconfviewer.py:86
+#, python-format
+msgid "Profile settings: %s"
+msgstr "Indstillinger for profil: %s"
+
+#: ../admin-tool/gconfviewer.py:110 ../admin-tool/profilesdialog.py:423
+#: ../admin-tool/usersdialog.py:87
+msgid "Name"
+msgstr "Navn"
+
+#: ../admin-tool/gconfviewer.py:115
+msgid "Type"
+msgstr "Type"
+
+#: ../admin-tool/gconfviewer.py:120
+msgid "Value"
+msgstr "Værdi"
+
+#: ../admin-tool/groupsdialog.py:61
+#, python-format
+msgid "Groups for profile %s"
+msgstr "Grupper for profilen %s"
+
+#: ../admin-tool/groupsdialog.py:71
+msgid "Group"
+msgstr "Gruppe"
+
+#: ../admin-tool/groupsdialog.py:81 ../admin-tool/usersdialog.py:96
+msgid "Use This Profile"
+msgstr "Brug denne profil"
+
+#.
+#. Translators: this string specifies how a profile
+#. name is concatenated with an integer
+#. to form a unique profile name e.g.
+#. "Artist Workstation (5)"
+#.
+#: ../admin-tool/profilesdialog.py:550
+#, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../admin-tool/sabayon:77
+msgid ""
+"Your account does not have permissions to run the Desktop User Profiles tool"
+msgstr "Du har ikke tilladelse til at køre dette program"
+
+#: ../admin-tool/sabayon:78
+msgid ""
+"Administrator level permissions are needed to run this program because it "
+"can modify system files."
+msgstr ""
+"Der kræves administrator-rettigheder for at køre dette program idet det kan "
+"modificere systemfiler."
+
+#: ../admin-tool/sabayon:83
+msgid "Desktop User Profiles tool is already running"
+msgstr "Skrivebordsbrugerprofil-værktøjet kører allerede"
+
+#: ../admin-tool/sabayon:84
+msgid ""
+"You may not use Desktop User Profiles tool from within a profile editing "
+"session"
+msgstr ""
+"Du kan ikke bruge skrivebordsbrugerprofil-værktøjet inde i en "
+"profilredigerings-session"
+
+#: ../admin-tool/sabayon:91
+#, c-format
+msgid "User account '%s' was not found"
+msgstr "Brugerkonto \"%s\" blev ikke fundet"
+
+#: ../admin-tool/sabayon:92
+#, c-format
+msgid ""
+"Sabayon requires a special user account '%s' to be present on this computer. "
+"Try again after creating the account (using, for example, the 'adduser' "
+"command)"
+msgstr ""
+"Sabayon kræver at en speciel brugerkonto \"%s\" er til stede på denne "
+"computer. Prøv igen efter at have oprettet denne konto (ved f.eks. at bruge "
+"\"adduser\"-kommandoen)"
+
+#: ../admin-tool/sabayon:131
+#, c-format
+msgid ""
+"A fatal error has occurred.  You can help us fix the problem by sending the "
+"log in %s to %s"
+msgstr ""
+"Der er sket en fatal fejl. Du kan hjælpe os med at rette problemet ved at "
+"sende loggen i %s til %s"
+
+#: ../admin-tool/sabayon:145
+#, c-format
+msgid ""
+"Sabayon will now exit.  There were some recoverable errors, and you can help "
+"us debug the problem by sending the log in %s to %s"
+msgstr ""
+"Sabayon afsluttes nu. Der opstod nogle fejl som kunne reddes, du kan hjælpe "
+"os med at finde fejlene ved at sende loggen i %s til %s"
+
+# Denne her er noget af et gæt. Men eftersom det står at man skal bruge -h må vi næsten gå ud fra at det er kommandolinje tilvalg man kan få vist ved at køre programmet med tilvalget -h
+#: ../admin-tool/sabayon-apply:136
+msgid "Please use -h for usage options"
+msgstr "Brug -h for at få vist kommandolinje-tilvalg"
+
+#: ../admin-tool/sabayon-apply:148
+#, c-format
+msgid "No profile for user '%s' found\n"
+msgstr "Ingen profil fundet for bruger \"%s\"\n"
+
+#: ../admin-tool/sabayon-session:67
+#, c-format
+msgid "Usage: %s <profile-name> <profile-path> <display-number>\n"
+msgstr "Brug: %s <profilnavn> <profilsti> <profilnummer>\n"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:1
+msgid "Establish and Edit Profiles for Users"
+msgstr "Etablér og redigér brugerprofiler"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:2 ../admin-tool/sabayon.ui.h:4
+msgid "User Profile Editor"
+msgstr "Redigering af brugerprofil"
+
+#: ../admin-tool/sabayon.ui.h:1
+msgid "Add Profile"
+msgstr "Tilføj profil"
+
+#: ../admin-tool/sabayon.ui.h:2
+msgid "Profile _name:"
+msgstr "Profil_navn:"
+
+#: ../admin-tool/sabayon.ui.h:3
+msgid "Use this profile for _all users"
+msgstr "Brug denne profil til _alle brugere"
+
+# Igen oversat med inspiration fra den norske version:
+# "Baser på"
+#: ../admin-tool/sabayon.ui.h:5
+msgid "_Base on:"
+msgstr "_Basere på:"
+
+#: ../admin-tool/sabayon.ui.h:6
+msgid "_Details"
+msgstr "_Detaljer"
+
+#: ../admin-tool/sabayon.ui.h:7
+msgid "_Groups"
+msgstr "_Grupper"
+
+#: ../admin-tool/sabayon.ui.h:8
+msgid "_Groups:"
+msgstr "_Grupper:"
+
+#: ../admin-tool/sabayon.ui.h:9
+msgid "_Profiles:"
+msgstr "_Profiler:"
+
+#: ../admin-tool/sabayon.ui.h:10
+msgid "_Users"
+msgstr "_Brugere"
+
+#: ../admin-tool/sabayon.ui.h:11
+msgid "_Users:"
+msgstr "_Brugere:"
+
+#: ../admin-tool/saveconfirm.py:34
+msgid "Close _Without Saving"
+msgstr "Luk _uden at gemme"
+
+#: ../admin-tool/saveconfirm.py:41
+#, python-format
+msgid "Save changes to profile \"%s\" before closing?"
+msgstr "Gem ændringer i profil \"%s\" før afslutning?"
+
+#: ../admin-tool/saveconfirm.py:44
+msgid "If you don't save, all changes will be permanently lost."
+msgstr "Hvis du ikke gemmer, vil ændringer gå tabt permanent."
+
+#: ../admin-tool/sessionwindow.py:157
+#, python-format
+msgid "Editing profile %s"
+msgstr "Redigerer profil %s"
+
+#: ../admin-tool/sessionwindow.py:181
+msgid "_Quit"
+msgstr "_Afslut"
+
+#: ../admin-tool/sessionwindow.py:183
+msgid "_Changes"
+msgstr "_Ændringer"
+
+#: ../admin-tool/sessionwindow.py:183
+msgid "Edit changes"
+msgstr "Redigér ændringer"
+
+#: ../admin-tool/sessionwindow.py:184
+msgid "_Lockdown"
+msgstr "_Lås"
+
+#: ../admin-tool/sessionwindow.py:184
+msgid "Edit Lockdown settings"
+msgstr "Redigér låsningsindstillinger"
+
+#: ../admin-tool/sessionwindow.py:190
+msgid "Enforce Mandatory"
+msgstr "Gennemtving obligatorisk"
+
+#: ../admin-tool/sessionwindow.py:190
+msgid "Enforce mandatory settings in the editing session"
+msgstr "Gennemtving obligatoriske indstillinger i redigerings-sessionen"
+
+#: ../admin-tool/sessionwindow.py:308
+#, python-format
+msgid "Lockdown settings for %s"
+msgstr "Låsnings-indstillinger for %s"
+
+#: ../admin-tool/sessionwindow.py:344
+#, python-format
+msgid ""
+"There was a recoverable error while applying the user profile '%s'.  You can "
+"report this error now or try to continue editing the user profile."
+msgstr ""
+"Der opstod en fejl som kunne reddes under anvendelsen af brugerprofilen \"%s"
+"\". Du kan nu indrapportere denne fejl eller prøve at fortsætte med at "
+"redigere brugerprofilen."
+
+#: ../admin-tool/sessionwindow.py:348
+msgid "_Report this error"
+msgstr "_Indrapportér denne fejl"
+
+#: ../admin-tool/sessionwindow.py:349
+msgid "_Continue editing"
+msgstr "_Fortsæt med at redigere"
+
+#: ../admin-tool/usersdialog.py:72
+#, python-format
+msgid "Users for profile %s"
+msgstr "Brugere til profil %s"
+
+#: ../lib/protosession.py:119
+msgid "Unable to find a free X display"
+msgstr "Ude af stand til at finde en fri X-visning"
+
+#: ../lib/protosession.py:383
+msgid "Failed to start Xephyr: timed out waiting for USR1 signal"
+msgstr ""
+"Kunne ikke starte Xephyr: tidsgrænsen blev nået mens der blev ventet på USR1-"
+"signal"
+
+#: ../lib/protosession.py:385
+msgid "Failed to start Xephyr: died during startup"
+msgstr "Kunne ikke starte Xephyr: stoppede under opstart"
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (RECOVERABLE) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (RECOVERABLE) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:476
+#, python-format
+msgid ""
+"There was a recoverable error while applying the user profile from file '%s'."
+msgstr ""
+"Der opstod en fejl som kunne reddes under anvendelsen af brugerprofilen fra "
+"filen \"%s\"."
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (FATAL) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (FATAL) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:485
+#, python-format
+msgid "There was a fatal error while applying the user profile from '%s'."
+msgstr ""
+"Der opstod en fatal fejl under anvendelsen af brugerprofilen fra \"%s\"."
+
+#: ../lib/sources/filessource.py:69
+msgid "Directory"
+msgstr "Mappe"
+
+#: ../lib/sources/filessource.py:71
+msgid "Link"
+msgstr "Henvisning"
+
+#: ../lib/sources/filessource.py:73
+msgid "File"
+msgstr "Fil"
+
+#: ../lib/sources/filessource.py:75
+#, python-format
+msgid "%s '%s' created"
+msgstr "%s \"%s\" oprettet"
+
+#: ../lib/sources/filessource.py:77
+#, python-format
+msgid "%s '%s' deleted"
+msgstr "%s \"%s\" slettet"
+
+#: ../lib/sources/filessource.py:79
+#, python-format
+msgid "%s '%s' changed"
+msgstr "%s \"%s\" ændret"
+
+#: ../lib/sources/filessource.py:105
+msgid "Applications menu"
+msgstr "Program-menu"
+
+#: ../lib/sources/filessource.py:107
+msgid "Settings menu"
+msgstr "Opsætningsmenu"
+
+#: ../lib/sources/filessource.py:109
+msgid "Server Settings menu"
+msgstr "Serverindstillings-menu"
+
+#: ../lib/sources/filessource.py:111
+msgid "System Settings menu"
+msgstr "Systemindstillings-menu"
+
+#: ../lib/sources/filessource.py:113
+msgid "Start Here menu"
+msgstr "\"Start her\"-menu"
+
+#: ../lib/sources/gconfsource.py:90
+#, python-format
+msgid "GConf key '%s' unset"
+msgstr "GConf-nøgle \"%s\" nulstillet"
+
+#: ../lib/sources/gconfsource.py:92
+#, python-format
+msgid "GConf key '%s' set to string '%s'"
+msgstr "GConf-nøgle \"%s\" sat til streng \"%s\""
+
+#: ../lib/sources/gconfsource.py:94
+#, python-format
+msgid "GConf key '%s' set to integer '%s'"
+msgstr "GConf-nøgle \"%s\" sat til heltal \"%s\""
+
+#: ../lib/sources/gconfsource.py:96
+#, python-format
+msgid "GConf key '%s' set to float '%s'"
+msgstr "GConf-nøgle \"%s\" sat til kommatal \"%s\""
+
+#: ../lib/sources/gconfsource.py:98
+#, python-format
+msgid "GConf key '%s' set to boolean '%s'"
+msgstr "GConf-nøgle \"%s\" sat til sandhedsværdi \"%s\""
+
+#: ../lib/sources/gconfsource.py:100
+#, python-format
+msgid "GConf key '%s' set to schema '%s'"
+msgstr "GConf-nøgle \"%s\" sat til skema \"%s\""
+
+#: ../lib/sources/gconfsource.py:102
+#, python-format
+msgid "GConf key '%s' set to list '%s'"
+msgstr "GConf-nøgle \"%s\" sat til liste \"%s\""
+
+#: ../lib/sources/gconfsource.py:104
+#, python-format
+msgid "GConf key '%s' set to pair '%s'"
+msgstr "GConf-nøgle \"%s\" sat til par \"%s\""
+
+#: ../lib/sources/gconfsource.py:106
+#, python-format
+msgid "GConf key '%s' set to '%s'"
+msgstr "GConf-nøgle \"%s\" sat til \"%s\""
+
+#: ../lib/sources/gconfsource.py:138
+msgid "Default GConf settings"
+msgstr "Forvalgte GConf-indstillinger"
+
+#: ../lib/sources/gconfsource.py:140
+msgid "Mandatory GConf settings"
+msgstr "Obligatoriske GConf-indstillinger"
+
+#: ../lib/sources/mozillasource.py:135
+#, python-format
+msgid "Mozilla key '%s' set to '%s'"
+msgstr "Mozilla-nøgle \"%s\" sat til \"%s\""
+
+#: ../lib/sources/mozillasource.py:137
+#, python-format
+msgid "Mozilla key '%s' unset"
+msgstr "Mozilla-nøgle \"%s\" nulstillet"
+
+#: ../lib/sources/mozillasource.py:139
+#, python-format
+msgid "Mozilla key '%s' changed to '%s'"
+msgstr "Mozilla-nøgle \"%s\" ændret til \"%s\""
+
+#: ../lib/sources/mozillasource.py:169 ../lib/sources/mozillasource.py:179
+msgid "Web browser preferences"
+msgstr "Internetbrowser-indstillinger"
+
+#: ../lib/sources/mozillasource.py:171 ../lib/sources/mozillasource.py:181
+msgid "Web browser bookmarks"
+msgstr "Internetbrowser-bogmærker"
+
+#: ../lib/sources/mozillasource.py:173
+msgid "Web browser profile list"
+msgstr "Internetbrowser-profil-liste"
+
+#: ../lib/sources/mozillasource.py:550
+#, python-format
+msgid "File Not Found (%s)"
+msgstr "Fil ikke fundet (%s)"
+
+# Denne streng er oversat på en lignende måde i både den svenske og den norske udgave,
+# på den måde at name i parenteserne ikke er oversat. Jeg går ud fra at det er rigtigt
+# men måske en der kan Python kan be- eller af-kræfte dette
+#: ../lib/sources/mozillasource.py:899
+#, python-format
+msgid "duplicate name(%(name)s) in section %(section)s"
+msgstr "dobbelt navn(%(name)s) in sektion %(section)s"
+
+#: ../lib/sources/mozillasource.py:908
+#, python-format
+msgid "redundant default in section %s"
+msgstr "overflødig forvalgt indstilling i sektion %s"
+
+#: ../lib/sources/mozillasource.py:925
+msgid "no default profile"
+msgstr "ingen forvalgt profil"
+
+#: ../lib/sources/mozillasource.py:980
+#, python-format
+msgid "Mozilla bookmark created '%s' -> '%s'"
+msgstr "Mozilla-bogmærke oprettet \"%s\" -> \"%s\""
+
+#: ../lib/sources/mozillasource.py:982
+#, python-format
+msgid "Mozilla bookmark folder created '%s'"
+msgstr "Mozilla-bogmærkemappe oprettet \"%s\""
+
+#: ../lib/sources/mozillasource.py:985
+#, python-format
+msgid "Mozilla bookmark deleted '%s'"
+msgstr "Mozilla-bogmærke slettet \"%s\""
+
+#: ../lib/sources/mozillasource.py:987
+#, python-format
+msgid "Mozilla bookmark folder deleted '%s'"
+msgstr "Mozilla-bogmærkemappe slettet \"%s\""
+
+#: ../lib/sources/mozillasource.py:990
+#, python-format
+msgid "Mozilla bookmark changed '%s' '%s'"
+msgstr "Mozilla-bogmærke ændret \"%s\" \"%s\""
+
+#: ../lib/sources/mozillasource.py:992
+#, python-format
+msgid "Mozilla bookmark folder changed '%s'"
+msgstr "Mozilla-bogmærkemappe ændret \"%s\""
+
+#: ../lib/sources/paneldelegate.py:65
+#, python-format
+msgid "Panel '%s' added"
+msgstr "Panel \"%s\" tilføjet"
+
+#: ../lib/sources/paneldelegate.py:71
+#, python-format
+msgid "Panel '%s' removed"
+msgstr "Panel \"%s\" fjernet"
+
+#: ../lib/sources/paneldelegate.py:77
+#, python-format
+msgid "Applet '%s' added"
+msgstr "Panelprogrammet \"%s\" tilføjet"
+
+#: ../lib/sources/paneldelegate.py:100
+#, python-format
+msgid "Applet '%s' removed"
+msgstr "Panelprogrammet \"%s\" fjernet"
+
+#: ../lib/sources/paneldelegate.py:123
+#, python-format
+msgid "Object '%s' added"
+msgstr "Objektet \"%s\" tilføjet"
+
+#: ../lib/sources/paneldelegate.py:152
+#, python-format
+msgid "Object '%s' removed"
+msgstr "Objektet \"%s\" fjernet"
+
+#. Translators: This is a drawer in gnome-panel (where you can put applets)
+#: ../lib/sources/paneldelegate.py:241
+msgid "Drawer"
+msgstr "Skuffe"
+
+#: ../lib/sources/paneldelegate.py:243
+msgid "Main Menu"
+msgstr "Hovedmenu"
+
+#: ../lib/sources/paneldelegate.py:253
+#, python-format
+msgid "%s launcher"
+msgstr "%s startgenvej"
+
+#: ../lib/sources/paneldelegate.py:257
+msgid "Lock Screen button"
+msgstr "Lås skærm-knap"
+
+#: ../lib/sources/paneldelegate.py:259
+msgid "Logout button"
+msgstr "Logud-knap"
+
+#: ../lib/sources/paneldelegate.py:261
+msgid "Run Application button"
+msgstr "Kør program-knap"
+
+#: ../lib/sources/paneldelegate.py:263
+msgid "Search button"
+msgstr "Søge-knap"
+
+#: ../lib/sources/paneldelegate.py:265
+msgid "Force Quit button"
+msgstr "Knap til tvungen afslutning"
+
+#: ../lib/sources/paneldelegate.py:267
+msgid "Connect to Server button"
+msgstr "Knap til at forbinde til server"
+
+#: ../lib/sources/paneldelegate.py:269
+msgid "Shutdown button"
+msgstr "Knap til at lukke ned"
+
+#: ../lib/sources/paneldelegate.py:271
+msgid "Screenshot button"
+msgstr "Skærmbillede-knap"
+
+#: ../lib/sources/paneldelegate.py:274
+msgid "Unknown"
+msgstr "Ukendt"
+
+#: ../lib/sources/paneldelegate.py:276
+msgid "Menu Bar"
+msgstr "Menu-knap"
+
+#: ../lib/sources/paneldelegate.py:513
+msgid "Panel File"
+msgstr "Panelfil"
+
+#: ../lib/storage.py:173
+#, python-format
+msgid "Failed to read file '%s': %s"
+msgstr "Kunne ikke læse fil \"%s\": %s"
+
+#: ../lib/storage.py:183
+#, python-format
+msgid "Failed to read metadata from '%s': %s"
+msgstr "Kunne ikke læse metadata fra \"%s\": %s"
+
+#: ../lib/storage.py:189
+#, python-format
+msgid "Invalid metadata section in '%s': %s"
+msgstr "Ugyldig metadata-sektion i \"%s\": %s"
+
+#. change the raise to a dprint, since some files seem to disappear.
+#. raise ProfileStorageException (_("Cannot add non-existent file '%s'") % src_path)
+#: ../lib/storage.py:383
+#, python-format
+msgid "Cannot add non-existent file '%s'"
+msgstr "Kan ikke tilføje ikke eksisterende fil \"%s\""
+
+#: ../lib/storage.py:527
+#, python-format
+msgid "Couldn't rmdir '%s'"
+msgstr "Kunne ikke rmdir \"%s\""
+
+#: ../lib/storage.py:532
+#, python-format
+msgid "Couldn't unlink file '%s'"
+msgstr "Kunne ikke aflænke filen \"%s\""
+
+#: ../lib/storage.py:629
+#, python-format
+msgid "Profile is read-only %s"
+msgstr "Profilen kan kun læses %s"
+
+#. Translators: You may move the "%(setting)s" and "%(np)s" items as you wish, but
+#. do not change the way they are written.  The intended string is
+#. something like "invalid type for setting blah in /ldap/path/to/blah"
+#: ../lib/systemdb.py:77
+#, python-format
+msgid "invalid type for setting %(setting)s in %(np)s"
+msgstr "ugyldig type af indstillingen %(setting)s i %(np)s"
+
+#: ../lib/systemdb.py:122
+msgid "No database file provided"
+msgstr "Ingen databasefil givet"
+
+#: ../lib/systemdb.py:253
+#, python-format
+msgid "No LDAP search base specified for %s"
+msgstr "Ingen LDAP-søgebase angivet for %s"
+
+#: ../lib/systemdb.py:256
+#, python-format
+msgid "No LDAP query filter specified for %s"
+msgstr "Intet LDAP-forespørgselsfilter angivet for %s"
+
+#: ../lib/systemdb.py:259
+#, python-format
+msgid "No LDAP result attribute specified for %s"
+msgstr "Ingen LDAP-resultatattribut angivet for %s"
+
+#: ../lib/systemdb.py:268
+msgid "LDAP Scope must be one of: "
+msgstr "LDAP Scope skal være en af følgende: "
+
+#: ../lib/systemdb.py:288
+msgid "multiple_result must be one of: "
+msgstr "multiple_result skal være en af følgende: "
+
+#: ../lib/systemdb.py:381
+#, python-format
+msgid "Could not open %s for writing"
+msgstr "Kunne ikke åbne %s for at skrive til den"
+
+#: ../lib/systemdb.py:394
+#, python-format
+msgid "Failed to save UserDatabase to %s"
+msgstr "Kunne ikke gemme brugerdatabasen til %s"
+
+#: ../lib/systemdb.py:423 ../lib/systemdb.py:457
+#, python-format
+msgid "File %s is not a profile configuration"
+msgstr "Fil %s er ikke en profilkonfiguration"
+
+#: ../lib/systemdb.py:430
+#, python-format
+msgid "Failed to add default profile %s to configuration"
+msgstr "Kunne ikke tilføje den forvalgte profil %s til konfigurationen"
+
+#: ../lib/systemdb.py:464
+#, python-format
+msgid "Failed to add user %s to profile configuration"
+msgstr "Kunne ikke tilføje bruger %s til profilkonfiguration"
+
+#: ../lib/systemdb.py:536
+msgid "Failed to get the user list"
+msgstr "Kunne ikke hente brugerlisten"
+
+#: ../lib/systemdb.py:586
+msgid "Failed to get the group list"
+msgstr "Kunne ikke hente gruppelisten"
+
+#: ../lib/unittests.py:38 ../lib/unittests.py:39
+msgid "Ignore WARNINGs"
+msgstr "Ignorer ADVARSLER"
+
+#: ../lib/unittests.py:61
+#, python-format
+msgid "Running %s tests"
+msgstr "Kører %s tests"
+
+#: ../lib/unittests.py:63
+#, python-format
+msgid "Running %s tests (%s)"
+msgstr "Kører %s tests (%s)"
+
+#: ../lib/unittests.py:70
+msgid "Success!"
+msgstr "Succes!"
+
+#: ../lib/util.py:94
+msgid ""
+"Cannot find home directory: not set in /etc/passwd and no value for $HOME in "
+"environment"
+msgstr ""
+"Kunne ikke finde hjemmemappe: ikke indstillet i /etc/passwd og ingen værdi "
+"for $HOME i miljøet"
+
+#: ../lib/util.py:110 ../lib/util.py:137
+msgid ""
+"Cannot find username: not set in /etc/passwd and no value for $USER in "
+"environment"
+msgstr ""
+"Kunne ikke finde brugernavn: ikke indstillet i /etc/passwd og ingen værdi "
+"for $USER i miljøet"
+
+#~ msgid "Click to make this setting not mandatory"
+#~ msgstr "Klik for at gøre denne indstilling valgfri"
+
+#~ msgid "Click to make this setting mandatory"
+#~ msgstr "Klik for at gøre denne indstilling obligatorisk"
+
+#~ msgid "General"
+#~ msgstr "Generelt"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Internetbrowseren Epiphany"
+
+#~ msgid "Disable _command line"
+#~ msgstr "Deaktivér _kommandolinje"
+
+#~ msgid "Disable _printing"
+#~ msgstr "Deaktivér _udskrivning"
+
+#~ msgid "Disable print _setup"
+#~ msgstr "Deaktivér udskrifts_opsætning"
+
+#~ msgid "Disable save to _disk"
+#~ msgstr "Deaktivér gem til _disk"
+
+#~ msgid "_Lock down the panels"
+#~ msgstr "_Lås panelerne"
+
+#~ msgid "Disable force _quit"
+#~ msgstr "Deaktivér tvungen _afslutning"
+
+#~ msgid "Disable log _out"
+#~ msgstr "Deaktivér log_ud"
+
+#~ msgid "Disable _quit"
+#~ msgstr "Deaktivér _afslut"
+
+#~ msgid "Disable _arbitrary URL"
+#~ msgstr "Deaktivér _arbitrær adresse"
+
+#~ msgid "Disable _bookmark editing"
+#~ msgstr "Deaktivér redigering af _bogmærker"
+
+#~ msgid "Disable _history"
+#~ msgstr "Deaktivér _historik"
+
+#~ msgid "Disable _javascript chrome"
+#~ msgstr "Deaktivér _javaskript-chrome"
+
+#~ msgid "Disable _toolbar editing"
+#~ msgstr "Deaktivér redigering af _værktøjslinje"
+
+#~ msgid "Hide _menubar"
+#~ msgstr "Skjul _værktøjslinje"
+
+#~ msgid "Disable lock _screen"
+#~ msgstr "Deaktivér lås _skærm"
+
+#~ msgid "Lockdown Editor"
+#~ msgstr "Aflås redigering"
+
+#~ msgid "Remove personal information from documents when saving them"
+#~ msgstr "Fjern personlig information fra dokumenter når der gemmes"
+
+#~ msgid "Warn if macro tries to create a PDF"
+#~ msgstr "Advar hvis makro forsøger at danne PDF"
+
+#~ msgid "Warn if macro tries to print a document"
+#~ msgstr "Advar hvis makro forsøger at udskrive et dokument"
+
+#~ msgid "Warn if macro tries to save a document"
+#~ msgstr "Advar hvis makro forsøger at gemme et dokument"
+
+#~ msgid "Warn if macro tries to sign a document"
+#~ msgstr "Advar hvis makro forsøger at signere et dokument"
+
+#~ msgid "Recommend password when saving a document"
+#~ msgstr "Anbefal kodeord når et dokument gemmes"
+
+#~ msgid "Enable auto-save"
+#~ msgstr "Slå auto-gem til"
+
+#~ msgid "Printing should mark the document as modified"
+#~ msgstr "Dokumentet skal markeres som værende modificeret ved udskrift"
+
+#~ msgid "Use system's file dialog"
+#~ msgstr "Brug systemets filvælger"
+
+#~ msgid "Create backup copy on save"
+#~ msgstr "Dan sikkerhedskopi når der gemmes"
+
+#~ msgid "Warn when saving non-OpenOffice.org formats"
+#~ msgstr "Advar når der gemmes i ikke-OpenOffice.org-formater"
+
+#~ msgid "Use OpenGL"
+#~ msgstr "Brug OpenGL"
+
+#~ msgid "Use system font"
+#~ msgstr "Brug systemskrifttype"
+
+#~ msgid "Use anti-aliasing"
+#~ msgstr "Brug udjævning"
+
+#~ msgid "Disable UI customization"
+#~ msgstr "Deaktivér tilpasning af brugergrænseflade"
+
+# Kildkoden indikerer at dette har noget med filen
+# /apps/openoffice/show_menu_inactive_items
+# at gøre hvorfor jeg synes denne oversættelse er væsentlig bedre end en der indeholder den direkte oversættelse "ufølsom/ikke følsom"
+#~ msgid "Show insensitive menu items"
+#~ msgstr "Vis inaktive menuelementer"
+
+#~ msgid "Show font preview"
+#~ msgstr "Skrifttype-forhåndsvisning"
+
+#~ msgid "Show font history"
+#~ msgstr "Vis skrifttype-historik"
+
+#~ msgid "Show icons in menus"
+#~ msgstr "Vis ikoner i menuer"
+
+#~ msgid ""
+#~ "\n"
+#~ "5\n"
+#~ "10\n"
+#~ "25\n"
+#~ "50"
+#~ msgstr ""
+#~ "\n"
+#~ "5\n"
+#~ "10\n"
+#~ "25\n"
+#~ "50"
+
+#~ msgid ""
+#~ "\n"
+#~ "Automatic\n"
+#~ "Large\n"
+#~ "Small"
+#~ msgstr ""
+#~ "\n"
+#~ "Automatisk\n"
+#~ "Stor\n"
+#~ "Lille"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.odp)\n"
+#~ "PowerPoint 97+ (.ppt)\n"
+#~ "OpenOffice.org 1.1 (.sxi)"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenDocument (.odp)\n"
+#~ "PowerPoint 97+ (.ppt)\n"
+#~ "OpenOffice.org 1.1 (.sxi)"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.ods)\n"
+#~ "Excel 97+ (.xls)\n"
+#~ "OpenOffice.org 1.1 (.sxc)"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenDocument (.ods)\n"
+#~ "Excel 97+ (.xls)\n"
+#~ "OpenOffice.org 1.1 (.sxc)"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.odt)\n"
+#~ "Word 97+ (.doc)\n"
+#~ "OpenOffice.org 1.1 (.sxw)"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenDocument (.odt)\n"
+#~ "Word 97+ (.doc)\n"
+#~ "OpenOffice.org 1.1 (.sxw)"
+
+#~ msgid ""
+#~ "\n"
+#~ "Very High\n"
+#~ "High\n"
+#~ "Medium\n"
+#~ "Low"
+#~ msgstr ""
+#~ "\n"
+#~ "Meget høj\n"
+#~ "Høj\n"
+#~ "Medium\n"
+#~ "Lav"
+
+#~ msgid "Default format for presentations:"
+#~ msgstr "Standardformat til præsentationer:"
+
+#~ msgid "Default format for spreadsheet:"
+#~ msgstr "Standardformat til regneark:"
+
+#~ msgid "Default format for word processor:"
+#~ msgstr "Standardformat til tekstdokumenter:"
+
+#~ msgid "Default icon size"
+#~ msgstr "Forvalgt ikonstørrelse"
+
+#~ msgid "Load / Save"
+#~ msgstr "Indlæs / Gem"
+
+#~ msgid "Macro Security Level:"
+#~ msgstr "Makro sikkerhedsniveau:"
+
+#~ msgid "Number of undo steps:"
+#~ msgstr "Antal fortryd-skridt:"
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Security"
+#~ msgstr "Sikkerhed"
+
+#~ msgid "User Interface"
+#~ msgstr "Brugergrænseflade"
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %ld second will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %ld seconds will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Hvis du ikke gemmer vil ændringer fra det sidste %ld sekund gå tabt."
+#~ msgstr[1] ""
+#~ "Hvis du ikke gemmer vil ændringer fra de sidste %ld sekunder gå tabt."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last minute will be permanently lost."
+#~ msgstr ""
+#~ "Hvis du ikke gemmer vil ændringer foretaget inden for det sidste minut gå "
+#~ "tabt."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last minute and %ld second will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last minute and %ld seconds will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Hvis du ikke gemmer vil ændringer fra det sidste minut og %ld sekund gå "
+#~ "tabt."
+#~ msgstr[1] ""
+#~ "Hvis du ikke gemmer vil ændringer fra det sidste minut og %ld sekunder gå "
+#~ "tabt."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %ld minute will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %ld minutes will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Hvis du ikke gemmer vil ændringer fra det sidste %ld minut gå tabt."
+#~ msgstr[1] ""
+#~ "Hvis du ikke gemmer vil ændringer fra de sidste %ld minutter gå tabt."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last hour and %d minute will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last hour and %d minutes will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Hvis du ikke gemmer vil ændringer fra den sidste time og %ld minut gå "
+#~ "tabt."
+#~ msgstr[1] ""
+#~ "Hvis du ikke gemmer vil ændringer fra den sidste time og %ld minutter gå "
+#~ "tabt."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %d hour will be permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %d hours will be permanently "
+#~ "lost."
+#~ msgstr[0] "Hvis du ikke gemmer, vil ændringer fra den sidste time gå tabt."
+#~ msgstr[1] ""
+#~ "Hvis du ikke gemmer, vil ændringer fra de sidste %d timer gå tabt."
+
+#~ msgid "Preferences menu"
+#~ msgstr "Indstillings-menu"
+
+#~ msgid "Applet %s added to top panel"
+#~ msgstr "Panelprogram %s tilføjet til top-panel"
+
+#~ msgid "Applet %s added to bottom panel"
+#~ msgstr "Panelprogram %s tilføjet til bund-panel"
+
+#~ msgid "Applet %s added to left panel"
+#~ msgstr "Panelprogram %s tilføjet til venstre panel"
+
+#~ msgid "Applet %s added to right panel"
+#~ msgstr "Panelprogram %s tilføjet til højre panel"
+
+#~ msgid "Applet %s removed from top panel"
+#~ msgstr "Panelprogram %s fjernet fra top-panel"
+
+#~ msgid "Applet %s removed from bottom panel"
+#~ msgstr "Panelprogram %s fjernet fra bund-panel"
+
+#~ msgid "Applet %s removed from left panel"
+#~ msgstr "Panelprogram %s fjernet fra venstre panel"
+
+#~ msgid "Applet %s removed from right panel"
+#~ msgstr "Panelprogram %s fjernet fra højre panel"
+
+#~ msgid "%s added to top panel"
+#~ msgstr "%s tilføjet til top-panel"
+
+#~ msgid "%s added to bottom panel"
+#~ msgstr "%s tilføjet til bund-panel"
+
+#~ msgid "%s added to left panel"
+#~ msgstr "%s tilføjet til venstre panel"
+
+#~ msgid "%s added to right panel"
+#~ msgstr "%s tilføjet til højre panel"
+
+#~ msgid "%s removed from top panel"
+#~ msgstr "%s fjernet fra top-panel"
+
+#~ msgid "%s removed from bottom panel"
+#~ msgstr "%s fjernet fra bund-panel"
+
+#~ msgid "%s removed from left panel"
+#~ msgstr "%s fjernet fra venstre panel"
+
+#~ msgid "%s removed from right panel"
+#~ msgstr "%s fjernet fra højre panel"
+
+#~ msgid "Warn if macro prints"
+#~ msgstr "Advar hvis makro printer"
+
+#~ msgid "Printing modifies document"
+#~ msgstr "Udskrivning modificerer dokumentet"
+
+# Kildkoden indikerer at dette har noget med filen
+# /apps/openoffice/warn_alien_format
+# at gøre hvorfor jeg synes denne oversættelse er væsentlig bedre end en der indeholder den direkte oversættelse "eksterne"
+#~ msgid "Warn for external formats"
+#~ msgstr "Advar ved fremmede formater"
+
+#~ msgid "Calc default format:"
+#~ msgstr "Calc standard-filformat:"
+
+#~ msgid "Impress default format:"
+#~ msgstr "Impress standard-filformat:"
+
+#~ msgid "Undo Steps:"
+#~ msgstr "Fortrydelsesskridt:"
+
+#~ msgid "Writer default format:"
+#~ msgstr "Writer standard-filformat:"
+
+#~ msgid ""
+#~ "Could not create the 'sabayon-apply' process: %s\n"
+#~ "The command line used is '%s'\n"
+#~ "Child traceback:\n"
+#~ "%s"
+#~ msgstr ""
+#~ "Kunne ikke danne \"sabayon-apply\"-proces: %s\n"
+#~ "Kommandolinjen som blev brugt er \"%s\"\n"
+#~ "Stakspor for underprocessen:\n"
+#~ "%s"

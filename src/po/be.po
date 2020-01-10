@@ -1,0 +1,1188 @@
+# Belarusian translation of sabayon.
+# Copyright (C) 2009 THE sabayon'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the sabayon package.
+# Iryna Nikanchuk <defragbrain@gmail.com>, 2009.
+#
+#
+# Alexander Nyakhaychyk <nyakhaychyk@gmail.com>, 2009.
+msgid ""
+msgstr ""
+"Project-Id-Version: sabayon HEAD\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-12-21 21:44-0600\n"
+"PO-Revision-Date: 2009-08-27 23:51+0300\n"
+"Last-Translator: Alexander Nyakhaychyk <nyakhaychyk@gmail.com>\n"
+"Language-Team: Belarusian <i18n@mova.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%"
+"10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: ../admin-tool/aboutdialog.py:66
+msgid "Program to establish and edit profiles for users"
+msgstr "Праграма ўсталяваньня й рэдагаваньня профілю карыстальніка"
+
+#: ../admin-tool/aboutdialog.py:69
+msgid "translator-credits"
+msgstr "Iryna Nikanchuk <defragbrain@gmail.com>"
+
+#: ../admin-tool/changeswindow.py:50
+#, python-format
+msgid "Changes in profile %s"
+msgstr "Зьмены ў профілі %s"
+
+#: ../admin-tool/changeswindow.py:113
+msgid "Ignore"
+msgstr "Ігнараваць"
+
+#: ../admin-tool/changeswindow.py:120
+msgid "Lock"
+msgstr "Заблякаваць"
+
+#: ../admin-tool/changeswindow.py:127 ../admin-tool/editorwindow.py:238
+msgid "Description"
+msgstr "Апісаньне"
+
+#: ../admin-tool/editorwindow.py:97
+#, python-format
+msgid "Profile %s"
+msgstr "Профіль %s"
+
+#: ../admin-tool/editorwindow.py:202 ../admin-tool/sessionwindow.py:177
+msgid "_Profile"
+msgstr "_Профіль"
+
+#: ../admin-tool/editorwindow.py:203 ../admin-tool/sessionwindow.py:178
+msgid "_Save"
+msgstr "_Захаваць"
+
+#: ../admin-tool/editorwindow.py:203 ../admin-tool/sessionwindow.py:178
+msgid "Save profile"
+msgstr "Захаваць профіль"
+
+#: ../admin-tool/editorwindow.py:204
+msgid "_Close"
+msgstr "_Закрыць"
+
+#: ../admin-tool/editorwindow.py:204 ../admin-tool/sessionwindow.py:179
+msgid "Close the current window"
+msgstr "Закрыць гэтае акно"
+
+#: ../admin-tool/editorwindow.py:205 ../admin-tool/sessionwindow.py:180
+msgid "_Edit"
+msgstr "_Рэдагаваць"
+
+#: ../admin-tool/editorwindow.py:206
+msgid "_Delete"
+msgstr "_Выдаліць"
+
+#: ../admin-tool/editorwindow.py:206
+msgid "Delete item"
+msgstr "Выдаліць элемэнт"
+
+#: ../admin-tool/editorwindow.py:207 ../admin-tool/sessionwindow.py:183
+msgid "_Help"
+msgstr "_Даведка"
+
+#: ../admin-tool/editorwindow.py:208 ../admin-tool/sessionwindow.py:184
+msgid "_Contents"
+msgstr ""
+
+#: ../admin-tool/editorwindow.py:208 ../admin-tool/sessionwindow.py:184
+msgid "Help Contents"
+msgstr ""
+
+#: ../admin-tool/editorwindow.py:209 ../admin-tool/sessionwindow.py:185
+msgid "_About"
+msgstr "_Аб праграме"
+
+#: ../admin-tool/editorwindow.py:209 ../admin-tool/sessionwindow.py:185
+msgid "About Sabayon"
+msgstr "Зьвесткі пра Sabayon"
+
+#: ../admin-tool/editorwindow.py:270 ../lib/sources/gconfsource.py:124
+msgid "GConf"
+msgstr "GConf"
+
+#: ../admin-tool/editorwindow.py:274 ../lib/sources/filessource.py:79
+msgid "Files"
+msgstr "Файлы"
+
+#: ../admin-tool/editorwindow.py:274 ../lib/sources/paneldelegate.py:278
+msgid "Panel"
+msgstr "Панэль"
+
+#: ../admin-tool/fileviewer.py:27
+#, python-format
+msgid "Profile file: %s"
+msgstr "Файл профілю: %s"
+
+#: ../admin-tool/gconfviewer.py:57 ../admin-tool/gconfviewer.py:76
+msgid "<no type>"
+msgstr "<тып невядомы>"
+
+#: ../admin-tool/gconfviewer.py:58
+msgid "<no value>"
+msgstr "<няма значэньня>"
+
+#: ../admin-tool/gconfviewer.py:62
+msgid "string"
+msgstr "радок"
+
+#: ../admin-tool/gconfviewer.py:64
+msgid "integer"
+msgstr "цэлы"
+
+#: ../admin-tool/gconfviewer.py:66
+msgid "float"
+msgstr "нефіксаваная коска"
+
+#: ../admin-tool/gconfviewer.py:68
+msgid "boolean"
+msgstr "лягічны"
+
+#: ../admin-tool/gconfviewer.py:70
+msgid "schema"
+msgstr "схема"
+
+#: ../admin-tool/gconfviewer.py:72
+msgid "list"
+msgstr "сьпіс"
+
+#: ../admin-tool/gconfviewer.py:74
+msgid "pair"
+msgstr "пара"
+
+#: ../admin-tool/gconfviewer.py:86
+#, python-format
+msgid "Profile settings: %s"
+msgstr "Наладкі профілю: %s"
+
+#: ../admin-tool/gconfviewer.py:110 ../admin-tool/profilesdialog.py:404
+#: ../admin-tool/usersdialog.py:87
+msgid "Name"
+msgstr "Назва"
+
+#: ../admin-tool/gconfviewer.py:115
+msgid "Type"
+msgstr "Тып"
+
+#: ../admin-tool/gconfviewer.py:120
+msgid "Value"
+msgstr "Значэньне"
+
+#: ../admin-tool/groupsdialog.py:61
+#, fuzzy, python-format
+msgid "Groups for profile %s"
+msgstr "Карыстальнікі профілю %s"
+
+#: ../admin-tool/groupsdialog.py:71
+msgid "Group"
+msgstr ""
+
+#: ../admin-tool/groupsdialog.py:81 ../admin-tool/usersdialog.py:96
+msgid "Use This Profile"
+msgstr "Ужыць гэты профіль"
+
+#.
+#. Translators: this string specifies how a profile
+#. name is concatenated with an integer
+#. to form a unique profile name e.g.
+#. "Artist Workstation (5)"
+#.
+#: ../admin-tool/profilesdialog.py:520
+#, python-format
+msgid "%s (%s)"
+msgstr "%s (%s)"
+
+#: ../admin-tool/sabayon:77
+msgid ""
+"Your account does not have permissions to run the Desktop User Profiles tool"
+msgstr ""
+"Вашаму рахунку не стае правоў, каб урухоміць інструмэнты для работы з "
+"профілямі карыстальнікаў"
+
+#: ../admin-tool/sabayon:78
+msgid ""
+"Administrator level permissions are needed to run this program because it "
+"can modify system files."
+msgstr ""
+"Правы ўзроўню адміністратара патрэбныя, каб урухоміць гэтую праграму, таму "
+"што яна можа зьмяняць сыстэмныя файлы."
+
+#: ../admin-tool/sabayon:83
+msgid "Desktop User Profiles tool is already running"
+msgstr "Інструмэнт работы з профілямі карыстальнікаў ужо ўрухомлены"
+
+#: ../admin-tool/sabayon:84
+msgid ""
+"You may not use Desktop User Profiles tool from within a profile editing "
+"session"
+msgstr ""
+"Вы можаце не карыстацца інструмэнтамі для работы з профілямі карыстальнікаў "
+"з сэсіі рэдагаваньня профілю"
+
+#: ../admin-tool/sabayon:91
+#, c-format
+msgid "User account '%s' was not found"
+msgstr "Рахунак карыстальніка '%s' ня знойдзены"
+
+#: ../admin-tool/sabayon:92
+#, c-format
+msgid ""
+"Sabayon requires a special user account '%s' to be present on this computer. "
+"Try again after creating the account (using, for example, the 'adduser' "
+"command)"
+msgstr ""
+"Sabayon патрабуе спэцыяльнага рахунку '%s' на гэтым кампутары. Паспрабуйце "
+"зноў пасьля стварэньня рахунку (скарыстайце, напрыклад, загад 'adduser')"
+
+#: ../admin-tool/sabayon:131
+#, c-format
+msgid ""
+"A fatal error has occurred.  You can help us fix the problem by sending the "
+"log in %s to %s"
+msgstr ""
+"Здарылася фатальная памылка. Каб дапамагчы нам вырашыць гэтую праблему, "
+"дашліце апісаньне з %s да %s"
+
+#: ../admin-tool/sabayon:145
+#, c-format
+msgid ""
+"Sabayon will now exit.  There were some recoverable errors, and you can help "
+"us debug the problem by sending the log in %s to %s"
+msgstr ""
+"Sabayon будзе закрыты. Адбылося некалькі папраўных памылак, і каб дапамагчы "
+"нам выправіць іх, дашліце апісаньне праблемы з %s да %s"
+
+#: ../admin-tool/sabayon-apply:111
+msgid "Please use -h for usage options"
+msgstr "Ужыйце -h для варыянтаў выкарыстаньня"
+
+#: ../admin-tool/sabayon-apply:123
+#, c-format
+msgid "No profile for user '%s' found\n"
+msgstr "Ня знойдзены профіль для '%s'\n"
+
+#: ../admin-tool/sabayon-session:67
+#, c-format
+msgid "Usage: %s <profile-name> <profile-path> <display-number>\n"
+msgstr "Выкарыстаньне: %s <profile-name> <profile-path> <display-number>\n"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:1
+msgid "Establish and Edit Profiles for Users"
+msgstr "Усталяваньне й рэдагаваньне профіляў карыстальнікаў"
+
+#: ../admin-tool/sabayon.desktop.in.in.h:2 ../admin-tool/sabayon.ui.h:4
+msgid "User Profile Editor"
+msgstr "Рэдактар профіляў Карыстальнікаў"
+
+#: ../admin-tool/sabayon.ui.h:1
+msgid "Add Profile"
+msgstr "Дадаць профіль"
+
+#: ../admin-tool/sabayon.ui.h:2
+msgid "Profile _name:"
+msgstr "Назва _профілю:"
+
+#: ../admin-tool/sabayon.ui.h:3
+msgid "Use this profile for _all users"
+msgstr "Ужыць гэты профіль для _ўсіх карыстальнікаў"
+
+#: ../admin-tool/sabayon.ui.h:5
+msgid "_Base on:"
+msgstr "_Заснаваны на:"
+
+#: ../admin-tool/sabayon.ui.h:6
+msgid "_Details"
+msgstr "_Падрабязнасьці"
+
+#: ../admin-tool/sabayon.ui.h:7
+msgid "_Groups"
+msgstr ""
+
+#: ../admin-tool/sabayon.ui.h:8
+msgid "_Groups:"
+msgstr ""
+
+#: ../admin-tool/sabayon.ui.h:9
+msgid "_Profiles:"
+msgstr "_Профілі:"
+
+#: ../admin-tool/sabayon.ui.h:10
+msgid "_Users"
+msgstr "_Карыстальнікі"
+
+#: ../admin-tool/sabayon.ui.h:11
+msgid "_Users:"
+msgstr "_Карыстальнікі:"
+
+#: ../admin-tool/saveconfirm.py:34
+msgid "Close _Without Saving"
+msgstr "Закрыць _без захаваньня"
+
+#: ../admin-tool/saveconfirm.py:41
+#, python-format
+msgid "Save changes to profile \"%s\" before closing?"
+msgstr "Захаваць зьмены для профілю \"%s\" перад выхадам?"
+
+#: ../admin-tool/saveconfirm.py:44
+#, fuzzy
+msgid "If you don't save, all changes will be permanently lost."
+msgstr ""
+"Калі не захаваеце, зьмены з апошняй гадзіны будуць назаўсёды страчаныя."
+
+#: ../admin-tool/sessionwindow.py:155
+#, python-format
+msgid "Editing profile %s"
+msgstr "Рэдагаваньне профілю %s"
+
+#: ../admin-tool/sessionwindow.py:179
+msgid "_Quit"
+msgstr "_Выйсьці"
+
+#: ../admin-tool/sessionwindow.py:181
+msgid "_Changes"
+msgstr "_Зьмены"
+
+#: ../admin-tool/sessionwindow.py:181
+msgid "Edit changes"
+msgstr "Рэдагаваць зьмены"
+
+#: ../admin-tool/sessionwindow.py:182
+msgid "_Lockdown"
+msgstr "_Блякаваньне"
+
+#: ../admin-tool/sessionwindow.py:182
+msgid "Edit Lockdown settings"
+msgstr "Рэдагаваць наладкі блякаваньняў"
+
+#: ../admin-tool/sessionwindow.py:188
+msgid "Enforce Mandatory"
+msgstr "Прымус для абавязковых наладаў"
+
+#: ../admin-tool/sessionwindow.py:188
+msgid "Enforce mandatory settings in the editing session"
+msgstr "Наладкі абавязковага прымусу ў сэсіі рэдагаваньня"
+
+#: ../admin-tool/sessionwindow.py:306
+#, python-format
+msgid "Lockdown settings for %s"
+msgstr "Наладкі блякаваньняў для %s"
+
+#: ../admin-tool/sessionwindow.py:342
+#, python-format
+msgid ""
+"There was a recoverable error while applying the user profile '%s'.  You can "
+"report this error now or try to continue editing the user profile."
+msgstr ""
+"Узьнікла папраўная памылка пры ўжываньні профілю карыстальніка '%s'. Вы "
+"можаце паведаміць пра памылку зараз альбо спрабаваць працягваць рэдагаваньне "
+"профілю карыстальніка."
+
+#: ../admin-tool/sessionwindow.py:346
+msgid "_Report this error"
+msgstr "_Паведаміць пра памылку"
+
+#: ../admin-tool/sessionwindow.py:347
+msgid "_Continue editing"
+msgstr "_Працягваць рэдагаваньне"
+
+#: ../admin-tool/usersdialog.py:72
+#, python-format
+msgid "Users for profile %s"
+msgstr "Карыстальнікі профілю %s"
+
+#: ../lib/protosession.py:112
+msgid "Unable to find a free X display"
+msgstr "Немагчыма знайсьці вольны X-дысплэй"
+
+#: ../lib/protosession.py:376
+msgid "Failed to start Xephyr: timed out waiting for USR1 signal"
+msgstr "Немагчыма запусьціць Xephyr: таймаўт для сыгнала USR1"
+
+#: ../lib/protosession.py:378
+msgid "Failed to start Xephyr: died during startup"
+msgstr "Немагчыма запусьціць Xephyr: загінуў у час запуску"
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (RECOVERABLE) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (RECOVERABLE) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:469
+#, python-format
+msgid ""
+"There was a recoverable error while applying the user profile from file '%s'."
+msgstr "Здарылася памылка пры ўжываньні профілю карыстальніка з файла '%s'."
+
+#. mprint ("========== BEGIN SABAYON-APPLY LOG (FATAL) ==========\n"
+#. "%s\n"
+#. "========== END SABAYON-APPLY LOG (FATAL) ==========",
+#. stderr_str)
+#: ../lib/protosession.py:478
+#, python-format
+msgid "There was a fatal error while applying the user profile from '%s'."
+msgstr ""
+"Здарылася фатальная памылка пры ужываньні профілю карыстальніка з '%s'."
+
+#: ../lib/sources/filessource.py:69
+#, python-format
+msgid "File '%s' created"
+msgstr "Файл '%s' створаны"
+
+#: ../lib/sources/filessource.py:71
+#, python-format
+msgid "File '%s' deleted"
+msgstr "Файл '%s' выдалены"
+
+#: ../lib/sources/filessource.py:73
+#, python-format
+msgid "File '%s' changed"
+msgstr "Файл '%s' зьменены"
+
+#: ../lib/sources/filessource.py:97
+msgid "Applications menu"
+msgstr "Мэню дастасаваньняў"
+
+#: ../lib/sources/filessource.py:99
+#, fuzzy
+msgid "Settings menu"
+msgstr "Мэню наладак сэрвэра"
+
+#: ../lib/sources/filessource.py:101
+msgid "Server Settings menu"
+msgstr "Мэню наладак сэрвэра"
+
+#: ../lib/sources/filessource.py:103
+msgid "System Settings menu"
+msgstr "Мэню наладак сыстэмы"
+
+#: ../lib/sources/filessource.py:105
+msgid "Start Here menu"
+msgstr "Мэню пачатку"
+
+#: ../lib/sources/gconfsource.py:90
+#, python-format
+msgid "GConf key '%s' unset"
+msgstr "GConf ключ '%s' скасаваны"
+
+#: ../lib/sources/gconfsource.py:92
+#, python-format
+msgid "GConf key '%s' set to string '%s'"
+msgstr "GConf ключ '%s' выстаўлены як радок '%s'"
+
+#: ../lib/sources/gconfsource.py:94
+#, python-format
+msgid "GConf key '%s' set to integer '%s'"
+msgstr "GConf ключ '%s' выстаўлены як цэлы '%s'"
+
+#: ../lib/sources/gconfsource.py:96
+#, python-format
+msgid "GConf key '%s' set to float '%s'"
+msgstr "GConf ключ '%s' выстаўлены як лік зь нефіксаванай коскаю '%s'"
+
+#: ../lib/sources/gconfsource.py:98
+#, python-format
+msgid "GConf key '%s' set to boolean '%s'"
+msgstr "GConf ключ '%s' выстаўлены як лягічны '%s'"
+
+#: ../lib/sources/gconfsource.py:100
+#, python-format
+msgid "GConf key '%s' set to schema '%s'"
+msgstr "GConf ключ '%s' выстаўлены як схема '%s'"
+
+#: ../lib/sources/gconfsource.py:102
+#, python-format
+msgid "GConf key '%s' set to list '%s'"
+msgstr "GConf ключ '%s' выстаўлены як сьпіс '%s'"
+
+#: ../lib/sources/gconfsource.py:104
+#, python-format
+msgid "GConf key '%s' set to pair '%s'"
+msgstr "GConf ключ '%s' выстаўлены як пара '%s'"
+
+#: ../lib/sources/gconfsource.py:106
+#, python-format
+msgid "GConf key '%s' set to '%s'"
+msgstr "GConf ключ '%s' выстаўлены як '%s'"
+
+#: ../lib/sources/gconfsource.py:137
+msgid "Default GConf settings"
+msgstr "Змоўчаныя наладкі GConf"
+
+#: ../lib/sources/gconfsource.py:139
+msgid "Mandatory GConf settings"
+msgstr "Абавязковыя наладкі GConf"
+
+#: ../lib/sources/mozillasource.py:133
+#, python-format
+msgid "Mozilla key '%s' set to '%s'"
+msgstr "Ключ Мазілы '%s' выстаўлены як '%s'"
+
+#: ../lib/sources/mozillasource.py:135
+#, python-format
+msgid "Mozilla key '%s' unset"
+msgstr "Ключ Мазілы '%s' скасаваны"
+
+#: ../lib/sources/mozillasource.py:137
+#, python-format
+msgid "Mozilla key '%s' changed to '%s'"
+msgstr "Ключ Мазілы '%s' зьменены на '%s'"
+
+#: ../lib/sources/mozillasource.py:166 ../lib/sources/mozillasource.py:176
+msgid "Web browser preferences"
+msgstr "Перавагі гартача сеціва"
+
+#: ../lib/sources/mozillasource.py:168 ../lib/sources/mozillasource.py:178
+msgid "Web browser bookmarks"
+msgstr "Закладкі гартача сеціва"
+
+#: ../lib/sources/mozillasource.py:170
+msgid "Web browser profile list"
+msgstr "Сьпіс профіляў для гартача сеціва"
+
+#: ../lib/sources/mozillasource.py:520
+#, python-format
+msgid "File Not Found (%s)"
+msgstr "Файл ня знойдзены (%s)"
+
+#: ../lib/sources/mozillasource.py:869
+#, python-format
+msgid "duplicate name(%(name)s) in section %(section)s"
+msgstr "паўторная назва (%(name)s)·у сэкцыі %(section)s"
+
+#: ../lib/sources/mozillasource.py:878
+#, python-format
+msgid "redundant default in section %s"
+msgstr "лішняе змоўчаньне ў сэкцыі %s"
+
+#: ../lib/sources/mozillasource.py:895
+msgid "no default profile"
+msgstr "няма змоўчанага профілю"
+
+#: ../lib/sources/mozillasource.py:950
+#, python-format
+msgid "Mozilla bookmark created '%s' -> '%s'"
+msgstr "Закладка Мазілы створаная '%s' -> '%s'"
+
+#: ../lib/sources/mozillasource.py:952
+#, python-format
+msgid "Mozilla bookmark folder created '%s'"
+msgstr "Створаная тэчка закладак Мазілы '%s'"
+
+#: ../lib/sources/mozillasource.py:955
+#, python-format
+msgid "Mozilla bookmark deleted '%s'"
+msgstr "Закладка Мазілы выдаленая '%s'"
+
+#: ../lib/sources/mozillasource.py:957
+#, python-format
+msgid "Mozilla bookmark folder deleted '%s'"
+msgstr "Тэчка закладак Мазілы выдаленая '%s'"
+
+#: ../lib/sources/mozillasource.py:960
+#, python-format
+msgid "Mozilla bookmark changed '%s' '%s'"
+msgstr "Закладка Мазілы зьмененая '%s' '%s'"
+
+#: ../lib/sources/mozillasource.py:962
+#, python-format
+msgid "Mozilla bookmark folder changed '%s'"
+msgstr "Тэчка закладак Мазілы зьмененая '%s'"
+
+#: ../lib/sources/paneldelegate.py:65
+#, python-format
+msgid "Panel '%s' added"
+msgstr "Панэль '%s' даданая"
+
+#: ../lib/sources/paneldelegate.py:71
+#, python-format
+msgid "Panel '%s' removed"
+msgstr "Панэль '%s' выдаленая"
+
+#: ../lib/sources/paneldelegate.py:77
+#, fuzzy, python-format
+msgid "Applet '%s' added"
+msgstr "Панэль '%s' даданая"
+
+#: ../lib/sources/paneldelegate.py:100
+#, fuzzy, python-format
+msgid "Applet '%s' removed"
+msgstr "Панэль '%s' выдаленая"
+
+#: ../lib/sources/paneldelegate.py:123
+#, fuzzy, python-format
+msgid "Object '%s' added"
+msgstr "Панэль '%s' даданая"
+
+#: ../lib/sources/paneldelegate.py:152
+#, fuzzy, python-format
+msgid "Object '%s' removed"
+msgstr "Панэль '%s' выдаленая"
+
+#. Translators: This is a drawer in gnome-panel (where you can put applets)
+#: ../lib/sources/paneldelegate.py:240
+msgid "Drawer"
+msgstr "Шуфляда"
+
+#: ../lib/sources/paneldelegate.py:242
+msgid "Main Menu"
+msgstr "Галоўнае мэню"
+
+#: ../lib/sources/paneldelegate.py:252
+#, python-format
+msgid "%s launcher"
+msgstr "Пускальнік %s"
+
+#: ../lib/sources/paneldelegate.py:256
+msgid "Lock Screen button"
+msgstr "Кнопка блякаваньня экрану"
+
+#: ../lib/sources/paneldelegate.py:258
+msgid "Logout button"
+msgstr "Кнопка выхаду"
+
+#: ../lib/sources/paneldelegate.py:260
+msgid "Run Application button"
+msgstr "Кнопка ўрухомленьня дастасаваньня"
+
+#: ../lib/sources/paneldelegate.py:262
+msgid "Search button"
+msgstr "Кнопка пошуку"
+
+#: ../lib/sources/paneldelegate.py:264
+msgid "Force Quit button"
+msgstr "Кнопка прымусовага выхаду"
+
+#: ../lib/sources/paneldelegate.py:266
+msgid "Connect to Server button"
+msgstr "Кнопка далучэньня да сэрвэра"
+
+#: ../lib/sources/paneldelegate.py:268
+msgid "Shutdown button"
+msgstr "Кнопка выключэньня"
+
+#: ../lib/sources/paneldelegate.py:270
+msgid "Screenshot button"
+msgstr "Кнопка здымку экрану"
+
+#: ../lib/sources/paneldelegate.py:273
+msgid "Unknown"
+msgstr "Невядома"
+
+#: ../lib/sources/paneldelegate.py:275
+msgid "Menu Bar"
+msgstr "Панэль мэню"
+
+#: ../lib/sources/paneldelegate.py:512
+msgid "Panel File"
+msgstr "Файл панэлі"
+
+#: ../lib/storage.py:172
+#, python-format
+msgid "Failed to read file '%s': %s"
+msgstr "Не ўдалося прачытаць файл '%s': %s"
+
+#: ../lib/storage.py:182
+#, python-format
+msgid "Failed to read metadata from '%s': %s"
+msgstr "Не ўдалося прачытаць мэтазьвесткі з '%s': %s"
+
+#: ../lib/storage.py:188
+#, python-format
+msgid "Invalid metadata section in '%s': %s"
+msgstr "Памылковая сэкцыя мэтазьвестак у '%s': %s"
+
+#: ../lib/storage.py:362
+#, python-format
+msgid "Cannot add non-existent file '%s'"
+msgstr "Немагчыма дадаць файл '%s', які не існуе"
+
+#: ../lib/storage.py:487
+#, python-format
+msgid "Couldn't unlink file '%s'"
+msgstr ""
+
+#: ../lib/storage.py:570
+#, python-format
+msgid "Profile is read-only %s"
+msgstr "Профіль толькі для чытаньня %s"
+
+#. Translators: You may move the "%(setting)s" and "%(np)s" items as you wish, but
+#. do not change the way they are written.  The intended string is
+#. something like "invalid type for setting blah in /ldap/path/to/blah"
+#: ../lib/systemdb.py:67
+#, python-format
+msgid "invalid type for setting %(setting)s in %(np)s"
+msgstr "памылковы тып наладкі %(setting)s·у·%(np)s"
+
+#: ../lib/systemdb.py:112
+msgid "No database file provided"
+msgstr ""
+
+#: ../lib/systemdb.py:232
+#, fuzzy, python-format
+msgid "No LDAP search base specified for %s"
+msgstr "Не акрэсьленая база пошуку для %s"
+
+#: ../lib/systemdb.py:235
+#, fuzzy, python-format
+msgid "No LDAP query filter specified for %s"
+msgstr "Не акрэсьлены фільтар запытаў для %s"
+
+#: ../lib/systemdb.py:238
+#, fuzzy, python-format
+msgid "No LDAP result attribute specified for %s"
+msgstr "Для %s не акрэсьлены атрыбут выніку"
+
+#: ../lib/systemdb.py:247
+#, fuzzy
+msgid "LDAP Scope must be one of: "
+msgstr "Абсяг мусіць быць: sub, base ці one"
+
+#: ../lib/systemdb.py:268
+#, fuzzy
+msgid "multiple_result must be one of: "
+msgstr "multiple_result павінны быць: first ці random"
+
+#: ../lib/systemdb.py:361
+#, python-format
+msgid "Could not open %s for writing"
+msgstr "Немагчыма адкрыць %s для запісу"
+
+#: ../lib/systemdb.py:374
+#, python-format
+msgid "Failed to save UserDatabase to %s"
+msgstr "Памылка захаваньня базы карыстальнікаў у %s"
+
+#: ../lib/systemdb.py:397 ../lib/systemdb.py:431
+#, python-format
+msgid "File %s is not a profile configuration"
+msgstr "Файл %s ня ёсьць канфігурацыяй профілю"
+
+#: ../lib/systemdb.py:404
+#, python-format
+msgid "Failed to add default profile %s to configuration"
+msgstr "Памылка даданьня змоўчанага профілю %s у канфігурацыю"
+
+#: ../lib/systemdb.py:438
+#, python-format
+msgid "Failed to add user %s to profile configuration"
+msgstr "Памылка даданьня карыстальніка %s у канфігурацыю профілю"
+
+#: ../lib/systemdb.py:510
+msgid "Failed to get the user list"
+msgstr "Няўдача пры атрыманьні сьпісу карыстальнікаў"
+
+#: ../lib/systemdb.py:560
+#, fuzzy
+msgid "Failed to get the group list"
+msgstr "Няўдача пры атрыманьні сьпісу карыстальнікаў"
+
+#: ../lib/unittests.py:38 ../lib/unittests.py:39
+msgid "Ignore WARNINGs"
+msgstr "Ігнараваць перасьцярогі"
+
+#: ../lib/unittests.py:61
+#, python-format
+msgid "Running %s tests"
+msgstr "Выкананьне тэстаў %s"
+
+#: ../lib/unittests.py:63
+#, python-format
+msgid "Running %s tests (%s)"
+msgstr "Выкананьне тэстаў %s (%s)"
+
+#: ../lib/unittests.py:70
+msgid "Success!"
+msgstr "Пасьпяхова!"
+
+#: ../lib/util.py:94
+msgid ""
+"Cannot find home directory: not set in /etc/passwd and no value for $HOME in "
+"environment"
+msgstr ""
+"Немагчыма знайсьці хатнюю тэчку: яна не акрэсьленая ў /etc/passwd, і няма "
+"значэньня для $HOME у асяродзьдзі"
+
+#: ../lib/util.py:110 ../lib/util.py:137
+msgid ""
+"Cannot find username: not set in /etc/passwd and no value for $USER in "
+"environment"
+msgstr ""
+"Немагчыма знайсці імя карыстальніка: яно не акрэсьленае ў /etc/passwd, і "
+"няма значэньня для $USER у асяродзьдзі"
+
+#~ msgid "Click to make this setting not mandatory"
+#~ msgstr "Клікні, каб зрабіць гэтую наладку неабавязковай"
+
+#~ msgid "Click to make this setting mandatory"
+#~ msgstr "Клікні, каб зрабіць гэтую наладку абавязковай"
+
+#~ msgid "General"
+#~ msgstr "Агульнае"
+
+#~ msgid "Epiphany Web Browser"
+#~ msgstr "Гартач сеціва Epiphany"
+
+#~ msgid "Disable _command line"
+#~ msgstr "Адключыць _загадны радок"
+
+#~ msgid "Disable _printing"
+#~ msgstr "Адключыць _друк"
+
+#~ msgid "Disable print _setup"
+#~ msgstr "Адключыць наладкі _друку"
+
+#~ msgid "Disable save to _disk"
+#~ msgstr "Адключыць запіс на _дыск"
+
+#~ msgid "_Lock down the panels"
+#~ msgstr "_Заблякаваць панэлі"
+
+#~ msgid "Disable force _quit"
+#~ msgstr "Адключыць _прымусовы выхад"
+
+#~ msgid "Disable log _out"
+#~ msgstr "Адключыць _сканчэньне сэансу"
+
+#~ msgid "Disable _quit"
+#~ msgstr "Адключыць _выхад"
+
+#~ msgid "Disable _arbitrary URL"
+#~ msgstr "Выключыць _адвольныя URL"
+
+#~ msgid "Disable _bookmark editing"
+#~ msgstr "Адключыць _рэдагаваньне закладак"
+
+#~ msgid "Disable _history"
+#~ msgstr "Адключыць _гісторыю"
+
+#~ msgid "Disable _javascript chrome"
+#~ msgstr "Адключыць _javascript chrome"
+
+#~ msgid "Disable _toolbar editing"
+#~ msgstr "Адключыць _рэдагаваньне панэлі інструмэнтаў"
+
+#, fuzzy
+#~ msgid "Force _fullscreen mode"
+#~ msgstr "_На поўны экран"
+
+#~ msgid "Hide _menubar"
+#~ msgstr "Схаваць _панэль мэню"
+
+#~ msgid "Disable lock _screen"
+#~ msgstr "Адключыць _блякаваньне экрану"
+
+#, fuzzy
+#~ msgid "_Lock on activation"
+#~ msgstr "_Заблякаваць панэлі"
+
+#, fuzzy
+#~ msgid "Allow log _out"
+#~ msgstr "Адключыць _сканчэньне сэансу"
+
+#~ msgid "Disable _unsafe protocols"
+#~ msgstr "Адключыць _небясьпечныя пратаколы"
+
+#, fuzzy
+#~ msgid "Disabled Applets"
+#~ msgstr "<b>Адключаныя аплеты</b>"
+
+#~ msgid "Lockdown Editor"
+#~ msgstr "Рэдактар палітыкі блякаваньняў"
+
+#, fuzzy
+#~ msgid "Safe Protocols"
+#~ msgstr "<b>Бясьпечныя пратаколы</b>"
+
+#~ msgid "Remove personal information from documents when saving them"
+#~ msgstr "Выдаліць асабістую інфармацыю з дакумэнта падчас захаваньня"
+
+#~ msgid "Warn if macro tries to create a PDF"
+#~ msgstr "Папярэдзіць, калі макрас намагаецца стварыць PDF"
+
+#~ msgid "Warn if macro tries to print a document"
+#~ msgstr "Папярэдзіць, калі макрас намагаецца надрукаваць дакумэнт"
+
+#~ msgid "Warn if macro tries to save a document"
+#~ msgstr "Папярэдзіць, калі макрас намагаецца захаваць дакумэнт"
+
+#~ msgid "Warn if macro tries to sign a document"
+#~ msgstr "Папярэдзіць, калі макрас намагаецца падпісаць дакумэнт"
+
+#~ msgid "Recommend password when saving a document"
+#~ msgstr "Рэкамэндаваць пароль, калі захоўваеце дакумэнт"
+
+#~ msgid "Enable auto-save"
+#~ msgstr "Уключыць аўтаматычнае захаваньне"
+
+#~ msgid "Printing should mark the document as modified"
+#~ msgstr "Падчас друку дакумэнт павінен быць пазначаны як зьменены"
+
+#~ msgid "Use system's file dialog"
+#~ msgstr "Ужыць сыстэмны дыялёг файлаў"
+
+#~ msgid "Create backup copy on save"
+#~ msgstr "Стварыць рэзэрвовую копію пры запісе"
+
+#~ msgid "Warn when saving non-OpenOffice.org formats"
+#~ msgstr "Папярэдзіць, калі захоўваецца не ў фармаце OpenOffice.org"
+
+#~ msgid "Use OpenGL"
+#~ msgstr "Ужыць OpenGL"
+
+#~ msgid "Use system font"
+#~ msgstr "Ужыць сыстэмны шрыфт"
+
+#~ msgid "Use anti-aliasing"
+#~ msgstr "Ужыць улагоджаньне (anti-aliasing)"
+
+#~ msgid "Disable UI customization"
+#~ msgstr "Адключыць заданьне розных парамэтраў асяродзьдзя"
+
+#~ msgid "Show insensitive menu items"
+#~ msgstr "Паказваць незалежныя пункты мэню"
+
+#~ msgid "Show font preview"
+#~ msgstr "Паказваць перадагляд шрыфтоў"
+
+#~ msgid "Show font history"
+#~ msgstr "Паказваць гісторыю шрыфтоў"
+
+#~ msgid "Show icons in menus"
+#~ msgstr "Паказваць іконкі ў мэню"
+
+#~ msgid ""
+#~ "\n"
+#~ "5\n"
+#~ "10\n"
+#~ "25\n"
+#~ "50"
+#~ msgstr ""
+#~ "\n"
+#~ "5\n"
+#~ "10\n"
+#~ "25\n"
+#~ "50"
+
+#~ msgid ""
+#~ "\n"
+#~ "Automatic\n"
+#~ "Large\n"
+#~ "Small"
+#~ msgstr ""
+#~ "\n"
+#~ "Аўтаматычны\n"
+#~ "Вялікі\n"
+#~ "Малы"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.odp)\n"
+#~ "PowerPoint 97+ (.ppt)\n"
+#~ "OpenOffice.org 1.1 (.sxi)"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenDocument (.odp)\n"
+#~ "PowerPoint 97+ (.ppt)\n"
+#~ "OpenOffice.org 1.1 (.sxi)"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.ods)\n"
+#~ "Excel 97+ (.xls)\n"
+#~ "OpenOffice.org 1.1 (.sxc)"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenDocument (.ods)\n"
+#~ "Excel 97+ (.xls)\n"
+#~ "OpenOffice.org 1.1 (.sxc)"
+
+#~ msgid ""
+#~ "\n"
+#~ "OpenDocument (.odt)\n"
+#~ "Word 97+ (.doc)\n"
+#~ "OpenOffice.org 1.1 (.sxw)"
+#~ msgstr ""
+#~ "\n"
+#~ "OpenDocument (.odt)\n"
+#~ "Word 97+ (.doc)\n"
+#~ "OpenOffice.org 1.1 (.sxw)"
+
+#~ msgid ""
+#~ "\n"
+#~ "Very High\n"
+#~ "High\n"
+#~ "Medium\n"
+#~ "Low"
+#~ msgstr ""
+#~ "\n"
+#~ "Вельмі высокі\n"
+#~ "Высокі\n"
+#~ "Сярэдні\n"
+#~ "Нізкі"
+
+#~ msgid "Default format for presentations:"
+#~ msgstr "Змоўчаны фармат для прэзэнтацый:"
+
+#~ msgid "Default format for spreadsheet:"
+#~ msgstr "Змоўчаны фармат для электронных табліц:"
+
+#~ msgid "Default format for word processor:"
+#~ msgstr "Змоўчаны фармат для тэкставага працэсара:"
+
+#~ msgid "Default icon size"
+#~ msgstr "Змоўчаны памер іконак"
+
+#~ msgid "Load / Save"
+#~ msgstr "Загрузіць / Захаваць"
+
+#~ msgid "Macro Security Level:"
+#~ msgstr "Узровень макрабясьпекі:"
+
+#~ msgid "Number of undo steps:"
+#~ msgstr "Колькасьць крокаў касаваньня:"
+
+#~ msgid "OpenOffice.org"
+#~ msgstr "OpenOffice.org"
+
+#~ msgid "Security"
+#~ msgstr "Бясьпека"
+
+#~ msgid "User Interface"
+#~ msgstr "Асяродзьдзе карыстальніка"
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %ld second will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %ld seconds will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Калі не захаваеце, зьмены з апошняй %ld сэкунды будуць назаўсёды "
+#~ "страчаныя."
+#~ msgstr[1] ""
+#~ "Калі не захаваеце, зьмены з апошніх %ld сэкунд будуць назаўсёды страчаныя."
+#~ msgstr[2] ""
+#~ "Калі не захаваеце, зьмены з апошніх %ld сэкунд будуць назаўсёды страчаныя."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last minute will be permanently lost."
+#~ msgstr ""
+#~ "Калі вы не захаваеце, зьмены з апошняй хвіліны будуць назаўсёды страчаныя."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last minute and %ld second will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last minute and %ld seconds will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Калі вы не захаваеце, зьмены з апошняй хвіліны і %ld сэкунды будуць "
+#~ "назаўсёды страчаныя."
+#~ msgstr[1] ""
+#~ "Калі вы не захаваеце, зьмены з апошняй хвіліны і %ld сэкунд будуць "
+#~ "назаўсёды страчаныя."
+#~ msgstr[2] ""
+#~ "Калі вы не захаваеце, зьмены з апошняй хвіліны і %ld сэкунд будуць "
+#~ "назаўсёды страчаныя."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %ld minute will be permanently "
+#~ "lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %ld minutes will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Калі вы не захаваеце, зьмены з апошняй %ld хвіліны будуць назаўсёды "
+#~ "страчаныя."
+#~ msgstr[1] ""
+#~ "Калі вы не захаваеце, зьмены з апошніх %ld хвілін будуць назаўсёды "
+#~ "страчаныя."
+#~ msgstr[2] ""
+#~ "Калі вы не захаваеце, зьмены з апошніх %ld хвілін будуць назаўсёды "
+#~ "страчаныя."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last hour and %d minute will be "
+#~ "permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last hour and %d minutes will be "
+#~ "permanently lost."
+#~ msgstr[0] ""
+#~ "Калі вы не захаваеце, зьмены з апошняй гадзіны і %d хвіліны будуць "
+#~ "назаўсёды страчаныя."
+#~ msgstr[1] ""
+#~ "Калі вы не захаваеце, зьмены з апошняй гадзіны і %d хвілін будуць "
+#~ "назаўсёды страчаныя."
+#~ msgstr[2] ""
+#~ "Калі вы не захаваеце, зьмены з апошняй гадзіны і %d хвілін будуць "
+#~ "назаўсёды страчаныя."
+
+#~ msgid ""
+#~ "If you don't save, changes from the last %d hour will be permanently lost."
+#~ msgid_plural ""
+#~ "If you don't save, changes from the last %d hours will be permanently "
+#~ "lost."
+#~ msgstr[0] ""
+#~ "Калі вы не захаваеце, зьмены з апошняй %d гадзіны будуць назаўсёды "
+#~ "страчаныя."
+#~ msgstr[1] ""
+#~ "Калі вы не захаваеце, зьмены з апошніх %d гадзін будуць назаўсёды "
+#~ "страчаныя."
+#~ msgstr[2] ""
+#~ "Калі вы не захаваеце, зьмены з апошніх %d гадзін будуць назаўсёды "
+#~ "страчаныя."
+
+#~ msgid "Preferences menu"
+#~ msgstr "Мэню перавагаў"
+
+#~ msgid "Applet %s added to top panel"
+#~ msgstr "Аплет %s даданы на верхнюю панэль"
+
+#~ msgid "Applet %s added to bottom panel"
+#~ msgstr "Аплет %s даданы ў ніжнюю панэль"
+
+#~ msgid "Applet %s added to left panel"
+#~ msgstr "Аплет %s даданы на левую панэль"
+
+#~ msgid "Applet %s added to right panel"
+#~ msgstr "Аплет %s даданы на правую панэль"
+
+#~ msgid "Applet %s removed from top panel"
+#~ msgstr "Аплет %s выдалены зь верхняй панэлі"
+
+#~ msgid "Applet %s removed from bottom panel"
+#~ msgstr "Аплет %s выдалены зь ніжняй панэлі"
+
+#~ msgid "Applet %s removed from left panel"
+#~ msgstr "Аплет %s выдалены зь левай панэлі"
+
+#~ msgid "Applet %s removed from right panel"
+#~ msgstr "Аплет %s выдалены з правай панэлі"
+
+#~ msgid "%s added to top panel"
+#~ msgstr "%s даданы на верхнюю панэль"
+
+#~ msgid "%s added to bottom panel"
+#~ msgstr "%s даданы на ніжнюю панэль"
+
+#~ msgid "%s added to left panel"
+#~ msgstr "%s даданы на левую панэль"
+
+#~ msgid "%s added to right panel"
+#~ msgstr "%s даданы на правую панэль"
+
+#~ msgid "%s removed from top panel"
+#~ msgstr "%s выдалены зь верхняй панэлі"
+
+#~ msgid "%s removed from bottom panel"
+#~ msgstr "%s выдалены зь ніжняй панэлі"
+
+#~ msgid "%s removed from left panel"
+#~ msgstr "%s выдалены зь левай панэлі"
+
+#~ msgid "%s removed from right panel"
+#~ msgstr "%s выдалены з правай панэлі"

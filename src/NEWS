@@ -1,0 +1,1178 @@
+===============
+Version 2.29.92
+===============
+
+  Code Name:
+
+    * "Ignore the man behind the curtain"
+
+  Fixes:
+
+    * Couple of crasher bugs that were introduced in working on
+      mozilla bookmark handling.
+    * Fix Bug #610876: Symlink in /etc/skel causes crash
+    * Fix Bug #610877: Directory Permissions in /etc/skel are not preserved
+    * Removed dependency on Python 2.6 (Sorry Frédéric Péters)
+
+  Notes:
+
+    We *PROMISE* we won't release another version tomorrow.
+
+  Translators:
+
+    * bg, courtesy of Alexander Shopov
+    * da, courtesy of Ask Hjorth Larsen
+    * de, courtesy of Christian Kirbach
+
+===============
+Version 2.29.91
+===============
+
+  Code Name:
+
+    * "Drainage and the Desert"
+
+  Fixes:
+
+    * Help file docbook tags patch thanks to Mario Blättermann
+    * Manpages patch thanks to Luca Falavigna of the Debian project
+    * Fix Bug #321450: allow multiple LDAP uri's to be specified.
+    * Changes window now distinguishes between files, dirs, and links
+    * Documentation fixes.
+    * Fix Bug #608697: sabayon-debug-log.conf does not exist, but sabayon
+      thinks it does
+    * Remove hard-coded gconf source strings, add gconf sources to config.py.in
+      for easier customization/patching by distros
+    * Always clean up the gconf source trees
+    * xinitrc file cleaned up.
+    * Added file/directory permission handling.
+    * Gracefully handle gconfd shutdowns in sabayon-apply
+    * Fix Bug #608720: Make Details pane less confusing with sorting
+    * Fix Bug #607030: depend on Python 2.6
+    * Fix Bug #610488: Patches to admin tools to properly wait for usermod changes to apply.
+    * Fix Bug #610736: Create firefox profile during sabayon-apply if it doesn't
+      already exist.
+
+  Notes:
+
+    * Thanks to Luca Falavigna of the Debian project, we now have a working
+      Sabayon in Debian again.
+    * Thanks to Warren Togami of the Fedora project for a lot of work in this
+      release.  He's being added to AUTHORS.
+
+  Translators:
+
+    * bg, courtesy of Alexander Shopov
+    * bn, courtesy of Israt Jahan
+    * de, courtesy of Mario Blättermann
+    * el, courtesy of Μάριος Ζηντίλης
+    * es, courtesy of Jorge González
+    * et, courtesy of Ivar Smolin
+    * eu, courtesy of Iñaki Larrañaga Murgoitio
+    * fr, courtesy of Claude Paroz
+    * fr, courtesy of Bruno Brouard
+    * gl, courtesy of Fran Diéguez
+    * nb, courtesy of Kjartan Maraas
+    * pl, courtesy of Piotr Drąg
+    * pt_BR, courtesy of Flamarion Jorge
+    * sk, courtesy of Peter Mráz
+    * sl, courtesy of Matej Urbančič
+    * sv, courtesy of Daniel Nylander
+    * ta, courtesy of Dr,T,Vasudevan
+    * th, courtesy of Theppitak Karoonboonyanan
+    * uk, courtesy of Maxim V. Dziumanenko
+    * zh_HK, courtesy of Chao-Hsiung Liao
+    * zh_TW, courtesy of Chao-Hsiung Liao
+
+==============
+Version 2.29.5
+==============
+
+  Code Name:
+
+    * "Chutney and Oratory"
+
+  Fixes:
+
+    * Removed gtk.glade dependencies
+    * Added help menu
+    * Fix for Bug #596106: crash when clicking on an empty directory
+    * Fix for Bug #528562: replace preferences.menu with settings.menu
+    * Turned ldap into a soft dependency, issue a message in configure
+    * Removed complicated, and hard-to-translate time based save confirm
+      messages with a single nice easy to translate string.
+    * Fixed some unclear strings for the translators. Bug #527722
+    * Fixed translation problems with groupsdialog.py.
+    * Moved sabayon's conf dir to /etc/sabayon
+    * Removed local copy of Pessulus, we now import it.
+    * Sabayon now supports symlinks. Bug #374861
+    * Created upstream man pages.
+    * Added selinux support (if available) Bug #486218
+
+  Migration Notes:
+
+    * Sabayon now stores it's config files in /etc/sabayon, and it's profiles
+      in /etc/sabayon/profiles.
+    * To migrate existing profiles, perform the following steps:
+      cp /etc/desktop-profiles/*.xml /etc/sabayon
+      cp /etc/desktop-profiles/*.zip /etc/sabayon/profiles
+
+  Translators:
+
+    * es, courtesy of Jorge González
+    * et, courtesy of Ivar Smolin
+    * fr, courtesy of Claude Paroz
+    * it, courtesy of Gianvito Cavasoli
+    * nb, courtesy of Kjartan Maraas
+    * nds, courtesy of Nils-Christoph Fiedler
+    * sl, courtesy of Matej Urbančič
+    * sv, courtesy of Daniel Nylander
+    * th, courtesy of Theppitak Karoonboonyanan
+    * uk, courtesy of Maxim Dziumanenko
+    * zh_HK, courtesy of Chao-Hsiung Liao
+    * zh_TW, courtesy of Chao-Hsiung Liao
+
+
+==============
+Version 2.29.2
+==============
+
+  Code name:
+
+    * "Frozen Monday"
+
+  Fixes:
+
+    * Fixed some race conditions in paneldelegate.py
+
+  New features:
+
+    * Added a manual.  Needs much more love, but it's a starting
+      point.  Translators, start your engines.
+
+  Translators:
+
+    * Ivar Smolin
+    * Kjartan Maraas
+    * Liel Fridman
+    * Tao Wei
+    * Gil Forcada
+    * Thomas Thurman
+    * Laurent Dhima
+    * Daniel Nylander
+    * Gabor Kelemen
+    * Takayuki Kusano
+    * Antón Méixome
+    * Matej Urbančič
+    * Jorge González
+
+==============
+Version 2.29.0
+==============
+
+  Code name:
+
+	* "The troops gather"
+
+  New features:
+
+	* Sabayon now lets you apply profiles to groups of users,
+	  instead of just individual users.  This is still in
+	  development, but for now you can use any Unix group whose
+	  gid >= 500.  This big feature is courtesy of Scott Balneaves.
+
+==============
+Version 2.28.1
+==============
+
+  Code name:
+
+	* "Footwear on fire"
+
+  Fixes:
+
+	* Remove obsolete calls to os.spawn*() and replace them with
+          subprocess.call() (Scott Balneaves)
+
+	* Fix potential exception when extracting profiles (Scott Balneaves)
+
+	* Move the "-name" argument for Xephyr where XEPHYR_ARGV is
+          defined, so that it is easier to find for distros that need
+          to patch it out (Scott Balneaves)
+
+  Translators:
+
+	* Denis Arnaud (br)
+	* Gil Forcada (ca)
+	* Carles Ferrando Garcia (ca@valencia)
+	* Ivar Smolin (et)
+	* Andika Triwidada (id)
+	* Takeshi Aihana (ja)
+	* Rimas Kudelis (lt)
+	* Leonid Kanter (ru)
+	* Matej Urbančič (sl)
+	* Daniel Nylander (sv)
+
+==============
+Version 2.28.0
+==============
+
+  Fixes:
+
+	* Find a free X display without using TCP sockets (Scott Balneaves)
+	* Fix incorrect format strings; make others consistent (Scott
+	  Balneaves)
+
+  Translators
+
+	* Amitakhya Phukan (as)
+	* Alexander Nyakhaychyk (be)
+	* Saad M Niamatullah (bn)
+	* Runa Bhattacharjee (bn_IN)
+	* denis (br)
+	* Josep Puigdemont (ca)
+	* Lucas Lommer (cs)
+	* Kenneth Nielsen (da)
+	* nikosCharonitakis (el)
+	* Philip Withnall (en_GB)
+	* Mattias Põldaru (et)
+	* Claude Paroz (fr)
+	* Sweta Kothari (gu)
+	* Mark Krapivner (he)
+	* Rajesh Ranjan (hi)
+	* Gabor Kelemen (hu)
+	* Gianvito Cavasoli (it)
+	* Shankar Prasad (kn)
+	* Sangeeta Kumari (mai)
+	* Peter Ani (ml)
+	* Sandeep Shedmake (mr)
+	* Kjartan Maraas (nb)
+	* Manoj Kumar Giri (or)
+	* A S Alam (pa)
+	* Piotr Drąg (pl)
+	* Duarte Loreto (pt)
+	* Adi Roiban (ro)
+	* Matej Urbančič (sl)
+	* I. Felix (ta)
+	* Krishna Babu K (te)
+	* Theppitak Karoonboonyanan (th)
+	* Baris Cicek (tr)
+	* wanderlust (uk)
+	* Hinker (zh_CN)
+
+===============
+Version 2.27.91
+===============
+
+  Code name:
+
+	* "The fisherman's pointing finger"
+
+  What's new in this release:
+
+	* It works!
+
+	* No, really, it does.
+
+	* That alone warrants the massive increase in minor version number.
+
+  Fixes:
+
+	* bgo#551535 - Don't ignore the GConf settings when saving the
+          user profile (Tomas Bzatek).
+
+	* Disable gvfs's usage of FUSE in the child session, so
+          crashed daemons will not keep Sabayon from working (Federico
+          Mena Quintero).
+
+	* Work even with invalid locales (Scott Balneaves).
+
+	* Be more lenient when removing directories (Scott Balneaves).
+
+	* Don't block sabayon-session on sabayon-apply's stderr output
+          (Federico Mena Quintero).
+
+  Translators:
+
+	* Alexander Shopov (bg)
+	* Tommi Vainikainen (fi)
+	* Laurent Dhima (sq)
+	* Daniel Nylander (sv)
+
+==============
+Version 2.27.0
+==============
+
+  Code name:
+
+	* "Perforated bedsheet"
+
+  What's new in this release:
+
+	* Sabayon now uses Xephyr instead of Xnest for its child
+          session.  This means that a) you must have Xephyr installed;
+          b) the child session should work much better than before, as
+          Xephyr supports most of the recent X extensions, unlike
+          Xnest.
+
+	* Sabayon now passes the DEBUG_WHILE_IN_SABAYON environment
+          variable untouched to all its child processes.  You can use
+          this as a hook from applications to debug them in special
+          ways while they are being run inside Sabayon.
+
+	* For debugging purposes, Sabayon no longer eats the stderr
+          output from its child processes.  This will change in the
+          future as we improve the logging infrastructure.
+
+  Fixes:
+
+	* bgo#542604 - Fix file monitoring (Sayamindu Dasgupta)
+
+	* bgo#576440 - Don't crash if XAUTHLOCALHOSTNAME is not set
+          (Tomas Bzatek)
+
+	* bgo#564405 - use gobject.timeout_add_seconds() where
+          possible (Debarshi Ray)
+
+	* Fix monitoring and saving of panel applets (Sayamindu Dasgupta, 
+	  Federico Mena Quintero).  This gets rid of the annoying
+	  error, "cannot concatenate str and NoneType objects".
+
+	* Ignore .gvfs in user profiles (Federico Mena Quintero)
+
+  Translators:
+
+	* Djihed Afifi, Khaled Hosny (ar)
+	* Iryna Nikanchuk (be)
+	* Runa Bhattacharjee (bn_IN)
+	* Miquel Esplà (ca@valencia)
+	* Lucas Lommer (cs)
+	* Christian Kirbach (de)
+	* Socratis Vavilis (el)
+	* Jorge González (es)
+	* Mattias Põldaru, Ivar Smolin (et)
+	* Iñaki Larrañaga Murgoitio (eu)
+	* Ignacio Casal Quinteiro, Antón Méixome (gl)
+	* Rajesh Ranjan (hi)
+	* Gabor Kelemen (hu)
+	* Shankar Prasad, Vikarm Vincent (kn)
+	* Kjartan Maraas (nb)
+	* A S Alam (pa)
+	* Zabeeh Khan (ps)
+	* Leonardo Ferreira Fontenelle, Krix Apolinário (pt_BR)
+	* Daniel Nylander (sv)
+	* Krishnababu K (te)
+	* Yang Zhang, fujianwzh (zh_CN)
+	* Chao-Hsiung Liao (zh_HK, zh_TW)
+
+==============
+Version 2.25.0
+==============
+
+  Code name:
+
+	* "Bitter tea"
+
+  What's new in this release:
+
+	* Nothing, really; the only major thing is the port to GIO.
+
+	* The configure script now checks for the xdg.DesktopEntry
+	  module for Python.  My autoconf skills suck, so expert
+	  review of this snippet would be appreciated.
+
+  What's broken in this release:
+
+	* Glad you asked.  Everything!  For some reason, Sabayon is
+          not picking up changes in at least ~/Desktop.  This makes it
+          save mostly empty user profiles.  Help with debugging is
+          much appreciated.  This is bgo#542604.
+
+  Fixes:
+
+	* Port from gnome-vfs to GIO (Evan Briones, Andre Klapper) - bgo#527541
+
+	* Put XAUTHLOCALHOSTNAME in the child session's environment so
+          it will run (Michael Meeks) - bnc#471897
+
+	* Ignore .pulse to avoid replicating PulseAudio data (Federico Mena)
+
+	* String fixes (Philip Withnall) - bgo#528253
+
+  Translators:
+
+	* Djihed Afifi (ar)
+	* Amitakhya Phukan (as)
+	* Alexander Shopov (bg)
+	* Gil Forcada (ca)
+	* Kenneth Nielsen (da)
+	* Christian Kirbach (de)
+	* Philip Withnall (en_GB)
+	* Jennie Petoumenou (el)
+	* Jorge Gonzalez (es)
+	* Mattias Põldaru (et)
+	* Inaki Larranaga Murgoitio (eu)
+	* Claude Paroz (fr)
+	* Ankitkumar Patel (gu)
+	* Yair Hershkovitz, Yaron Sharabani (he)
+	* Gabor Kelemen (hu)
+	* Flavia Weisghizzi (it)
+	* Takeshi AIHANA (ja)
+	* Changwoo Ryu (ko)
+	* Gintautas Miliauskas (lt)
+	* Praveen Arimbrathodiyil (ml)
+	* Sandeep Shedmake (mr)
+	* Kjartan Maraas (nb)
+	* Wouter Bolsterlee (nl)
+	* Yannig Marchegay (oc)
+	* Manoj Kumar Giri (or)
+	* Tomasz Dominikowski (pl)
+	* Duarte Loreto (pt)
+	* Vladimir Melo (pt_BR)
+	* Adi Roiban (ro)
+	* Nickolay V. Shmyrev (ru)
+	* Supun Budhajeewa (si) NEW!!!
+	* Laurent Dhima (sq)
+	* Daniel Nylander (sv)
+	* Krishnababu K (te)
+	* Theppitak Karoonboonyanan (th)
+	* Baris Cicek (tr)
+	* Clytie Siddall (vi)
+	* Chao-Hsiung Liao (zh_HK, zh_TW)
+
+==============
+Version 2.22.1
+==============
+
+  Fixes:
+
+	* Improve login performance with sabayon running (Michael Meeks)
+
+  Translators:
+
+	* Djihed Afifi (ar)
+	* Nicolas Kaiser (de)
+	* Kostas Papadimas (el)
+	* David Lodge (en_GB)
+	* Jorge González (es)
+	* Ivar Smolin (et)
+	* Stéphane Raimbault (fr)
+	* Rajesh Ranjan (hi)
+	* Gabor Kelemen (hu)
+	* Shankar Prasad (kn)
+	* Sandeep Shedmake (mr)
+	* Kjartan Maraas (nb)
+	* Yannig Marchegay (Kokoyaya) (oc)
+	* Manoj Kumar Giri (or)
+	* Zabeeh Khan (ps)
+	* Leonardo Ferreira Fontenelle (pt_BR)
+	* Adi Roiban (ro)
+	* Laurent Dhima (sq)
+	* Theppitak Karoonboonyanan (th)
+
+==============
+Version 2.22.0
+==============
+
+  Code name:
+
+	* "Coochie-coo ate my left hand"
+
+  Fixes:
+
+	* Don't create duplicated files in profile zipfiles
+	  (Sayamindu Dasgupta, Federico Mena)
+	  http://bugzilla.gnome.org/show_bug.cgi?id=476761
+
+	* Fix typos in the mozilla_bookmarks module (Johnny Robeson)
+
+	* Updated support for Gentoo (Johnny Robeson)
+
+	* Support Bugzilla in .desktop file (Johnny Robeson)
+
+	* Back to not using gnomesu in .desktop file (Johnny Robeson)
+	  http://bugzilla.gnome.org/show_bug.cgi?id=479771
+
+  Translators:
+
+	* Djihed Afifi (ar)
+	* Lucas Lommer, Petr Kovar (cs)
+	* Andre Klapper (de)
+	* Jorge Gonzalez (es)
+	* Yair Hershkovitz (he)
+	* Gabor Kelemen (hu)
+	* Luca Ferretti (it)
+	* Gintautas Miliauskas (lt)
+	* Pawan Chitrakar (ne)
+	* Åsmund Skjæveland (nn)
+	* Yannig Marchegay (oc)
+	* Laurent Dhima (sq)
+	* Baris Cicek (tr)
+	* Chao-Hsiung Liao (zh_HK, zh_TW)
+
+==============
+Version 2.21.0
+==============
+
+  Code name:
+
+	* "Coochie-coo"
+
+  Changes:
+
+	* sabayon-apply now returns exit code 3 when a user profile
+          cannot be found for the user:
+	  http://bugzilla.gnome.org/show_bug.cgi?id=474666
+
+	* New Assamese translation courtesy of Amitakhya Phukan.
+
+	* New Hebrew translation courtesy of Yair Hershkovitz.
+
+	* We no longer ship a sample specfile, since it was pretty obsolete.
+
+  Fixes:
+
+	* Fix syntax errors that were only caught at runtime :(
+
+	* Fix the mandatory attribute in the metadata file; it wasn't
+          case-insensitive as it should be (Josko Plazonic, John
+          William Robeson):
+	  https://bugzilla.redhat.com/show_bug.cgi?id=253996
+
+	* Create directories recursively in the storage module (Dan Walsh):
+	  http://bugzilla.gnome.org/show_bug.cgi?id=486216
+
+	* Remove shebang python lines from files that are not meant to
+          be executable (John William Robeson, Josh Triplett):
+	  http://bugzilla.gnome.org/show_bug.cgi?id=424328
+
+	* Fix gettext/ngettext for Python 2.4 (John William Robeson, Loïc Minier):
+	  http://bugzilla.gnome.org/show_bug.cgi?id=480508 
+
+	* Make Sabayon work on Slackware (Jared, John William Robeson):
+	  http://bugzilla.gnome.org/show_bug.cgi?id=497471
+
+	* Fix the lists of files/directories to ignore (John William Robeson).
+
+  Translators:
+
+	* Djihed Afifi, Youssef Chahibi (ar)
+	* Amitakhya Phukan (as)
+	* Ihar Hrachyshka (be@latin)
+	* Priit Laes, Mattias Põldaru (et)
+	* Inaki Larranaga Murgoitio (eu)
+	* Ignacio Casal Quinteiro (gl)
+	* Yair Hershkovitz (he)
+	* Gabor Kelemen (hu)
+	* Yannig Marchegay (oc)
+
+==============
+Version 2.20.0
+==============
+
+  Code name:
+
+	* "Better late than never"
+
+  Changes:
+
+	* Sabayon now dumps the debug log even if there were no errors
+          if you have ~/sabayon-debug-log.conf --- the assumption is
+          that if you created that file, you *want* debug logs
+          (Federico Mena Quintero).
+
+  Fixes:
+
+	* Fixed hard-to-translate strings in the OpenOffice.org module
+	  (Federico Mena Quintero):
+		http://bugzilla.gnome.org/show_bug.cgi?id=461110
+
+	* Some strings were not being translated (Federico Mena Quintero):
+		http://bugzilla.gnome.org/show_bug.cgi?id=450085
+		http://bugzilla.gnome.org/show_bug.cgi?id=475434
+
+	* Fixed the list of directories to ignore for user profiles.
+
+  Translators:
+
+	* Djihed Afifi, Youssef Chahibi (ar)
+	* Ihar Hrachyshka (be@latin)
+	* Alexander Shopov (bg)
+	* Runa Bhattacharjee (bn_IN)
+	* Josep Puigdemont i Casamajó (ca)
+	* Jakub Friedl, Martin Picek (cs)
+	* Kenneth Nielsen (da)
+	* Andre Klapper (de)
+	* Adam Weinberger (en_CA)
+	* David Lodge (en_GB)
+	* Jorge Gonzalez (es)
+	* Priit Laes, Ivar Smolin (et)
+	* Inaki Larranaga Murgoitio (eu)
+	* Ilkka Tuohela (fi)
+	* Stéphane Raimbault (fr)
+	* Ankit Patel (gu)
+	* Gabor Kelemen (hu)
+	* Takeshi AIHANA (ja)
+	* Changwoo Ryu, Young-Ho Cha (ko)
+	* Jovan Naumovski (mk)
+	* Ani Peter (ml)
+	* Kjartan Maraas (nb)
+	* Wouter Bolsterlee (nl)
+	* Wadim Dziedzic (pl)
+	* Duarte Loreto (pt)
+	* Raphael Higino, Andre Noel (pt_BR)
+	* Nickolay V. Shmyrev (ru)
+	* Daniel Nylander (sv)
+	* Theppitak Karoonboonyanan (th)
+	* Maxim Dziumanenko (uk)
+	* Clytie Siddall (vi)
+
+==============
+Version 2.19.2
+==============
+
+  Code name:
+
+	* "Delusion of the Fury"
+
+  Changes:
+
+	* New icon for Sabayon courtesy of Alberto Ruiz and Andreas Nilsson.
+
+	* Lots of fixes!
+
+  Fixes:
+
+	* Fix "--help" for sabayon-apply and sabayon-session (Colin Watson)
+		http://bugzilla.gnome.org/show_bug.cgi?id=458731
+
+	* Run gtk-update-icon-cache (Christian Kirbach)
+		http://bugzilla.gnome.org/show_bug.cgi?id=436107
+
+	* Add missing imports to the Python files (Federico Mena-Quintero)
+
+	* Update session paths for openSUSE (Federico Mena-Quintero)
+
+	* Add some directories to ignore (Federico Mena-Quintero)
+
+	* Convert filenames to UTF-8 for display (Will Lachance)
+		http://bugzilla.gnome.org/show_bug.cgi?id=320968
+
+	* Typo fixes in strings (Baris Cicek)
+		http://bugzilla.gnome.org/show_bug.cgi?id=463177
+
+	* Fix the Categories in the .desktop file (Christian Kirbach)
+		http://bugzilla.gnome.org/show_bug.cgi?id=417608
+
+  Translators:
+
+	* Ihar Hrachyshka (be@latin)
+	* Runa Bhattacharjee (bn_IN)
+	* Andre Klapper, Hendrik Richter (de)
+	* George Retsinas (el)
+	* Jorge Gonález (es)
+	* Inaki Larranaga Murgoitio (eu)
+	* Ilkka Tuohela (fi)
+	* Stéphane Raimbault (fr)
+	* Ankit Patel (gu)
+	* Takeshi AIHANA (ja)
+	* Jovan Naumovski (mk)
+	* Espen Stefansen, Kjartan Maraas (nb)
+	* Vincent van Adrighem (nl)
+	* Wadim Dziedzic (pl)
+	* Matic Žgur (sl)
+	* Daniel Nylander (sv)
+	* Pramod (te)
+	* aka.ape, Theppitak Karoonboonyanan (th)
+	* Baris Cicek (tr)
+
+==============
+Version 2.19.1
+==============
+
+  Code name:
+
+	* "Back to the present"
+
+  Changes:
+
+	* We have a new debug log architecture.  Sabayon will create a
+	  debug log under ~ when an error occurs.  You can attach this log to
+	  bug reports (Federico Mena Quintero).
+
+	* We now support lockdown for OpenOffice.org (Michael Meeks):
+		http://bugzilla.gnome.org/show_bug.cgi?id=320592
+
+	* We use gnome-vfs instead of gamin for monitoring file
+	  changes, and monitoring in general is a lot more robust.
+		http://bugzilla.gnome.org/show_bug.cgi?id=340488
+
+  Fixes:
+
+	* Honor removed lockdown keys in GConf (Hans Petter Jansson):
+		https://bugzilla.novell.com/show_bug.cgi?id=173929
+
+	* Use gnomesu in sabayon.desktop's "Exec" line (Hans Petter Jansson):
+		http://bugzilla.gnome.org/show_bug.cgi?id=424331
+
+	* Ignore ~/.beagle (Federico Mena Quintero).
+
+	* If we are in an Active Directory session, don't list AD
+	  hostnames in the user list (Hans Petter Jansson):
+		https://bugzilla.novell.com/show_bug.cgi?id=176830
+
+	* The lockdown dialog no longer fails if there are applets
+	  with missing translations (Federico Mena Quintero):
+		https://bugzilla.novell.com/show_bug.cgi?id=256938
+
+	* Translation fixes (Theppitak Karoonboonyanan, Funda Wang).
+
+  Translators:
+
+	* Djihed Afifi, Khaled Hosny (ar)
+	* Ales Navicki, Ihar Hrachyshka (be@latin)
+	* Alexander Shopov (bg)
+	* Runa Bhattacharjee (bn_IN)
+	* Josep Puigdemont i Casamajó (ca)
+	* Jakub Friedl (cs)
+	* Kenneth Nielsen, Lasse Bang Mikkelsen (da)
+	* Hendrik Richter (de)
+	* Pema Geyleg (dz)
+	* Athanasios Lefteris (el)
+	* David Lodge (en_GB)
+	* Roberto Majadas, Jorge González (es)
+	* Ivar Smolin (et)
+	* Ilkka Tuohela (fi)
+	* Stéphane Raimbault, Damien Durand (fr)
+	* Ignacio Casal Quinteiro (gl)
+	* Ankit Patel (gu)
+	* Gabor Kelemen (hu)
+	* Takeshi AIHANA (ja)
+	* Young-Ho Cha (ko)
+	* Gintautas Miliauskas (lt)
+	* Kjartan Maraas (nb)
+	* Subhransu Behera (or)
+	* Artur Flinta, GNOME PL team (pl)
+	* Duarte Loreto (pt)
+	* Washington Lins, Leonardo Ferreira Fontenelle (pt_BR)
+	* Matic Žgur (sl)
+	* Daniel Nylander (sv)
+	* Theppitak Karoonboonyanan (th)
+	* Maxim Dziumanenko (uk)
+	* Yang Zhang (zh_CN)
+	* Chao-Hsiung Liao, Woodman Tuen (zh_HK, zh_TW)
+
+==============
+Version 2.18.1
+==============
+
+  Fixes:
+
+	* Fixed a broken Arabic translation (Djihed Afifi).
+
+==============
+Version 2.18.0
+==============
+
+  Code name:
+
+	* "Not enough love"
+
+  Fixes:
+
+	* Better localization (Theppitak Karoonboonyanan):
+		http://bugzilla.gnome.org/show_bug.cgi?id=353236
+		http://bugzilla.gnome.org/show_bug.cgi?id=402089
+
+	* Temporary fix to work on distributions which don't have the
+	  xdg.DesktopEntry module for Python (Federico Mena-Quintero):
+		http://bugzilla.gnome.org/show_bug.cgi?id=397742
+
+	* Be as lenient as we used to be while committing the changes
+	  in a profile, instead of aborting immediately 
+	  (Federico Mena-Quintero).
+
+  Translators:
+
+	* Djihed Afifi (ar)
+	* Alexander Shopov (bg)
+	* Runa Bhattacharjee (bn_IN)
+	* Josep Puigdemont i Casamajó (ca)
+	* Lasse Bang Mikkelsen (da)
+	* Hendrik Richter (de)
+	* David Lodge (en_GB)
+	* Priit Laes (et)
+	* Ilkka Tuohela (fi)
+	* Stéphane Raimbault (fr)
+	* Ankit Patel (gu)
+	* Gabor Kelemen (hu)
+	* Takeshi AIHANA (ja)
+	* Changwoo Ryu (ko)
+	* Gintautas Miliauskas (lt)
+	* Ani Peter (ml)
+	* Kjartan Maraas (nb)
+	* Wouter Bolsterlee (nl)
+	* Artur Flinta (pl)
+	* Duarte Loreto (pt)
+	* Leonardo Ferreira Fontenelle (pt_BR)
+	* Leonid Kanter (ru)
+	* Matic Žgur (sl)
+	* Laurent Dhima (sq)
+	* Daniel Nylander (sv)
+	* I Felix (ta)
+	* Theppitak Karoonboonyanan (th)
+	* Maxim Dziumanenko (uk)
+	* Nguyễn Thái Ngọc Duy / Phạm Thành Long (vi)
+	* Abel Cheung / Woodman Tuen (zh_HK, zh_TW)
+
+===============
+Version 2.17.90
+===============
+
+  Code name:
+
+	* "Soup for the troops"
+
+  Features:
+
+	* Sabayon comes back from the dead.  It's dark, mysterious,
+          and *pissed off*.
+
+	* Has a chance of working; there were major bugs in how the
+          list of configuration changes gets applied.
+
+  Fixes:
+
+	* Many installation and build system fixes, including fixes
+          for 64-bit platforms (Alex Larsson, Kjartan Maraas)
+
+	* http://bugzilla.gnome.org/show_bug.cgi?id=331615
+	  Put the right categories in sabayon.desktop (Wouter Bolsterlee)
+
+	* http://bugzilla.gnome.org/show_bug.cgi?id=320589
+	  Use better descriptions for changes to the panel
+	  (Sayamindu Dasgupta)
+
+	* https://bugzilla.novell.com/show_bug.cgi?id=230018
+	  Commit the list of configuration changes in the right order.
+	  (Federico Mena-Quintero)
+
+	* http://bugzilla.gnome.org/show_bug.cgi?id=395505
+	  Notice creation/removal of directories in child session
+	  (Hans Petter Jansson)
+
+	* https://bugzilla.novell.com/show_bug.cgi?id=184919
+	  Don't use unrobust shell quoting (Hans Petter Jansson)
+
+	* http://bugzilla.gnome.org/show_bug.cgi?id=327983
+	  Improve "make uninstall" (Joseph Sacco)
+
+	* Fixes for translations (Kjartan Maraas)
+
+  New documentation:
+
+	* API reference: http://sayamindu.randomink.org/sabayon_docs/
+	  (Sayamindu Dasgupta)
+
+	* Scripting Sabayon with Python: http://live.gnome.org/PythonSabayon
+	  (Sayamindu Dasgupta)
+
+  Translators:
+
+	* Djihed Afifi (ar)
+	* Jamil Ahmed (bn)
+	* Runa Bhattacharjee (bn_IN)
+	* Josep Puigdemont i Casamajó (ca)
+	* Martin Willemoes Hansen (da)
+	* Hendrik Richter (de)
+	* Francisco Javier F. Serrador (es)
+	* Priit Laes, Ivar Smolin (et)
+	* David Lodge (en_GB)
+	* Inaki Larranaga (eu)
+	* Meelad Zakaria, Sanaz Shahrokni (fa)
+	* Ilkka Tuohela (fi)
+	* Ankit Patel (gu)
+	* Gabor Kelemen (hu)
+	* Raivis Dejus (lv)
+	* Thierry Randrianiriana (mg)
+	* Jovan Naumovski (mk)
+	* Ani Peter (ml)
+	* Sanlig Badral, Munkhtugs (mn)
+	* Kjartan Maraas (nb)
+	* Pawan Chitrakar (ne)
+	* Tino Meinen (nl)
+	* Subhransu Behera (or)
+	* Andrzej Polatyński (pl)
+	* Raphael Higino (pt_BR)
+	* Matic Žgur (sl)
+	* Daniel Nylander (sv)
+	* Theppitak Karoonboonyanan (th)
+	* Deniz Kocak (tr)
+	* Clytie Siddall (vi)
+
+  Edification:
+
+	* http://www.italydownunder.com.au/issuefive/dolcevita.html
+
+==============
+Version 2.12.4
+==============
+
+  Features
+
+	* Add support for Frugalware Linux
+
+  Fixes
+
+	* distribute schema
+	* handle new Xsession path in Fedora Core 5
+	* Remove unneeded #! in python files
+
+==============
+Version 2.12.3
+==============
+
+  Fixes
+
+	* Detect location of Xnest automatically instead of hardcoding (William Lachance)
+
+  Translators
+
+	* Josep Puigdemont (ca)
+	* Lukas Novotny (cs)
+	* Adam Weinberger (en_CA)
+	* Francisco Javier F. Serrador (es)
+	* Ilkka Tuohela (fi)
+	* Ignacio Casal Quinteiro (gl)
+	* Ankit Patel (gu)
+	* Gabor Kelemen (hu)
+	* Takeshi AIHANA (ja)
+	* Žygimantas Beručka (lt)
+	* Kjartan Maraas (nb)
+	* Tino Meinen (nl)
+	* Kjartan Maraas (no)
+	* Amanpreet Singh Alam (pa)
+	* Слободан Д. Средојевић (sr)
+	* Theppitak Karoonboonyanan (th)
+	* Clytie Siddall (vi)
+	* Funda Wang (zh_CN)
+	* Chao-Hsiung Liao (zh_HK)
+	* Chao-Hsiung Liao (zh_TW)
+
+==============
+Version 2.12.2
+==============
+
+  Features
+
+	* LDAP support
+	* Update docs
+	* Mandriva support
+	* SUSE support
+	* Handle file deletes
+
+==============
+Version 2.12.1
+==============
+
+  The profile format has changed in this version, so old profiles are not
+  compatible.
+
+  Features
+
+	* New menu item "Enforce Mandatory" lets you change mandatory settings (Alex)
+	* Backup files are ignored by default (Alex)
+	* Lockdown settings editor, based on Pessulus (Vincent Untz and Alex)
+	* Better handling of panel lauchers (Alex)
+	* Removed versioning support. Simplified UI and profile format. (Alex)
+
+  Fixes
+
+	* Fix typo in session name replacement (Sebastien Bacher)
+	* Handle non-existing mandatory or default gconf dirs (Alex)
+	* Make file source apply not be recorded as changes (Alex)
+	* Handle // and other comments in strings in mozilla source (Alex)
+	* Work with remote X displays (Alex)
+	* Fix mozilla source handling of multiple files (Alex)
+
+  Misc
+
+	* Find pygtk even if installed in non-default directory (Alex)
+	* Better window titles (Alex)
+	* Moved ~/.profile_cache to ~/.sabayon/profile_cache (Alex)
+	* SABAYON_DEBUG=all now sets a full mask (Alex)
+
+  Translators
+
+	* Adam Weinberger (en_CA)
+	* Kjartan Maraas (nb)
+	* Kjartan Maraas (no)
+
+==============
+Version 2.12.0
+==============
+
+  Fixes
+
+	* Ignore changes to .esd_auth (William Lachance)
+	* Allow session name to be different between distros (William Lachance)
+	* Don't modify parent's environ when launching session (Mark)
+
+  Translators
+
+	* Josep Puigdemont (ca)
+	* Miloslav Trmac (cs)
+	* Francisco Javier F. Serrador (es)
+	* Hervé ROMANO (fr)
+	* Gabor Kelemen (hu)
+	* Jaydeep Bhusal (ne)
+	* Taco Witte (nl)
+	* Maxim V. Dziumanenko (uk)
+
+===============
+Version 2.11.90
+===============
+
+  Features
+
+	+ Embed the session in a GTK+ window with menu and status bars (Mark)
+ 	+ Move the changes window out of the session (Mark)
+	+ No spew of changes at session start with GNOME 2.12 (Mark)
+
+  Fixes
+
+	+ Allow ignoring changes to specific GConf keys (Mark)
+	+ Fix weirdness with window stacking order (Mark)
+	+ Fix strings to be more translator friendly (Funda Wang)
+	+ Turn lame pygtk deprecation warnings off by default (Mark)
+	+ Support shell style globs in ignore lists (Mark)
+	+ Don't create ~/.profile_cache unless needed (DV)
+	+ Fix issue with sabayon-apply and profile names containing spaces (DV)
+	+ Remove stale X lock and socket files to avoid Xnest errors (Mark)
+	+ Make closing the save confirm window act like cancel (Mark)
+	+ De-sensitize mandatory column when ignore is selected (William Lachance)
+	+ Sort the list of users by name (William Lachance)
+	+ Ignore changes to our gconf path files (William Lachance)
+	+ Fix issue with displaying Firefox changes (John)
+	+ Don't allow running Sabayon from with Sabayon (Mark)
+	+ Don't allow xscreensaver to lock a proto-session (Mark)
+	+ Fix "Clear History" in the details window (Mark)
+	+ Prompt for confirmation when closing the details window (Mark)
+	+ Fix traceback when making a profile the default (Mark)
+	+ Update user associations when a profile is deleted (Mark)
+	+ When creating a profile, make sure its name is unique (Mark)
+	+ Select another profile on the list when profile is deleted (Mark)
+	+ Make the "Base on" combo insensitive if there are no profiles (Mark)
+	+ Make all Sabayon windows show a window icon (Mark)
+	+ Correctly parse user's full name from GECOS info (Sebastien Bacher)
+
+  Misc
+
+	+ Website updates (DV)
+	+ Fix build issue with --prefix and PAM (Mark)
+
+  Translators
+
+	+ Miloslav Trmac (cs)
+	+ Kostas Papadimas (el)
+	+ Adam Weinberger (en_CA)
+	+ Francisco Javier F. Serrador (es)
+	+ Gabor Kelemen (hu)
+	+ Christian Rose (sv)
+	+ Funda Wang (zh_CN)
+
+============
+Version 0.18
+============
+
+  Features
+
+	+ Allow profiles to be downloaded using HTTP (DV)
+	+ Allow the users database to be remote too (DV)
+	+ Add a dialog for associating profiles with users (Mark)
+	+ Re-work the layout of the profiles dialog (Mark)
+	+ Support for Firefox bookmarks (John)
+	+ Gentoo support (Joshua Hoblitt)
+
+  Fixes
+
+	+ Fix syntax error in sabayon-xinitrc.sh (Sebastien Bacher)
+	+ Fix issue with saving profiles when /tmp and /etc are on
+          different partitions (Sebastien Bacher)
+	+ Fix hang when exiting the prototype session (Mark)
+	+ Actually lookup to apply the profile from the users database (Mark)
+
+  Translators
+
+	+ Josep Puigdemont (ca)
+	+ Miloslav Trmac (cs)
+	+ Hendrik Richter (de)
+	+ Adam Weinberger (en_CA)
+	+ David Lodge (en_GB)
+	+ Francisco Javier F. Serrado (es)
+	+ Gabor Kelemen (hu)
+	+ Kjartan Maraas (nb)
+	+ Kjartan Maraas (no)
+	+ Raphael Higino (pt_BR)
+	+ Steve Murphy (rw)
+
+============
+Version 0.17
+============
+
+  Features/Fixes:
+
+	+ Slackware support (Alak Trakru)
+	+ Further improvements to Firefox support (John)
+	+ Misc build/website fixes (Mark)
+
+  Translators
+
+	+ Miloslav Trmac (cs)
+	+ Adam Weinberger (en_CA)
+
+============
+Version 0.16
+============
+
+  Features/Fixes:
+
+	+ Debian support (Will Lachance)
+	+ Much improved firefox support (John)
+	+ Beginnings of tool to associate users with a profile (Daniel, Mark)
+	+ Substantially re-work how the python scripts are installed (Mark)
+	+ Add xinitrc script to apply profiles at login (Mark)
+	+ New Icon (Diana)
+	+ Website updates (Daniel)
+
+  Translators
+
+	+ Miloslav Trmac (cs)
+	+ Adam Weinberger (en_CA)
+
+============
+Version 0.15
+============
+
+  Features/Fixes:
+
+	+ New web page (Daniel, Diana, Bryan)
+	+ Add a configure check for Xnest (William Lachance)
+	+ New metadata format (Mark)
+	+ Revision history UI (Mark)
+	+ Firefox support improvements (John)
+	+ Properly i18nize everything (Mark)
+	+ Misc fixes (Mark, DV, John)
+	+ Fix spelling error (Adam Weinberger)
+
+  Translators:
+
+	+ Rostislav Raykov (bg)
+	+ Miloslav Trmac (cs)
+	+ Hendrik Richter (de)
+	+ Stylianos Papanastasiou (el)
+	+ Adam Weinberger (en_CA)
+	+ David Lodge (en_GB)
+	+ Kjartan Maraas (nb)
+	+ Kjartan Maraas (no)
+	+ Christian Rose (sv)
