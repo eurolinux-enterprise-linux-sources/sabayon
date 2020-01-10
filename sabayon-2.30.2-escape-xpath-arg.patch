@@ -1,0 +1,94 @@
+From bb2c9ad79384d1eef15463f648f5ac8bcc6e0bdd Mon Sep 17 00:00:00 2001
+From: Tomas Bzatek <tbzatek@redhat.com>
+Date: Wed, 17 Aug 2011 18:14:47 +0200
+Subject: [PATCH] storage: Escape apostrophes and quotes in XPath string argument
+
+Apparently there's no easy way how to escape apostrophes and quotes
+which are passed in XPath query as arguments, in libmxl2. So let's
+do it the dumb way, concatenate each string segment using the opposite
+quotation character.
+
+https://bugzilla.gnome.org/show_bug.cgi?id=635163
+---
+ lib/storage.py |   26 ++++++++++++++++++++------
+ 1 files changed, 20 insertions(+), 6 deletions(-)
+
+diff --git a/lib/storage.py b/lib/storage.py
+index 2b5f6f0..faec034 100755
+--- a/lib/storage.py
++++ b/lib/storage.py
+@@ -233,7 +233,7 @@ class ProfileStorage:
+         files_node = metadata.xpathEval ("/metadata/files")[0]
+ 
+         # Ensure the file node exists
+-        nodes = files_node.xpathEval ("file[@path='%s']" % path)
++        nodes = files_node.xpathEval ("file[@path=%s]" % self.__quote_xpath_arg (path))
+         if len (nodes):
+             file_node = nodes[0]
+         else:
+@@ -250,7 +250,7 @@ class ProfileStorage:
+         files_node = metadata.xpathEval ("/metadata/directories")[0]
+ 
+         # Ensure the directory node exists
+-        nodes = files_node.xpathEval ("directory[@path='%s']" % path)
++        nodes = files_node.xpathEval ("directory[@path=%s]" % self.__quote_xpath_arg (path))
+         if len (nodes):
+             directory_node = nodes[0]
+         else:
+@@ -267,7 +267,7 @@ class ProfileStorage:
+         files_node = metadata.xpathEval ("/metadata/links")[0]
+ 
+         # Ensure the directory node exists
+-        nodes = files_node.xpathEval ("link[@path='%s']" % path)
++        nodes = files_node.xpathEval ("link[@path=%s]" % self.__quote_xpath_arg (path))
+         if len (nodes):
+             link_node = nodes[0]
+         else:
+@@ -408,11 +408,25 @@ class ProfileStorage:
+ 
+         self.needs_saving = True
+ 
++    def __quote_xpath_arg (self, path):
++        # XPath arguments can't contain apostrophes, let's escape them
++        # inspired by http://kushalm.com/the-perils-of-xpath-expressions-specifically-escaping-quotes
++        if ('"' not in path) and ("'" not in path):
++            return "'%s'" % path
++
++        x = path.replace ("'", "\x01")
++        x = x.replace ('"', "\x02")
++        x = x.replace ("\x01", "', \"'\", '")
++        x = x.replace ("\x02", "', '\"', '")
++        x = "concat('%s')" % x
++
++        return x
++
+     def __get_dir_node (self, path, metadata = None):
+         if metadata is None:
+             metadata = self.metadata
+         assert metadata
+-        dir_nodes = metadata.xpathEval ("/metadata/directories/directory[@path='%s']" % path)
++        dir_nodes = metadata.xpathEval ("/metadata/directories/directory[@path=%s]" % self.__quote_xpath_arg (path))
+         if len (dir_nodes) > 0:
+             return dir_nodes[0]
+         return None
+@@ -421,7 +435,7 @@ class ProfileStorage:
+         if metadata is None:
+             metadata = self.metadata
+         assert metadata
+-        link_nodes = metadata.xpathEval ("/metadata/links/link[@path='%s']" % path)
++        link_nodes = metadata.xpathEval ("/metadata/links/link[@path=%s]" % self.__quote_xpath_arg (path))
+         if len (link_nodes) > 0:
+             return link_nodes[0]
+         return None
+@@ -430,7 +444,7 @@ class ProfileStorage:
+         if metadata is None:
+             metadata = self.metadata
+         assert metadata
+-        file_nodes = metadata.xpathEval ("/metadata/files/file[@path='%s']" % path)
++        file_nodes = metadata.xpathEval ("/metadata/files/file[@path=%s]" % self.__quote_xpath_arg (path))
+         if len (file_nodes) > 0:
+             return file_nodes[0]
+         return None
+-- 
+1.7.1
+

@@ -8,7 +8,7 @@
 
 Name:    sabayon
 Version: 2.29.92
-Release: 1%{?dist}
+Release: 3%{?dist}
 Summary: Tool to maintain user profiles in a GNOME desktop
 
 Group:   Applications/System
@@ -17,6 +17,13 @@ URL:     http://www.gnome.org/projects/sabayon
 Source:  http://ftp.gnome.org/pub/GNOME/sources/sabayon/2.29/sabayon-%{version}.tar.bz2
 
 BuildRoot: %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
+
+# Sabayon profiles will not save if file/folder names contain an apostrophe
+# https://bugzilla.redhat.com/show_bug.cgi?id=654567
+Patch0: sabayon-2.30.2-escape-xpath-arg.patch
+# Sabayon crashes when getting details of a profile
+# https://bugzilla.redhat.com/show_bug.cgi?id=674012
+Patch1: sabayon-2.29.92-sourcedelegate-sortpriority.patch
 
 Requires: %{name}-apply = %{version}-%{release}
 Requires: libxml2-python
@@ -79,6 +86,8 @@ that need to be installed on the client systems.
 
 %prep
 %setup -q -n %{name}-%{version}
+%patch0 -p1 -b .escape-apostrophe
+%patch1 -p1 -b .sourcedelegate-sortpriority
 
 # https://fedoraproject.org/wiki/Features/SystemPythonExecutablesUseSystemPython
 # replace "/usr/bin/env python" with a "/usr/bin/python"
@@ -217,6 +226,13 @@ fi
 
 
 %changelog
+* Wed Aug 17 2011 Tomas Bzatek <tbzatek@redhat.com> - 2.29.92-3
+- More thorough fix for the apostrophe issue (#654567)
+
+* Thu Jul 28 2011 Tomas Bzatek <tbzatek@redhat.com> - 2.29.92-2
+- Fix profile saving if file/folder names contain an apostrophe (#654567)
+- Fix sabayon crash when getting details of a profile (#674012)
+
 * Tue Feb 23 2010 Warren Togami <wtogami@redhat.com> - 2.29.92-1
 - 2.29.92 with more bug fixes
   More permissions handling and crash fixes
